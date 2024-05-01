@@ -1,0 +1,36 @@
+.Bogor:hover,
+.Depok:hover,
+.Bekasi:hover,
+.Karawang:hover,
+.Purwakarta:hover,
+.Subang:hover,
+.Indramayu:hover,
+.Sumedang:hover,
+.Majalengka:hover,
+.Cirebon:hover,
+.Kuningan:hover {
+  opacity: 1 !important;
+}
+
+.SukaBumi:hover,
+.Cianjur:hover,
+.BandungBarat:hover,
+.Cimahi:hover,
+.KotaBandung:hover,
+.Bandung:hover,
+.Garut:hover,
+.Tasikmalaya:hover,
+.Pangandaran:hover,
+.Banjar:hover,
+.Ciamis:hover {
+  opacity: 1 !important;
+}
+
+body {
+  background-color: #eee9da;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}
