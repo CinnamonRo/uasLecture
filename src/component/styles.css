@@ -30,7 +30,14 @@ body {
   background-color: #eee9da;
 }
 
-.App {
+.svg-container {
   display: flex;
   justify-content: center;
+  position: relative;
 }
+
+.CardSK, .CardB {
+  position: absolute;
+}
+
+
