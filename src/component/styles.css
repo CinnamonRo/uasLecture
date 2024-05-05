@@ -36,8 +36,7 @@ body {
   position: relative;
 }
 
-.CardSK{
+.CardSK, .CardB{
   position: absolute;
 }
-
 
