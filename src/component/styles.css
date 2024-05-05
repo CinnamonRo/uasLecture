@@ -36,7 +36,12 @@ body {
   position: relative;
 }
 
-.CardSK, .CardB{
+.CardSK{
   position: absolute;
+  text-align: justify;
+  height: 250px;
+  width: 300px;
+  top: 80px;
+  right: 700px;
 }
 
