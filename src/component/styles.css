@@ -36,12 +36,12 @@ body {
   position: relative;
 }
 
-.CardContainer{
+.CardSK {
+  visibility: hidden;
   position: absolute;
   text-align: justify;
-  height: 250px;
-  width: 300px;
-  top: 700px;
+  top: 200px;
+  right: 700px;
+  height: 300px;
+  width: 400px;
 }
-
-
