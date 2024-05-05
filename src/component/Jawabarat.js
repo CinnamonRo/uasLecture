@@ -97,9 +97,9 @@ export default function App() {
             }}
           />
           </a>
-          <foreignObject x="100" y="200" width="200" height="200">
+          <foreignObject x="100" y="100" width="200" height="200">
               <div className="CardB">
-              {hoveredRegion === "Bogor" && <Card title="Suka Bumi"></Card>}
+              {hoveredRegion === "Bogor" && <Card title="Bogor"></Card>}
               </div>
             </foreignObject>
         </g>
