@@ -36,6 +36,10 @@ body {
   position: relative;
 }
 
+.svg-container:hover {
+  visibility: visible;
+}
+
 .CardSK {
   visibility: hidden;
   position: absolute;
