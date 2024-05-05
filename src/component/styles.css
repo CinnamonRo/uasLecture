@@ -45,3 +45,12 @@ body {
   right: 700px;
 }
 
+.CardB{
+  position: absolute;
+  text-align: justify;
+  height: 250px;
+  width: 300px;
+  top: 50px;
+  right: 700px;
+}
+
