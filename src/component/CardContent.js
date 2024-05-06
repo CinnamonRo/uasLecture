@@ -140,8 +140,8 @@ const contents = [
   },
   {
     title: "Kuningan",
-    content: "",
-    imageSrc: "",
+    content: "Kabupaten Kuningan, yang terkenal dengan julukan Kota Kuda, adalah tujuan wisata yang populer di Provinsi Jawa Barat, Indonesia dan menjadi sejarah Indonesia sebagai tempat berlangsungnya Perundingan Linggajati, Kuningan juga mempesona dengan keindahan alamnya, termasuk pegunungan dan sawah yang subur.",
+    imageSrc: imageContext("./WadukDarma.jpeg"),
     link: "",
     buttonText: "Read More",
   },
@@ -160,5 +160,4 @@ const contents = [
     buttonText: "Read More",
   },
 ];
-
 export default contents;

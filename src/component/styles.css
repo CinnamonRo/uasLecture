@@ -43,7 +43,8 @@ body {
 .CardSK, 
 .CardTasikmalaya, 
 .CardGarut, 
-.CardPangandaran{
+.CardPangandaran,
+.CardKuningan{
   visibility: hidden;
   position: absolute;
   text-align: justify;
@@ -68,5 +69,10 @@ body {
 
 .CardPangandaran{  
   top: 30vh;
+  left: 80vh;
+}
+
+.CardKuningan{  
+  top: 10vh;
   left: 80vh;
 }
