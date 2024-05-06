@@ -1,4 +1,8 @@
-const imageContext = require.context("./FotoCard", false, /\.(png|jpe?g|svg)$/);
+const imageContext = require.context(
+  "./images/FotoCard",
+  false,
+  /\.(png|jpe?g|svg)$/
+);
 
 const contents = [
   {
