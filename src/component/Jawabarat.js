@@ -1,6 +1,7 @@
 import "./styles.css";
 import Card from "./card";
 import React, { useState } from "react";
+import contents from "./CardContent";
 
 export default function App() {
   const [hoveredRegion, setHoveredRegion] = useState(null);
@@ -540,17 +541,20 @@ export default function App() {
         <div className="CardSK">
           {hoveredRegion === "SukaBumi" && (
             <Card
-              title="Suka Bumi"
-              content="Kota Sukabumi, juga dikenal dengan sebutan Gunahuyi dalam bahasa lokalnya, adalah destinasi menarik di provinsi Jawa Barat, Indonesia. Kota ini memiliki daya tarik tersendiri bagi wisatawan yang mencari pengalaman yang autentik dan memikat di Jawa Barat."
-              img=""
-              buttonText="Read More"
+              title={contents[0].title}
+              content={contents[0].content}
+              imageSrc={contents[0].imageSrc}
+              buttonText={contents[0].buttonText}
             ></Card>
           )}
         </div>
 
         <div className="CardB">
           {hoveredRegion === "Bogor" && (
-            <Card title="Bogor" content="" img="" buttonText="Read More"></Card>
+            <Card title="Bogor" 
+            content="" 
+            img="" 
+            buttonText="Read More"></Card>
           )}
         </div>
 
@@ -683,7 +687,10 @@ export default function App() {
 
         <div className="CardGarut">
           {hoveredRegion === "Garut" && (
-            <Card title="Garut" content="" img="" buttonText="Read More"></Card>
+            <Card title="Garut" 
+            content="" 
+            img="" 
+            buttonText="Read More"></Card>
           )}
         </div>
 
