@@ -6,7 +6,7 @@ export default function Navbar() {
     {
       id: 1,
       link: "bandung.html",
-      img: "../images/logo.png",
+      img: "./images/logo.png",
       alt: "Bandung",
       title: "Bandung",
       subtitle: "Bandung adalah salah satu kota di Jawa Barat",
@@ -53,21 +53,14 @@ export default function Navbar() {
             <div className="flex items-center">
               <img className="h-20" src={Logo} alt=""></img>
               <a
-                href="#"
+                href="/"
                 className=" block cursor-pointer py-1.5 font-sans text-base font-semibold leading-relaxed text-inherit antialiased p-5"
               >
                 Jawa Barat
               </a>
             </div>
-            <div className="flex items-center gap-6">
+            <div className=" items-center gap-6">
               <div className="hidden mr-4 lg:block">
-                <a
-                  className="hidden px-4 py-2 font-sans text-base font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
-                  href="#"
-                >
-                  Home
-                </a>
-
                 <div
                   role="button"
                   class="flex items-center sm:hidden px-4 py-2 font-sans text-base font-bold text-center text-gray-900 uppercase transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
@@ -104,10 +97,9 @@ export default function Navbar() {
                     ></path>
                   </svg>
                 </div>
-
                 <a
                   className="hidden px-4 py-2 font-sans text-base font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
-                  href="#"
+                  href="/"
                 >
                   About Us
                 </a>
@@ -137,7 +129,7 @@ export default function Navbar() {
             </button>
           </div>
         </nav>
-        <Bar style={{ visibility: "hidden" }} kabupatens={kabupatens} />
+        <Bar kabupatens={kabupatens} />
       </div>
     </div>
   );
