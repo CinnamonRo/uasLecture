@@ -1,19 +1,50 @@
-import Logo from "./images/logo.png";
+import Logo from "../images/logo.png";
 import Bar from "./bar";
-import Data from "./data";
+
 export default function Navbar() {
-  function newBar(data) {
-    return (
-      <Bar
-        key={data.id}
-        href={data.link}
-        img={data.img}
-        alt={data.alt}
-        title={data.title}
-        subtitle={data.subtitle}
-      />
-    );
-  }
+  const kabupatens = [
+    {
+      id: 1,
+      link: "bandung.html",
+      img: "../images/logo.png",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 2,
+      link: "bandung.html",
+      img: "../../images/kabupaten/logo.png",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 3,
+      link: "bandung.html",
+      img: "src/component/images/kabupaten/bandung.webp",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 4,
+      link: "bandung.html",
+      img: "src/component/images/kabupaten/bandung.webp",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 5,
+      link: "bandung.html",
+      img: "src/component/images/kabupaten/bandung.webp",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+  ];
+
   return (
     <div>
       <div className=" grid w-full place-items-center rounded-lg p-2 lg:overflow-visible">
@@ -106,20 +137,7 @@ export default function Navbar() {
             </button>
           </div>
         </nav>
-        <div
-          class="top-28 max-w-full w-full z-[800]  mx-2 hidden min-w-[180px] overflow-auto border border-blue-gray-50 bg-white p-2 font-sans text-sm font-normal text-blue-gray-500  shadow-lg shadow-blue-gray-500/10 focus:outline-none lg:block"
-          id=":r8:"
-          role="menu"
-          data-popover="menu"
-          data-popover-placement="bottom"
-        >
-          <ul
-            class="grid grid-cols-3 gap-y-2 outline-none outline-0"
-            role="menuitem"
-          >
-            {Data.map(newBar)}
-          </ul>
-        </div>
+        <Bar style={{ visibility: "hidden" }} kabupatens={kabupatens} />
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ const Data = [
   {
     id: 1,
     link: "bandung.html",
-    img: "src/component/images/kabupaten/bandung.webp",
+    img: "./images/kabupaten/banjar.jpeg",
     alt: "Bandung",
     title: "Bandung",
     subtitle: "Bandung adalah salah satu kota di Jawa Barat",
