@@ -40,13 +40,33 @@ body {
   visibility: visible;
 }
 
-.CardSK {
+.CardSK, 
+.CardTasikmalaya, 
+.CardGarut, 
+.CardPangandaran{
   visibility: hidden;
-  animation-delay: 0.5;
   position: absolute;
   text-align: justify;
-  top: 180px;
-  right: 720px;
   height: 300px;
   width: 280px;
+}
+
+.CardSK {
+  top: 15vh;
+  right: 55vh;
+}
+
+.CardTasikmalaya{  
+  top: 25vh;
+  left: 70vh;
+}
+
+.CardGarut{  
+  top: 20vh;
+  left: 60vh;
+}
+
+.CardPangandaran{  
+  top: 30vh;
+  left: 80vh;
 }

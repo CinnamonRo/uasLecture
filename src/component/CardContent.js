@@ -7,11 +7,9 @@ const imageContext = require.context(
 const contents = [
   {
     title: "Suka Bumi",
-    content:
-      "Kota Sukabumi, juga dikenal dengan sebutan Gunahuyi dalam bahasa lokalnya, adalah destinasi menarik di provinsi Jawa Barat, Indonesia. Kota ini memiliki daya tarik tersendiri bagi wisatawan yang mencari pengalaman yang autentik dan memikat di Jawa Barat.",
+    content: "Kota Sukabumi, juga dikenal dengan sebutan Gunahuyi dalam bahasa lokalnya, adalah destinasi menarik di provinsi Jawa Barat, Indonesia. Kota ini memiliki daya tarik tersendiri bagi wisatawan yang mencari pengalaman yang autentik dan memikat di Jawa Barat.",
     imageSrc: imageContext("./JembatanGantung.jpeg"),
-    link: "SukaBumi.html",
-
+    link: "",
     buttonText: "Read More",
   },
   {
@@ -107,22 +105,22 @@ const contents = [
   },
   {
     title: "Garut",
-    content: "",
-    imageSrc: "",
+    content: "Kabupaten Garut, sebuah daerah di provinsi Jawa Barat, Indonesia, terkenal dengan pesonanya yang alami. Ibukota kabupaten ini terletak di kecamatan Tarogong Kidul. Garut memiliki pemandangan alam yang menakjubkan, dikelilingi oleh Kabupaten Sumedang di utara.",
+    imageSrc: imageContext("./CandiCakuang.jpeg"),
     link: "",
     buttonText: "Read More",
   },
   {
     title: "Tasikmalaya",
-    content: "",
-    imageSrc: "",
+    content: "Kota Tasikmalaya, juga dikenal sebagai Tasik, adalah sebuah tujuan wisata yang terletak di Provinsi Jawa Barat, Indonesia. Terkenal dengan julukan Kota Sang Mutiara dari Priangan Timur, kota ini menawarkan pesona alam yang memikat.",
+    imageSrc: imageContext("./KebunTehTaraju.jpeg"),
     link: "",
     buttonText: "Read More",
   },
   {
     title: "Pangandaran",
-    content: "",
-    imageSrc: "",
+    content: "Kabupaten Pangandaran, yang berada di Provinsi Jawa Barat, Indonesia, merupakan daerah wisata yang menarik. Kota utamanya terletak di Kecamatan Parigi, menjadi titik awal bagi para pengunjung yang ingin menikmati keindahan alam dan budaya sekitarnya.",
+    imageSrc: imageContext("./PantaiPangandaran.jpg"),
     link: "",
     buttonText: "Read More",
   },
