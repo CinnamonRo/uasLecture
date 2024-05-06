@@ -7,7 +7,8 @@ const imageContext = require.context(
 const contents = [
   {
     title: "Suka Bumi",
-    content: "Kota Sukabumi, juga dikenal dengan sebutan Gunahuyi dalam bahasa lokalnya, adalah destinasi menarik di provinsi Jawa Barat, Indonesia. Kota ini memiliki daya tarik tersendiri bagi wisatawan yang mencari pengalaman yang autentik dan memikat di Jawa Barat.",
+    content:
+      "Kota Sukabumi, juga dikenal dengan sebutan Gunahuyi dalam bahasa lokalnya, adalah destinasi menarik di provinsi Jawa Barat, Indonesia. Kota ini memiliki daya tarik tersendiri bagi wisatawan yang mencari pengalaman yang autentik dan memikat di Jawa Barat.",
     imageSrc: imageContext("./JembatanGantung.jpeg"),
     link: "",
     buttonText: "Read More",
@@ -105,21 +106,24 @@ const contents = [
   },
   {
     title: "Garut",
-    content: "Kabupaten Garut, sebuah daerah di provinsi Jawa Barat, Indonesia, terkenal dengan pesonanya yang alami. Ibukota kabupaten ini terletak di kecamatan Tarogong Kidul. Garut memiliki pemandangan alam yang menakjubkan, dikelilingi oleh Kabupaten Sumedang di utara.",
+    content:
+      "Kabupaten Garut, sebuah daerah di provinsi Jawa Barat, Indonesia, terkenal dengan pesonanya yang alami. Ibukota kabupaten ini terletak di kecamatan Tarogong Kidul. Garut memiliki pemandangan alam yang menakjubkan, dikelilingi oleh Kabupaten Sumedang di utara.",
     imageSrc: imageContext("./CandiCakuang.jpeg"),
     link: "",
     buttonText: "Read More",
   },
   {
     title: "Tasikmalaya",
-    content: "Kota Tasikmalaya, juga dikenal sebagai Tasik, adalah sebuah tujuan wisata yang terletak di Provinsi Jawa Barat, Indonesia. Terkenal dengan julukan Kota Sang Mutiara dari Priangan Timur, kota ini menawarkan pesona alam yang memikat.",
+    content:
+      "Kota Tasikmalaya, juga dikenal sebagai Tasik, adalah sebuah tujuan wisata yang terletak di Provinsi Jawa Barat, Indonesia. Terkenal dengan julukan Kota Sang Mutiara dari Priangan Timur, kota ini menawarkan pesona alam yang memikat.",
     imageSrc: imageContext("./KebunTehTaraju.jpeg"),
     link: "",
     buttonText: "Read More",
   },
   {
     title: "Pangandaran",
-    content: "Kabupaten Pangandaran, yang berada di Provinsi Jawa Barat, Indonesia, merupakan daerah wisata yang menarik. Kota utamanya terletak di Kecamatan Parigi, menjadi titik awal bagi para pengunjung yang ingin menikmati keindahan alam dan budaya sekitarnya.",
+    content:
+      "Kabupaten Pangandaran, yang berada di Provinsi Jawa Barat, Indonesia, merupakan daerah wisata yang menarik. Kota utamanya terletak di Kecamatan Parigi, menjadi titik awal bagi para pengunjung yang ingin menikmati keindahan alam dan budaya sekitarnya.",
     imageSrc: imageContext("./PantaiPangandaran.jpg"),
     link: "",
     buttonText: "Read More",
@@ -140,7 +144,8 @@ const contents = [
   },
   {
     title: "Kuningan",
-    content: "Kabupaten Kuningan, yang terkenal dengan julukan Kota Kuda, adalah tujuan wisata yang populer di Provinsi Jawa Barat, Indonesia dan menjadi sejarah Indonesia sebagai tempat berlangsungnya Perundingan Linggajati, Kuningan juga mempesona dengan keindahan alamnya, termasuk pegunungan dan sawah yang subur.",
+    content:
+      "Kabupaten Kuningan, yang terkenal dengan julukan Kota Kuda, adalah tujuan wisata yang populer di Provinsi Jawa Barat, Indonesia dan menjadi sejarah Indonesia sebagai tempat berlangsungnya Perundingan Linggajati, Kuningan juga mempesona dengan keindahan alamnya, termasuk pegunungan dan sawah yang subur.",
     imageSrc: imageContext("./WadukDarma.jpeg"),
     link: "",
     buttonText: "Read More",
