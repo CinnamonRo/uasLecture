@@ -42,6 +42,7 @@ body {
 
 .CardSK {
   visibility: hidden;
+  animation-delay: 0.5;
   position: absolute;
   text-align: justify;
   top: 180px;
