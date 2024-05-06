@@ -551,81 +551,93 @@ export default function App() {
 
         <div className="CardB">
           {hoveredRegion === "Bogor" && (
-            <Card title="Bogor" 
-            content="" 
-            img="" 
-            buttonText="Read More"></Card>
+            <Card   
+            title={contents[1].title}
+            content={contents[1].content}
+            imageSrc={contents[1].imageSrc}
+            buttonText={contents[1].buttonText}>
+            </Card>
           )}
         </div>
 
         <div className="CardDP">
           {hoveredRegion === "Depok" && (
-            <Card title="Depok" content="" img="" buttonText="Read More"></Card>
+            <Card 
+            title={contents[2].title}
+            content={contents[2].content}
+            imageSrc={contents[2].imageSrc}
+            buttonText={contents[2].buttonText}>
+            </Card>
           )}
         </div>
 
         <div className="CardBekasi">
           {hoveredRegion === "Bekasi" && (
             <Card
-              title="Bekasi"
-              content=""
-              img=""
-              buttonText="Read More"
-            ></Card>
+              title={contents[3].title}
+              content={contents[3].content}
+              imageSrc={contents[3].imageSrc}
+              buttonText={contents[3].buttonText}
+            >
+            </Card>
           )}
         </div>
 
         <div className="CardKarawang">
           {hoveredRegion === "Karawang" && (
             <Card
-              title="Karawang"
-              content=""
-              img=""
-              buttonText="Read More"
-            ></Card>
+            title={contents[4].title}
+            content={contents[4].content}
+            imageSrc={contents[4].imageSrc}
+            buttonText={contents[4].buttonText}
+            >
+            </Card>
           )}
         </div>
 
         <div className="CardPurwakarta">
           {hoveredRegion === "Purwakarta" && (
             <Card
-              title="Purwakarta"
-              content=""
-              img=""
-              buttonText="Read More"
-            ></Card>
+            title={contents[5].title}
+            content={contents[5].content}
+            imageSrc={contents[5].imageSrc}
+            buttonText={contents[5].buttonText}
+            >  
+            </Card>
           )}
         </div>
 
         <div className="CardCianjur">
           {hoveredRegion === "Cianjur" && (
             <Card
-              title="Cianjur"
-              content=""
-              img=""
-              buttonText="Read More"
-            ></Card>
+            title={contents[6].title}
+            content={contents[6].content}
+            imageSrc={contents[6].imageSrc}
+            buttonText={contents[6].buttonText}
+            >
+            </Card>
           )}
         </div>
 
         <div className="CardBB">
           {hoveredRegion === "BandungBarat" && (
             <Card
-              title="Bandung Barat"
-              content=""
-              img=""
-              buttonText="Read More"
-            ></Card>
+            title={contents[7].title}
+            content={contents[7].content}
+            imageSrc={contents[7].imageSrc}
+            buttonText={contents[7].buttonText}
+            >
+            </Card>
           )}
         </div>
 
         <div className="CardCihami">
           {hoveredRegion === "Cimahi" && (
             <Card
-              title="Cimahi"
-              content=""
-              img=""
-              buttonText="Read More"
+            title={contents[8].title}
+            content={contents[8].content}
+            imageSrc={contents[8].imageSrc}
+            buttonText={contents[8].buttonText}
             ></Card>
           )}
         </div>
@@ -633,10 +645,10 @@ export default function App() {
         <div className="CardKB">
           {hoveredRegion === "KotaBandung" && (
             <Card
-              title="Kota Bandung"
-              content=""
-              img=""
-              buttonText="Read More"
+            title={contents[9].title}
+            content={contents[9].content}
+            imageSrc={contents[9].imageSrc}
+            buttonText={contents[9].buttonText}
             ></Card>
           )}
         </div>
@@ -644,10 +656,10 @@ export default function App() {
         <div className="CardBandung">
           {hoveredRegion === "Bandung" && (
             <Card
-              title="Bandung"
-              content=""
-              img=""
-              buttonText="Read More"
+            title={contents[10].title}
+            content={contents[10].content}
+            imageSrc={contents[10].imageSrc}
+            buttonText={contents[10].buttonText}
             ></Card>
           )}
         </div>
@@ -655,10 +667,10 @@ export default function App() {
         <div className="CardSubang">
           {hoveredRegion === "Subang" && (
             <Card
-              title="Subang"
-              content=""
-              img=""
-              buttonText="Read More"
+            title={contents[11].title}
+            content={contents[11].content}
+            imageSrc={contents[11].imageSrc}
+            buttonText={contents[11].buttonText}
             ></Card>
           )}
         </div>
@@ -666,10 +678,10 @@ export default function App() {
         <div className="CardIndramayu">
           {hoveredRegion === "Indramayu" && (
             <Card
-              title="Indramayu"
-              content=""
-              img=""
-              buttonText="Read More"
+            title={contents[12].title}
+            content={contents[12].content}
+            imageSrc={contents[12].imageSrc}
+            buttonText={contents[12].buttonText}
             ></Card>
           )}
         </div>
@@ -677,30 +689,33 @@ export default function App() {
         <div className="CardSumedang">
           {hoveredRegion === "Sumedang" && (
             <Card
-              title="Sumedang"
-              content=""
-              img=""
-              buttonText="Read More"
+            title={contents[13].title}
+            content={contents[13].content}
+            imageSrc={contents[13].imageSrc}
+            buttonText={contents[13].buttonText}
             ></Card>
           )}
         </div>
 
         <div className="CardGarut">
           {hoveredRegion === "Garut" && (
-            <Card title="Garut" 
-            content="" 
-            img="" 
-            buttonText="Read More"></Card>
+            <Card 
+            title={contents[14].title}
+            content={contents[14].content}
+            imageSrc={contents[14].imageSrc}
+            buttonText={contents[14].buttonText}
+            >
+            </Card>
           )}
         </div>
 
         <div className="CardTasikmalaya">
           {hoveredRegion === "Tasikmalaya" && (
             <Card
-              title="Tasikmalaya"
-              content=""
-              img=""
-              buttonText="Read More"
+            title={contents[15].title}
+            content={contents[15].content}
+            imageSrc={contents[15].imageSrc}
+            buttonText={contents[15].buttonText}
             ></Card>
           )}
         </div>
@@ -708,10 +723,10 @@ export default function App() {
         <div className="CardPangandaran">
           {hoveredRegion === "Pangandaran" && (
             <Card
-              title="Pangandaran"
-              content=""
-              img=""
-              buttonText="Read More"
+            title={contents[16].title}
+            content={contents[16].content}
+            imageSrc={contents[16].imageSrc}
+            buttonText={contents[16].buttonText}
             ></Card>
           )}
         </div>
@@ -719,10 +734,10 @@ export default function App() {
         <div className="CardBanjar">
           {hoveredRegion === "Banjar" && (
             <Card
-              title="Banjar"
-              content=""
-              img=""
-              buttonText="Read More"
+            title={contents[17].title}
+            content={contents[17].content}
+            imageSrc={contents[17].imageSrc}
+            buttonText={contents[17].buttonText}
             ></Card>
           )}
         </div>
@@ -730,10 +745,10 @@ export default function App() {
         <div className="CardCiamis">
           {hoveredRegion === "Ciamis" && (
             <Card
-              title="Ciamis"
-              content=""
-              img=""
-              buttonText="Read More"
+            title={contents[18].title}
+            content={contents[18].content}
+            imageSrc={contents[18].imageSrc}
+            buttonText={contents[18].buttonText}
             ></Card>
           )}
         </div>
@@ -741,10 +756,10 @@ export default function App() {
         <div className="CardKuningan">
           {hoveredRegion === "Kuningan" && (
             <Card
-              title="Kuningan"
-              content=""
-              img=""
-              buttonText="Read More"
+            title={contents[19].title}
+            content={contents[19].content}
+            imageSrc={contents[19].imageSrc}
+            buttonText={contents[19].buttonText}
             ></Card>
           )}
         </div>
@@ -752,10 +767,21 @@ export default function App() {
         <div className="CardCirebon">
           {hoveredRegion === "Cirebon" && (
             <Card
-              title="Cirebon"
-              content=""
-              img=""
-              buttonText="Read More"
+            title={contents[20].title}
+            content={contents[20].content}
+            imageSrc={contents[20].imageSrc}
+            buttonText={contents[20].buttonText}
+            ></Card>
+          )}
+        </div>
+
+        <div className="CardMajalengka">
+          {hoveredRegion === "Majalengka" && (
+            <Card
+            title={contents[21].title}
+            content={contents[21].content}
+            imageSrc={contents[21].imageSrc}
+            buttonText={contents[21].buttonText}
             ></Card>
           )}
         </div>
