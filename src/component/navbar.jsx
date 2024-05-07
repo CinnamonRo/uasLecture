@@ -1,8 +1,7 @@
-import Logo from "./images/logo.png";
+import Logo from "../images/logo.png";
 import React, { useState } from "react";
-import AboutUsSvg from "./images/svg/about-us-svgrepo-com.svg";
-import pinSvg from "./images/svg/location-pin-svgrepo-com.svg";
-import xSvg from "./images/svg/x-symbol-svgrepo-com.svg";
+import AboutUsSvg from "../images/svg/about-us-svgrepo-com.svg";
+import pinSvg from "../images/svg/location-pin-svgrepo-com.svg";
 
 export default function Navbar() {
   const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300`;

@@ -1,11 +1,16 @@
-import Navbar from "./component/navbar";
-import JawaBarat from "./component/Jawabarat";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./pages/Home";
+import Bandung from "./pages/Bandung";
 
 export default function App() {
   return (
     <div>
-      <Navbar />
-      <JawaBarat />
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Main />} />
+          <Route path="/bandung" element={<Bandung />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
