@@ -15,7 +15,7 @@ export default function Navbar() {
       link: "bandung.html",
       img: "../../images/kabupaten/logo.png",
       alt: "Bandung",
-      title: "Bandung",
+      title: "Jawa",
       subtitle: "Bandung adalah salah satu kota di Jawa Barat",
     },
     {
@@ -42,14 +42,136 @@ export default function Navbar() {
       title: "Bandung",
       subtitle: "Bandung adalah salah satu kota di Jawa Barat",
     },
+    {
+      id: 6,
+      link: "bandung.html",
+      img: "./images/logo.png",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 7,
+      link: "bandung.html",
+      img: "../../images/kabupaten/logo.png",
+      alt: "Bandung",
+      title: "Jawa",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 8,
+      link: "bandung.html",
+      img: "src/component/images/kabupaten/bandung.webp",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 9,
+      link: "bandung.html",
+      img: "src/component/images/kabupaten/bandung.webp",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 10,
+      link: "bandung.html",
+      img: "src/component/images/kabupaten/bandung.webp",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 11,
+      link: "bandung.html",
+      img: "./images/logo.png",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 12,
+      link: "bandung.html",
+      img: "../../images/kabupaten/logo.png",
+      alt: "Bandung",
+      title: "Jawa",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 13,
+      link: "bandung.html",
+      img: "src/component/images/kabupaten/bandung.webp",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 14,
+      link: "bandung.html",
+      img: "src/component/images/kabupaten/bandung.webp",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 15,
+      link: "bandung.html",
+      img: "src/component/images/kabupaten/bandung.webp",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 16,
+      link: "bandung.html",
+      img: "./images/logo.png",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 17,
+      link: "bandung.html",
+      img: "../../images/kabupaten/logo.png",
+      alt: "Bandung",
+      title: "Jawa",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 18,
+      link: "bandung.html",
+      img: "src/component/images/kabupaten/bandung.webp",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 19,
+      link: "bandung.html",
+      img: "src/component/images/kabupaten/bandung.webp",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
+    {
+      id: 20,
+      link: "bandung.html",
+      img: "src/component/images/kabupaten/bandung.webp",
+      alt: "Bandung",
+      title: "Bandung",
+      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
+    },
   ];
 
   const [kabOpen, setKabOpen] = useState(false);
   const [burgerOpen, setBurgerOpen] = useState(false);
+  const [kabBurgerOpen, setKabBurgerOpen] = useState(false);
+
   return (
     <div>
       <div className=" grid w-full place-items-center rounded-lg lg:overflow-visible">
-        <nav className=" sticky top-0 z-10 block w-full max-w-full px-5 py-2 text-white border rounded-none shadow-md h-max border-white/80 bg-opacity-80  lg:py-4 bg-white">
+        <nav className=" sticky top-0 z-10 block w-full max-w-full px-5 py-2 text-white border rounded-none shadow-md h-max border-white/80 bg-opacity-80 bg-white">
           <div className="flex items-center justify-between text-blue-gray-900">
             {/*nav kanan*/}
             <div className="flex items-center">
@@ -153,105 +275,86 @@ export default function Navbar() {
                 >
                   <button
                     type="button"
+                    onClick={() => setKabBurgerOpen(!kabBurgerOpen)}
                     class="flex items-center justify-between w-full p-3 font-sans text-xl antialiased font-semibold leading-snug text-left transition-colors border-b-0 select-none border-b-blue-gray-100 text-blue-gray-900 hover:text-blue-gray-900"
                   >
                     <p class="block mr-auto font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-900">
                       Kabupaten
                     </p>
-                    <span class="ml-4">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="2.5"
-                        stroke="currentColor"
-                        aria-hidden="true"
-                        class="w-4 h-4 mx-auto transition-transform rotate-180"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                        ></path>
-                      </svg>
-                    </span>
+                    {!kabBurgerOpen ? (
+                      <span class="ml-4">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="2.5"
+                          stroke="currentColor"
+                          aria-hidden="true"
+                          class="w-4 h-4 mx-auto transition-transform "
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                          ></path>
+                        </svg>
+                      </span>
+                    ) : (
+                      <span class="ml-4">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="2.5"
+                          stroke="currentColor"
+                          aria-hidden="true"
+                          class="w-4 h-4 mx-auto transition-transform rotate-180"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                          ></path>
+                        </svg>
+                      </span>
+                    )}
                   </button>
                 </div>
-                <div class="overflow-hidden">
-                  <div class="block w-full py-1 font-sans text-sm antialiased font-light leading-normal text-gray-700">
-                    <nav class="flex min-w-[240px] flex-col gap-1 p-0 font-sans text-base font-normal text-blue-gray-700">
-                      <div
-                        role="button"
-                        class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
-                      >
-                        <div class="grid mr-4 place-items-center">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke-width="3"
-                            stroke="currentColor"
-                            aria-hidden="true"
-                            class="w-5 h-3"
+                {kabBurgerOpen && (
+                  <div class="overflow-hidden">
+                    <div class="block w-full py-1 font-sans text-sm antialiased font-light leading-normal text-gray-700">
+                      <nav class="flex min-w-[240px] flex-col gap-1 p-0 font-sans text-base font-normal text-blue-gray-700">
+                        {/* mapping */}
+                        {kabupatens.map((kabupaten, index) => (
+                          <a
+                            key={index}
+                            href="/"
+                            class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
                           >
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              d="M8.25 4.5l7.5 7.5-7.5 7.5"
-                            ></path>
-                          </svg>
-                        </div>
-                        Analytics
-                      </div>
-                      <div
-                        role="button"
-                        class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
-                      >
-                        <div class="grid mr-4 place-items-center">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke-width="3"
-                            stroke="currentColor"
-                            aria-hidden="true"
-                            class="w-5 h-3"
-                          >
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              d="M8.25 4.5l7.5 7.5-7.5 7.5"
-                            ></path>
-                          </svg>
-                        </div>
-                        Reporting
-                      </div>
-                      <div
-                        role="button"
-                        class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
-                      >
-                        <div class="grid mr-4 place-items-center">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke-width="3"
-                            stroke="currentColor"
-                            aria-hidden="true"
-                            class="w-5 h-3"
-                          >
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              d="M8.25 4.5l7.5 7.5-7.5 7.5"
-                            ></path>
-                          </svg>
-                        </div>
-                        Projects
-                      </div>
-                    </nav>
+                            <div class="grid mr-4 place-items-center">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="3"
+                                stroke="currentColor"
+                                aria-hidden="true"
+                                class="w-5 h-3"
+                              >
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                                ></path>
+                              </svg>
+                            </div>
+                            {kabupaten.title}
+                          </a>
+                        ))}
+                      </nav>
+                    </div>
                   </div>
-                </div>
+                )}
               </div>
 
               <div
@@ -282,7 +385,7 @@ export default function Navbar() {
         {/* isi dari button kabupaten*/}
         {kabOpen && (
           <div
-            class="absolute top-28 max-w-full w-full z-[800] mx-2 hidden min-w-[180px] overflow-auto border border-blue-gray-50 bg-white p-2 font-sans text-sm font-normal text-blue-gray-500  shadow-lg shadow-blue-gray-500/10 focus:outline-none lg:block"
+            class="absolute top-24 max-w-full w-full z-[800] mx-2 hidden min-w-[180px] overflow-auto border border-blue-gray-50 bg-white p-2 font-sans text-sm font-normal text-blue-gray-500  shadow-lg shadow-blue-gray-500/10 focus:outline-none lg:block"
             id=":r8:"
             role="menu"
             data-popover="menu"
