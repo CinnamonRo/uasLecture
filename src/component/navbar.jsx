@@ -1,6 +1,11 @@
 import Logo from "./images/logo.png";
 import React, { useState } from "react";
+import AboutUsSvg from "./images/svg/about-us-svgrepo-com.svg";
+import pinSvg from "./images/svg/location-pin-svgrepo-com.svg";
+import xSvg from "./images/svg/x-symbol-svgrepo-com.svg";
+
 export default function Navbar() {
+  const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300`;
   const kabupatens = [
     {
       id: 1,
@@ -20,142 +25,6 @@ export default function Navbar() {
     },
     {
       id: 3,
-      link: "bandung.html",
-      img: "src/component/images/kabupaten/bandung.webp",
-      alt: "Bandung",
-      title: "Bandung",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 4,
-      link: "bandung.html",
-      img: "src/component/images/kabupaten/bandung.webp",
-      alt: "Bandung",
-      title: "Bandung",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 5,
-      link: "bandung.html",
-      img: "src/component/images/kabupaten/bandung.webp",
-      alt: "Bandung",
-      title: "Bandung",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 6,
-      link: "bandung.html",
-      img: "./images/logo.png",
-      alt: "Bandung",
-      title: "Bandung",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 7,
-      link: "bandung.html",
-      img: "../../images/kabupaten/logo.png",
-      alt: "Bandung",
-      title: "Jawa",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 8,
-      link: "bandung.html",
-      img: "src/component/images/kabupaten/bandung.webp",
-      alt: "Bandung",
-      title: "Bandung",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 9,
-      link: "bandung.html",
-      img: "src/component/images/kabupaten/bandung.webp",
-      alt: "Bandung",
-      title: "Bandung",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 10,
-      link: "bandung.html",
-      img: "src/component/images/kabupaten/bandung.webp",
-      alt: "Bandung",
-      title: "Bandung",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 11,
-      link: "bandung.html",
-      img: "./images/logo.png",
-      alt: "Bandung",
-      title: "Bandung",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 12,
-      link: "bandung.html",
-      img: "../../images/kabupaten/logo.png",
-      alt: "Bandung",
-      title: "Jawa",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 13,
-      link: "bandung.html",
-      img: "src/component/images/kabupaten/bandung.webp",
-      alt: "Bandung",
-      title: "Bandung",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 14,
-      link: "bandung.html",
-      img: "src/component/images/kabupaten/bandung.webp",
-      alt: "Bandung",
-      title: "Bandung",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 15,
-      link: "bandung.html",
-      img: "src/component/images/kabupaten/bandung.webp",
-      alt: "Bandung",
-      title: "Bandung",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 16,
-      link: "bandung.html",
-      img: "./images/logo.png",
-      alt: "Bandung",
-      title: "Bandung",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 17,
-      link: "bandung.html",
-      img: "../../images/kabupaten/logo.png",
-      alt: "Bandung",
-      title: "Jawa",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 18,
-      link: "bandung.html",
-      img: "src/component/images/kabupaten/bandung.webp",
-      alt: "Bandung",
-      title: "Bandung",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 19,
-      link: "bandung.html",
-      img: "src/component/images/kabupaten/bandung.webp",
-      alt: "Bandung",
-      title: "Bandung",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 20,
       link: "bandung.html",
       img: "src/component/images/kabupaten/bandung.webp",
       alt: "Bandung",
@@ -241,43 +110,49 @@ export default function Navbar() {
 
             {/* burger*/}
             <button
-              class="relative ml-auto h-6 max-h-[40px] w-6 max-w-[40px] select-none rounded-lg text-center align-middle font-sans text-xs font-medium uppercase text-inherit transition-all hover:bg-transparent focus:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:hidden"
-              type="button"
+              className="flex flex-col rounded justify-center items-center group lg:hidden "
               onClick={() => setBurgerOpen(!burgerOpen)}
             >
-              <span class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                  class="h-6 w-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                  ></path>
-                </svg>
-              </span>
+              <div
+                className={`${genericHamburgerLine} ${
+                  burgerOpen
+                    ? "rotate-45 translate-y-3 opacity-50 group-hover:opacity-100"
+                    : "opacity-50 group-hover:opacity-100"
+                }`}
+              />
+              <div
+                className={`${genericHamburgerLine} ${
+                  burgerOpen
+                    ? "opacity-0"
+                    : "opacity-50 group-hover:opacity-100"
+                }`}
+              />
+              <div
+                className={`${genericHamburgerLine} ${
+                  burgerOpen
+                    ? "-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100"
+                    : "opacity-50 group-hover:opacity-100"
+                }`}
+              />
             </button>
           </div>
         </nav>
+        {/* Dropdown */}
         {burgerOpen && (
-          <div class="absolute z-[800]  lg:hidden top-24 flex h-[calc(100vh-2rem)] w-full flex-col  bg-white bg-clip-border p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
+          <div class="absolute z-[800] lg:hidden top-24 flex h-screen w-full flex-col  bg-white  p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
             <nav class="flex min-w-[240px] flex-col gap-1 p-2 font-sans text-base font-normal text-blue-gray-700">
               <div class="relative block w-full">
-                <div
-                  role="button"
-                  class="flex items-center w-full p-0 leading-tight transition-all rounded-lg outline-none bg-blue-gray-50/50 text-start text-blue-gray-700 hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
-                >
+                <div class="flex items-center w-full p-0 leading-tight transition-all rounded-lg outline-none  text-start text-blue-gray-700 hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
                   <button
-                    type="button"
                     onClick={() => setKabBurgerOpen(!kabBurgerOpen)}
+                    type="button"
                     class="flex items-center justify-between w-full p-3 font-sans text-xl antialiased font-semibold leading-snug text-left transition-colors border-b-0 select-none border-b-blue-gray-100 text-blue-gray-900 hover:text-blue-gray-900"
                   >
+                    <img
+                      className="h-8 pr-2"
+                      src={pinSvg}
+                      alt="location svg"
+                    ></img>
                     <p class="block mr-auto font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-900">
                       Kabupaten
                     </p>
@@ -362,21 +237,9 @@ export default function Navbar() {
                 class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
               >
                 <div class="grid mr-4 place-items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    class="w-5 h-5"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M12 2.25a.75.75 0 01.75.75v9a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM6.166 5.106a.75.75 0 010 1.06 8.25 8.25 0 1011.668 0 .75.75 0 111.06-1.06c3.808 3.807 3.808 9.98 0 13.788-3.807 3.808-9.98 3.808-13.788 0-3.808-3.807-3.808-9.98 0-13.788a.75.75 0 011.06 0z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
+                  <img className="h-8" src={AboutUsSvg} alt="about us"></img>
                 </div>
-                Log Out
+                About Us
               </div>
             </nav>
           </div>
