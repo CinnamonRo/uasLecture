@@ -44,8 +44,8 @@ export default function Navbar() {
     },
   ];
 
-  const [isOpen, setIsOpen] = useState(false);
-
+  const [kabOpen, setKabOpen] = useState(false);
+  const [burgerOpen, setBurgerOpen] = useState(false);
   return (
     <div>
       <div className=" grid w-full place-items-center rounded-lg lg:overflow-visible">
@@ -66,11 +66,11 @@ export default function Navbar() {
             <div className=" items-center gap-6">
               <div className="hidden mr-4 lg:block">
                 <button
-                  class="relative flex flex-col items-center sm:hidden px-4 py-2 font-sans text-base font-bold text-center text-gray-900 uppercase transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
-                  onClick={() => setIsOpen((prev) => !prev)}
+                  class="relative flex flex-col items-center sm:hidden px-4 py-2  font-sans text-base font-bold text-center text-gray-900 uppercase transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
+                  onClick={() => setKabOpen((prev) => !prev)}
                 >
                   Kabupaten
-                  {!isOpen ? (
+                  {!kabOpen ? (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -103,6 +103,7 @@ export default function Navbar() {
             <button
               class="relative ml-auto h-6 max-h-[40px] w-6 max-w-[40px] select-none rounded-lg text-center align-middle font-sans text-xs font-medium uppercase text-inherit transition-all hover:bg-transparent focus:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:hidden"
               type="button"
+              onClick={() => setBurgerOpen(!burgerOpen)}
             >
               <span class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform">
                 <svg
@@ -124,8 +125,10 @@ export default function Navbar() {
             </button>
           </div>
         </nav>
+
+        {burgerOpen && <p>sad</p>}
         {/* isi dari button kabupaten*/}
-        {isOpen && (
+        {kabOpen && (
           <div
             class="absolute top-28 max-w-full w-full z-[800] mx-2 hidden min-w-[180px] overflow-auto border border-blue-gray-50 bg-white p-2 font-sans text-sm font-normal text-blue-gray-500  shadow-lg shadow-blue-gray-500/10 focus:outline-none lg:block"
             id=":r8:"

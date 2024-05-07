@@ -34,17 +34,18 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
+  overflow: hidden;
 }
 
 .svg-container:hover {
   visibility: visible;
 }
 
-.CardSK, 
-.CardTasikmalaya, 
-.CardGarut, 
+.CardSK,
+.CardTasikmalaya,
+.CardGarut,
 .CardPangandaran,
-.CardKuningan{
+.CardKuningan {
   visibility: hidden;
   position: absolute;
   text-align: justify;
@@ -57,22 +58,22 @@ body {
   right: 55vh;
 }
 
-.CardTasikmalaya{  
+.CardTasikmalaya {
   top: 25vh;
   left: 70vh;
 }
 
-.CardGarut{  
+.CardGarut {
   top: 20vh;
   left: 60vh;
 }
 
-.CardPangandaran{  
+.CardPangandaran {
   top: 30vh;
   left: 80vh;
 }
 
-.CardKuningan{  
+.CardKuningan {
   top: 10vh;
   left: 80vh;
 }
