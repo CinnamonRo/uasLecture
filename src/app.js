@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./pages/Home";
-import Bandung from "./pages/Bandung";
+import Bandung from "./pages/bandungLink";
+import NoPage from "./pages/noPage";
 
 export default function App() {
   return (
@@ -8,7 +9,8 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Main />} />
-          <Route path="/bandung" element={<Bandung />} />
+          <Route path="/bandungLink" element={<Bandung />} />
+          <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
     </div>

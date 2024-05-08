@@ -1,35 +1,9 @@
 // import Logo from "/images/logo.png";
 import React, { useState } from "react";
-// import AboutUsSvg from "../images/svg/about-us-svgrepo-com.svg";
-// import pinSvg from "../images/svg/location-pin-svgrepo-com.svg";
-
+import Datakabupaten from "./dataKabupaten";
 export default function Navbar() {
+  console.log(Datakabupaten);
   const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300`;
-  const kabupatens = [
-    {
-      id: 1,
-      link: "bandung.html",
-      img: "/images/FotoCard/WadukDarma.jpeg",
-      title: "Bandung",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 2,
-      link: "bandung.html",
-      img: "../../images/kabupaten/logo.png",
-      alt: "Bandung",
-      title: "Jawa",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-    {
-      id: 3,
-      link: "bandung.html",
-      img: "src/component/images/kabupaten/bandung.webp",
-      alt: "Bandung",
-      title: "Bandung",
-      subtitle: "Bandung adalah salah satu kota di Jawa Barat",
-    },
-  ];
 
   const [kabOpen, setKabOpen] = useState(false);
   const [burgerOpen, setBurgerOpen] = useState(false);
@@ -42,7 +16,11 @@ export default function Navbar() {
           <div className="flex items-center justify-between text-blue-gray-900">
             {/*nav kanan*/}
             <div className="flex items-center">
-              <img className="h-20" src="/images/logo.png" alt=""></img>
+              <img
+                className="h-20"
+                src="/images/Logokabupaten/jawabaratLogo.png"
+                alt=""
+              ></img>
               <a
                 href="/"
                 className=" block cursor-pointer py-1.5 font-sans text-base font-semibold leading-relaxed text-inherit antialiased p-5"
@@ -138,7 +116,7 @@ export default function Navbar() {
 
         {/* Dropdown */}
         {burgerOpen && (
-          <div class="absolute z-[800] lg:hidden top-24 flex h-screen w-full flex-col  bg-white  p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
+          <div class="absolute z-[800] lg:hidden top-24 flex h-auto w-full flex-col  bg-white  p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
             <nav class="flex min-w-[240px] flex-col gap-1 p-2 font-sans text-base font-normal text-blue-gray-700">
               <div class="relative block w-full">
                 <div class="flex items-center w-full p-0 leading-tight transition-all rounded-lg outline-none  text-start text-blue-gray-700 hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
@@ -199,10 +177,10 @@ export default function Navbar() {
                     <div class="block w-full py-1 font-sans text-sm antialiased font-light leading-normal text-gray-700">
                       <nav class="flex min-w-[240px] flex-col gap-1 p-0 font-sans text-base font-normal text-blue-gray-700">
                         {/* mapping */}
-                        {kabupatens.map((kabupaten, index) => (
+                        {Datakabupaten.slice(0, 18).map((kabupaten, index) => (
                           <a
                             key={index}
-                            href="/"
+                            href={kabupaten.link}
                             class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
                           >
                             <div class="grid mr-4 place-items-center">
@@ -261,7 +239,7 @@ export default function Navbar() {
               class="grid grid-cols-3 gap-y-2 outline-none outline-0"
               role="menuitem"
             >
-              {kabupatens.map((kabupaten, index) => (
+              {Datakabupaten.slice(0, 5).map((kabupaten, index) => (
                 <div key={index}>
                   <a href={kabupaten.link}>
                     <button
@@ -269,7 +247,11 @@ export default function Navbar() {
                       class="flex w-full cursor-pointer select-none items-center gap-3 rounded-lg px-3 pb-2 pt-[9px] text-start leading-tight outline-none transition-all hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
                     >
                       <div class="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2 ">
-                        <img src={kabupaten.img} alt={kabupaten.alt} />
+                        <img
+                          className="h-10 w-10"
+                          src={kabupaten.logo}
+                          alt={kabupaten.alt}
+                        />
                       </div>
                       <div>
                         <h6 class="flex items-center font-sans text-sm font-bold tracking-normal text-blue-gray-900 antialiased">
