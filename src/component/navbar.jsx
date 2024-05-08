@@ -1,8 +1,7 @@
 // import Logo from "/images/logo.png";
 import React, { useState } from "react";
 import Datakabupaten from "./dataKabupaten";
-export default function Navbar() {
-  console.log(Datakabupaten);
+export default function Navbar(props) {
   const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300`;
 
   const [kabOpen, setKabOpen] = useState(false);
@@ -16,16 +15,12 @@ export default function Navbar() {
           <div className="flex items-center justify-between text-blue-gray-900">
             {/*nav kanan*/}
             <div className="flex items-center">
-              <img
-                className="h-20"
-                src="/images/Logokabupaten/jawabaratLogo.png"
-                alt=""
-              ></img>
+              <img className="h-20" src={props.logo} alt=""></img>
               <a
                 href="/"
                 className=" block cursor-pointer py-1.5 font-sans text-base font-semibold leading-relaxed text-inherit antialiased p-5"
               >
-                Jawa Barat
+                {props.title}
               </a>
             </div>
 

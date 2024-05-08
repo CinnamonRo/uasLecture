@@ -1,10 +1,10 @@
 import Navbar from "../component/navbar";
 import Header from "../component/header";
 import Datakabupaten from "../component/dataKabupaten";
-export default function Bandung() {
+export default function Tasikmalaya() {
   return (
     <div>
-           <Navbar logo={Datakabupaten[0].logo} title={Datakabupaten[0].title} />
+      <Navbar logo={Datakabupaten[17].logo} title={Datakabupaten[17].title} />
       <Header />
     </div>
   );
