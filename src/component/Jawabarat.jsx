@@ -15,7 +15,7 @@ export default function App() {
   };
 
   return (
-    <div>
+    <div style={{ backgroundColor: "#93bfcf" }}>
       <div className="svg-container">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -24,8 +24,8 @@ export default function App() {
           viewBox="0 0 900 720"
           position="absolute"
         >
+          aa
           <rect width="900" height="720" style={{ fill: "none" }} />
-
           {/* Suka Bumi */}
           <a
             href="SukaBumi.html"
@@ -61,7 +61,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Bogor */}
           <a
             onMouseEnter={() => handleMouseEnter("Bogor")}
@@ -96,7 +95,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Depok */}
           <a
             onMouseEnter={() => handleMouseEnter("Depok")}
@@ -116,7 +114,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Bekasi */}
           <a
             onMouseEnter={() => handleMouseEnter("Bekasi")}
@@ -149,7 +146,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Karawang */}
           <a
             onMouseEnter={() => handleMouseEnter("Karawang")}
@@ -169,7 +165,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Purwakarta */}
           <a
             onMouseEnter={() => handleMouseEnter("Purwakarta")}
@@ -189,7 +184,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Cianjur */}
           <a
             onMouseEnter={() => handleMouseEnter("Cianjur")}
@@ -208,7 +202,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* BandungBarat */}
           <a
             onMouseEnter={() => handleMouseEnter("BandungBarat")}
@@ -228,7 +221,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Cimahi */}
           <a
             onMouseEnter={() => handleMouseEnter("Cimahi")}
@@ -248,7 +240,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Kota Bandung */}
           <a
             onMouseEnter={() => handleMouseEnter("KotaBandung")}
@@ -268,7 +259,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Bandung */}
           <a
             onMouseEnter={() => handleMouseEnter("Bandung")}
@@ -288,7 +278,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Subang */}
           <a
             onMouseEnter={() => handleMouseEnter("Subang")}
@@ -308,7 +297,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Indramayu */}
           <a
             onMouseEnter={() => handleMouseEnter("Indramayu")}
@@ -328,7 +316,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Sumedang */}
           <a
             onMouseEnter={() => handleMouseEnter("Sumedang")}
@@ -348,7 +335,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Garut */}
           <a
             onMouseEnter={() => handleMouseEnter("Garut")}
@@ -368,7 +354,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Tasikmalaya */}
           <a
             onMouseEnter={() => handleMouseEnter("Tasikmalaya")}
@@ -401,7 +386,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Pangandaran */}
           <a
             onMouseEnter={() => handleMouseEnter("Pangandaran")}
@@ -421,7 +405,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Banjar */}
           <a
             onMouseEnter={() => handleMouseEnter("Banjar")}
@@ -441,7 +424,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Ciamis */}
           <a
             onMouseEnter={() => handleMouseEnter("Ciamis")}
@@ -461,7 +443,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Majalengka */}
           <a
             onMouseEnter={() => handleMouseEnter("Majalengka")}
@@ -481,7 +462,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/* Kuningan */}
           <a
             onMouseEnter={() => handleMouseEnter("Kuningan")}
@@ -501,7 +481,6 @@ export default function App() {
               }}
             />
           </a>
-
           {/*Cirebon*/}
           <a
             onMouseEnter={() => handleMouseEnter("Cirebon")}
