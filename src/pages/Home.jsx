@@ -7,6 +7,7 @@ export default function App() {
     <div>
       <Navbar />
       <JawaBarat />
+      <FooterWithLogo />
     </div>
   );
 }

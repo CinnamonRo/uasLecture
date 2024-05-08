@@ -1,5 +1,3 @@
-import { Typography } from "@material-tailwind/react";
- 
 export default function FooterWithLogo() {
   return (
     <footer className="w-full bg-white p-8">
@@ -7,51 +5,51 @@ export default function FooterWithLogo() {
         <img src="" alt="logo-ct" className="w-10" />
         <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
           <li>
-            <Typography
+            <p
               as="a"
               href="#"
               color="blue-gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
             >
               About Us
-            </Typography>
+            </p>
           </li>
           <li>
-            <Typography
+            <p
               as="a"
               href="#"
               color="blue-gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
             >
               License
-            </Typography>
+            </p>
           </li>
           <li>
-            <Typography
+            <p
               as="a"
               href="#"
               color="blue-gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
             >
               Contribute
-            </Typography>
+            </p>
           </li>
           <li>
-            <Typography
+            <p
               as="a"
               href="#"
               color="blue-gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
             >
               Contact Us
-            </Typography>
+            </p>
           </li>
         </ul>
       </div>
       <hr className="my-8 border-blue-gray-50" />
-      <Typography color="blue-gray" className="text-center font-normal">
+      <p color="blue-gray" className="text-center font-normal">
         &copy; 2023 Material Tailwind
-      </Typography>
+      </p>
     </footer>
   );
 }
