@@ -5,51 +5,51 @@ export default function FooterWithLogo() {
         <img src="" alt="logo-ct" className="w-10" />
         <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
           <li>
-            <p
+            <Typography
               as="a"
               href="#"
               color="blue-gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
             >
               About Us
-            </p>
+            </Typography>
           </li>
           <li>
-            <p
+            <Typography
               as="a"
               href="#"
               color="blue-gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
             >
               License
-            </p>
+            </Typography>
           </li>
           <li>
-            <p
+            <Typography
               as="a"
               href="#"
               color="blue-gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
             >
               Contribute
-            </p>
+            </Typography>
           </li>
           <li>
-            <p
+            <Typography
               as="a"
               href="#"
               color="blue-gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
             >
               Contact Us
-            </p>
+            </Typography>
           </li>
         </ul>
       </div>
       <hr className="my-8 border-blue-gray-50" />
-      <p color="blue-gray" className="text-center font-normal">
+      <Typography color="blue-gray" className="text-center font-normal">
         &copy; 2023 Material Tailwind
-      </p>
+      </Typography>
     </footer>
   );
 }
