@@ -24,11 +24,10 @@ export default function App() {
           viewBox="0 0 900 720"
           position="absolute"
         >
-          aa
           <rect width="900" height="720" style={{ fill: "none" }} />
           {/* Suka Bumi */}
           <a
-            href="SukaBumi.html"
+            href="/"
             onMouseEnter={() => handleMouseEnter("SukaBumi")}
             onMouseLeave={handleMouseLeave}
           >
@@ -63,6 +62,7 @@ export default function App() {
           </a>
           {/* Bogor */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Bogor")}
             onMouseLeave={handleMouseLeave}
           >
@@ -99,6 +99,7 @@ export default function App() {
           <a
             onMouseEnter={() => handleMouseEnter("Depok")}
             onMouseLeave={handleMouseLeave}
+            href="/"
           >
             <path
               className="Depok"
@@ -116,6 +117,7 @@ export default function App() {
           </a>
           {/* Bekasi */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Bekasi")}
             onMouseLeave={handleMouseLeave}
           >
@@ -148,6 +150,7 @@ export default function App() {
           </a>
           {/* Karawang */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Karawang")}
             onMouseLeave={handleMouseLeave}
           >
@@ -167,6 +170,7 @@ export default function App() {
           </a>
           {/* Purwakarta */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Purwakarta")}
             onMouseLeave={handleMouseLeave}
           >
@@ -186,6 +190,7 @@ export default function App() {
           </a>
           {/* Cianjur */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Cianjur")}
             onMouseLeave={handleMouseLeave}
           >
@@ -204,6 +209,7 @@ export default function App() {
           </a>
           {/* BandungBarat */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("BandungBarat")}
             onMouseLeave={handleMouseLeave}
           >
@@ -223,6 +229,7 @@ export default function App() {
           </a>
           {/* Cimahi */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Cimahi")}
             onMouseLeave={handleMouseLeave}
           >
@@ -242,6 +249,7 @@ export default function App() {
           </a>
           {/* Kota Bandung */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("KotaBandung")}
             onMouseLeave={handleMouseLeave}
           >
@@ -261,6 +269,7 @@ export default function App() {
           </a>
           {/* Bandung */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Bandung")}
             onMouseLeave={handleMouseLeave}
           >
@@ -280,6 +289,7 @@ export default function App() {
           </a>
           {/* Subang */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Subang")}
             onMouseLeave={handleMouseLeave}
           >
@@ -299,6 +309,7 @@ export default function App() {
           </a>
           {/* Indramayu */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Indramayu")}
             onMouseLeave={handleMouseLeave}
           >
@@ -318,6 +329,7 @@ export default function App() {
           </a>
           {/* Sumedang */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Sumedang")}
             onMouseLeave={handleMouseLeave}
           >
@@ -337,6 +349,7 @@ export default function App() {
           </a>
           {/* Garut */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Garut")}
             onMouseLeave={handleMouseLeave}
           >
@@ -356,6 +369,7 @@ export default function App() {
           </a>
           {/* Tasikmalaya */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Tasikmalaya")}
             onMouseLeave={handleMouseLeave}
           >
@@ -388,6 +402,7 @@ export default function App() {
           </a>
           {/* Pangandaran */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Pangandaran")}
             onMouseLeave={handleMouseLeave}
           >
@@ -407,6 +422,7 @@ export default function App() {
           </a>
           {/* Banjar */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Banjar")}
             onMouseLeave={handleMouseLeave}
           >
@@ -426,6 +442,7 @@ export default function App() {
           </a>
           {/* Ciamis */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Ciamis")}
             onMouseLeave={handleMouseLeave}
           >
@@ -445,6 +462,7 @@ export default function App() {
           </a>
           {/* Majalengka */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Majalengka")}
             onMouseLeave={handleMouseLeave}
           >
@@ -464,6 +482,7 @@ export default function App() {
           </a>
           {/* Kuningan */}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Kuningan")}
             onMouseLeave={handleMouseLeave}
           >
@@ -483,6 +502,7 @@ export default function App() {
           </a>
           {/*Cirebon*/}
           <a
+            href="/"
             onMouseEnter={() => handleMouseEnter("Cirebon")}
             onMouseLeave={handleMouseLeave}
           >
