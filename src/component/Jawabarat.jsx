@@ -516,8 +516,8 @@ export default function App() {
         </svg>
       </div>
 
-      {/*cardnya bikin overflow pas di view hp*/}
-      {/* <div className="CardContainer">
+      {/* cardnya bikin overflow pas di view hp
+      <div className="CardContainer">
         <div className="CardSK">
           {hoveredRegion === "SukaBumi" && (
             <Card
