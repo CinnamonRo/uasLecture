@@ -62,11 +62,67 @@ export default function Header (){
 					</ul>
 				</div>
 			</div>
+          <div class="welcome-hero-txt">
+              OBJEK WISATA JAWA BARAT <br></br>DARI SETIAP DAERAH{" "}
 
-		</section>
-	
-		
-		
+      <section id="list-topics" class="list-topics">
+        <div class="container">
+          <div class="list-topics-content">
+            <ul>
+              <li>
+                <div class="single-list-topics-content">
+                  <div class="single-list-topics-icon">
+                    <i class="flaticon-restaurant"></i>
+                  </div>
+                  <h2>
+                    <a href="#">Curug</a>
+                  </h2>
+                </div>
+              </li>
+              <li>
+                <div class="single-list-topics-content">
+                  <div class="single-list-topics-icon">
+                    <i class="flaticon-travel"></i>
+                  </div>
+                  <h2>
+                    <a href="#">Pengunungan</a>
+                  </h2>
+                </div>
+              </li>
+              <li>
+                <div class="single-list-topics-content">
+                  <div class="single-list-topics-icon">
+                    <i class="flaticon-building"></i>
+                  </div>
+                  <h2>
+                    <a href="#">Kebun</a>
+                  </h2>
+                </div>
+              </li>
+              <li>
+                <div class="single-list-topics-content">
+                  <div class="single-list-topics-icon">
+                    <i class="flaticon-pills"></i>
+                  </div>
+                  <h2>
+                    <a href="#">Pantai</a>
+                  </h2>
+                </div>
+              </li>
+              <li>
+                <div class="single-list-topics-content">
+                  <div class="single-list-topics-icon">
+                    <i class="flaticon-transport"></i>
+                  </div>
+                  <h2>
+                    <a href="#">Tempat Wisata</a>
+                  </h2>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-    )
+      </section>
+    </div>
+  );
 }
