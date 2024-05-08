@@ -1,7 +1,7 @@
 import "../css/CardStyle.css";
-// import Card from "./card";
+import Card from "./card";
 import React, { useState } from "react";
-// import contents from "./CardContent";
+import contents from "./data";
 
 export default function App() {
   const [hoveredRegion, setHoveredRegion] = useState(null);
@@ -538,7 +538,7 @@ export default function App() {
       </div>
 
       {/*cardnya bikin overflow pas di view hp*/}
-      {/* <div className="CardContainer">
+      <div className="CardContainer">
         <div className="CardSK">
           {hoveredRegion === "SukaBumi" && (
             <Card
@@ -780,7 +780,7 @@ export default function App() {
             ></Card>
           )}
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }

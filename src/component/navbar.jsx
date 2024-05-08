@@ -1,7 +1,7 @@
-import Logo from "../images/logo.png";
+// import Logo from "/images/logo.png";
 import React, { useState } from "react";
-import AboutUsSvg from "../images/svg/about-us-svgrepo-com.svg";
-import pinSvg from "../images/svg/location-pin-svgrepo-com.svg";
+// import AboutUsSvg from "../images/svg/about-us-svgrepo-com.svg";
+// import pinSvg from "../images/svg/location-pin-svgrepo-com.svg";
 
 export default function Navbar() {
   const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300`;
@@ -9,8 +9,7 @@ export default function Navbar() {
     {
       id: 1,
       link: "bandung.html",
-      img: "./images/logo.png",
-      alt: "Bandung",
+      img: "/images/FotoCard/WadukDarma.jpeg",
       title: "Bandung",
       subtitle: "Bandung adalah salah satu kota di Jawa Barat",
     },
@@ -43,7 +42,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between text-blue-gray-900">
             {/*nav kanan*/}
             <div className="flex items-center">
-              <img className="h-20" src={Logo} alt=""></img>
+              <img className="h-20" src="/images/logo.png" alt=""></img>
               <a
                 href="/"
                 className=" block cursor-pointer py-1.5 font-sans text-base font-semibold leading-relaxed text-inherit antialiased p-5"
@@ -136,6 +135,7 @@ export default function Navbar() {
             </button>
           </div>
         </nav>
+
         {/* Dropdown */}
         {burgerOpen && (
           <div class="absolute z-[800] lg:hidden top-24 flex h-screen w-full flex-col  bg-white  p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
@@ -149,7 +149,7 @@ export default function Navbar() {
                   >
                     <img
                       className="h-8 pr-2"
-                      src={pinSvg}
+                      src="/images/svg/location.svg"
                       alt="location svg"
                     ></img>
                     <p class="block mr-auto font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-900">
@@ -236,7 +236,11 @@ export default function Navbar() {
                 class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
               >
                 <div class="grid mr-4 place-items-center">
-                  <img className="h-8" src={AboutUsSvg} alt="about us"></img>
+                  <img
+                    className="h-8"
+                    src="/images/svg/aboutUs.svg"
+                    alt="about us"
+                  ></img>
                 </div>
                 About Us
               </div>
