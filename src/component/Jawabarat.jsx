@@ -1,4 +1,4 @@
-import "./styles.css";
+import "../css/CardStyle.css";
 // import Card from "./card";
 import React, { useState } from "react";
 // import contents from "./CardContent";

@@ -58,26 +58,3 @@ body {
   right: 55vh;
 }
 
-.CardTasikmalaya {
-  top: 25vh;
-  left: 70vh;
-}
-
-.CardGarut {
-  top: 20vh;
-  left: 60vh;
-}
-
-.CardPangandaran {
-  top: 30vh;
-  left: 80vh;
-}
-
-.CardKuningan {
-  top: 10vh;
-  left: 80vh;
-}
-
-.transition-max-height {
-  transition: max-height 0.3s ease-in-out;
-}
