@@ -45,7 +45,6 @@ export default function App() {
           <Route path="/sukabumiLink" element={<Sukabumi />} />
           <Route path="/sumedangLink" element={<Sumedang />} />
           <Route path="/tasikmalayaLink" element={<Tasikmalaya />} />
-
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>

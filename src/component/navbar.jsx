@@ -234,7 +234,7 @@ export default function Navbar(props) {
               className="grid grid-cols-3 gap-y-2 outline-none outline-0"
               role="menuitem"
             >
-              {Datakabupaten.slice(0, 5).map((kabupaten, index) => (
+              {Datakabupaten.slice(0, 18).map((kabupaten, index) => (
                 <div key={index}>
                   <a href={kabupaten.link}>
                     <button
