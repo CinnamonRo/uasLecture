@@ -1,12 +1,8 @@
-const imageContext = require.context(
-  "./FotoCard",
-  false,
-  /\.(png|jpe?g|svg)$/
-);
+const imageContext = require.context("./FotoCard", false, /\.(png|jpe?g|svg)$/);
 
 const contents = [
   {
-    title: "Suka Bumi",
+    title: "Sukabumi",
     content:
       "Kota Sukabumi, juga dikenal dengan sebutan Gunahuyi dalam bahasa lokalnya, adalah destinasi menarik di provinsi Jawa Barat, Indonesia.",
     imageSrc: imageContext("./JembatanGantung.jpeg"),
