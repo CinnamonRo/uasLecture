@@ -3,6 +3,7 @@ import Header from "../component/header";
 import Explore from "../component/explore";
 import Datakabupaten from "../component/dataKabupaten";
 import Carousel from "../component/carousel"
+import Footer2 from "../component/footer2";
 
 export default function BandungBarat() {
   return (
@@ -11,7 +12,7 @@ export default function BandungBarat() {
       <Header />
       <Carousel />
       <Explore />
-    
+      <Footer2></Footer2>
     </div>
   );
 }
