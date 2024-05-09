@@ -13,31 +13,35 @@ export default function Footer() {
               <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
                 Informatika 2023, Introduction To Technology
               </h5>
-              <div class="mt-6 lg:mb-0 mb-6">
-                <button
-                  class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <img src="/images/othersLogo/git.png" alt="" />
-                </button>
-                <button
-                  class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i class="fab fa-facebook-square"></i>
-                </button>
-                <button
-                  class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i class="fab fa-dribbble"></i>
-                </button>
-                <button
-                  class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                  type="button"
-                >
-                  <i class="fab fa-github"></i>
-                </button>
+              <div class="flex mt-3 lg:mb-0 mb-3">
+                <a href="google.com">
+                  <img
+                    className="bg-white text-lightBlue-400 shadow-lg font-normal h-14 w-14 object-cover items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    src="/images/creator/fredlies2.jpg"
+                    alt=""
+                  />
+                </a>
+                <a href="google.com">
+                  <img
+                    className="bg-white text-lightBlue-400 shadow-lg font-normal h-14 w-14 object-cover items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    src="/images/creator/morenos2.jpeg"
+                    alt=""
+                  />
+                </a>
+                <a href="google.com">
+                  <img
+                    className="bg-white text-lightBlue-400 shadow-lg font-normal h-14 w-14 object-cover items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    src="/images/creator/brayens2.jpeg"
+                    alt=""
+                  />
+                </a>
+                <a href="google.com">
+                  <img
+                    className="bg-white text-lightBlue-400 shadow-lg font-normal h-14 w-14 object-fill items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    src="/images/creator/gigihs2.jpg"
+                    alt=""
+                  />
+                </a>
               </div>
             </div>
 
@@ -112,7 +116,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <hr class="my-6 border-blueGray-300" />
+          <hr class="my-2 border-blueGray-300" />
           <div class="flex flex-wrap items-center md:justify-between justify-center">
             <div class="w-full md:w-4/12 px-4 mx-auto text-center">
               <div class="text-sm text-blueGray-500 font-semibold py-1">
