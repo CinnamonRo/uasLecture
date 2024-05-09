@@ -44,7 +44,7 @@ export default function Footer() {
               <div class="flex flex-wrap items-top mb-6">
                 <div class="w-full lg:w-4/12 px-4 ml-auto">
                   <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
-                    Useful Links
+                    Created by:
                   </span>
                   <ul class="list-unstyled">
                     <li>
@@ -52,7 +52,7 @@ export default function Footer() {
                         class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://www.creative-tim.com/presentation?ref=njs-profile"
                       >
-                        About Us
+                        React Js
                       </a>
                     </li>
                     <li>
@@ -60,7 +60,7 @@ export default function Footer() {
                         class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="https://blog.creative-tim.com?ref=njs-profile"
                       >
-                        Blog
+                        Tailwind
                       </a>
                     </li>
                     <li>
@@ -69,14 +69,6 @@ export default function Footer() {
                         href="https://www.github.com/creativetimofficial?ref=njs-profile"
                       >
                         Github
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile"
-                      >
-                        Free Products
                       </a>
                     </li>
                   </ul>
