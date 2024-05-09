@@ -47,67 +47,63 @@ export default function Footer() {
                     Created by:
                   </span>
                   <ul class="list-unstyled">
-                    <li>
+                    <li className="flex pb-2">
+                      <img
+                        className="h-6 w-6"
+                        src="/images/othersLogo/react.png"
+                        alt="React Js"
+                      />
                       <a
-                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/presentation?ref=njs-profile"
+                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 pl-2 text-sm"
+                        href="https://react.dev/"
                       >
                         React Js
                       </a>
                     </li>
-                    <li>
+                    <li className="flex pb-2">
+                      <img
+                        className="h-6 w-6"
+                        src="/images/othersLogo/tailwind.png"
+                        alt="Tailwind"
+                      />
                       <a
-                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://blog.creative-tim.com?ref=njs-profile"
+                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 pl-2 text-sm"
+                        href="https://tailwindcss.com/"
                       >
-                        Tailwind
+                        Tailwind CSS
                       </a>
                     </li>
-                    <li>
+                    <li className="flex pb-2">
+                      <img
+                        className="h-6 w-6"
+                        src="/images/othersLogo/git.png"
+                        alt="Git Hub"
+                      />
                       <a
-                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.github.com/creativetimofficial?ref=njs-profile"
+                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 pl-2 text-sm"
+                        href="https://github.com/"
                       >
-                        Github
+                        GitHub
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div class="w-full lg:w-4/12 px-4">
                   <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
-                    Other Resources
+                    Data Resources
                   </span>
                   <ul class="list-unstyled">
-                    <li>
+                    <li className="flex pb-2">
+                      <img
+                        className="h-6 w-6"
+                        src="/images/othersLogo/bmkglogo.png"
+                        alt="BMKG"
+                      />
                       <a
-                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile"
+                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 pl-2 text-sm"
+                        href="https://data.bmkg.go.id/"
                       >
-                        MIT License
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/terms?ref=njs-profile"
-                      >
-                        Terms &amp; Conditions
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/privacy?ref=njs-profile"
-                      >
-                        Privacy Policy
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/contact-us?ref=njs-profile"
-                      >
-                        Contact Us
+                        BMKG
                       </a>
                     </li>
                   </ul>
