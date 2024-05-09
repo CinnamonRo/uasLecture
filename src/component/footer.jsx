@@ -10,13 +10,15 @@ export default function Footer() {
               <h4 class="text-3xl fonat-semibold text-blueGray-700">
                 Perkenalkan kami:
               </h4>
-              <h5 class="text-lg mt-0 mb-2 text-blueGray-600">.</h5>
+              <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
+                Informatika 2023, Introduction To Technology
+              </h5>
               <div class="mt-6 lg:mb-0 mb-6">
                 <button
                   class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                 >
-                  <i class="fab fa-twitter"></i>
+                  <img src="/images/othersLogo/git.png" alt="" />
                 </button>
                 <button
                   class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
@@ -38,7 +40,7 @@ export default function Footer() {
                 </button>
               </div>
             </div>
-            
+
             <div class="w-full lg:w-6/12 px-4">
               <div class="flex flex-wrap items-top mb-6">
                 <div class="w-full lg:w-4/12 px-4 ml-auto">

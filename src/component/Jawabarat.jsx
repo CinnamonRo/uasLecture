@@ -22,7 +22,7 @@ export default function App() {
           <hr class="my-2 border-blueGray-300" />
           <div class="flex flex-wrap items-center md:justify-between justify-center">
             <div class="w-full md:w-10/12 px-4 mx-auto text-center">
-              <div class="text-lg text-blueGray-500 font-normal py-1">
+              <div class="text-lg text-blueGray-500 font-normal">
                 Jawa Barat, provinsi yang berlokasi di bagian barat Pulau Jawa,
                 memiliki kekayaan budaya, alam yang memikat, dan pusat ekonomi
                 penting. Dikenal dengan keindahan pegunungan, sawah hijau, serta
