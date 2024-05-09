@@ -18,7 +18,7 @@ export default function Navbar(props) {
               <img className="h-20" src={props.logo} alt=""></img>
               <a
                 href="/"
-                className=" block cursor-pointer py-1.5 font-sans text-base font-semibold leading-relaxed text-inherit antialiased p-5"
+                className=" block cursor-pointer py-1.5 font-sans text-base font-semibold leading-relaxed text-inherit antialiased p-5 "
               >
                 {props.title}
               </a>
