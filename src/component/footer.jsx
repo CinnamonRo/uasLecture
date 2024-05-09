@@ -8,10 +8,10 @@ export default function Footer() {
           <div class="flex flex-wrap text-left lg:text-left">
             <div class="w-full lg:w-6/12 px-4">
               <h4 class="text-3xl fonat-semibold text-blueGray-700">
-                Let's keep in touch!
+                Perkenalkan kami:
               </h4>
               <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
-                Find us on any of these platforms, we respond 1-2 business days.
+                .
               </h5>
               <div class="mt-6 lg:mb-0 mb-6">
                 <button
@@ -115,21 +115,7 @@ export default function Footer() {
           <div class="flex flex-wrap items-center md:justify-between justify-center">
             <div class="w-full md:w-4/12 px-4 mx-auto text-center">
               <div class="text-sm text-blueGray-500 font-semibold py-1">
-                Copyright © <span id="get-current-year">2021</span>
-                <a
-                  href="https://www.creative-tim.com/product/notus-js"
-                  class="text-blueGray-500 hover:text-gray-800"
-                  target="_blank"
-                />{" "}
-                Web By
-                <a
-                  href="https://www.creative-tim.com?ref=njs-profile"
-                  class="text-blueGray-500 hover:text-blueGray-800"
-                >
-                  {" "}
-                  Kelompok Orang China
-                </a>
-                .
+                Copyright © 2024 Web by Kelompok Orang Cina
               </div>
             </div>
           </div>
