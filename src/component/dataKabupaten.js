@@ -50,7 +50,7 @@ const Data = [
   {
     id: 7,
     title: "Cirebon",
-    logo: "/images/Logokabupaten/cirebonLogo.gif",
+    logo: "/images/Logokabupaten/cirebonLogo.png",
     alt: "Cirebon",
     shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
     link: "/cirebonLink",
@@ -82,7 +82,7 @@ const Data = [
   {
     id: 11,
     title: "Kuningan",
-    logo: "/images/Logokabupaten/kuninganLogo.jpeg",
+    logo: "/images/Logokabupaten/kuninganLogo.png",
     alt: "Kuningan",
     shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
     link: "/kuninganLink",
