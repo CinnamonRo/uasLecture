@@ -47,7 +47,7 @@ export default function App() {
 
   console.log(hoveredRegion, "ini reg");
   return (
-    <div  style={{ background: 'linear-gradient(to right, #007bff, #00bfff)' }}>
+    <div style={{ backgroundColor: "#CDF0EA" }}>
       <div className="svg-container">
         <svg
           xmlns="http://www.w3.org/2000/svg"
