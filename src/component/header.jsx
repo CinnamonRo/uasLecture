@@ -4,9 +4,9 @@ import "../css/style.css";
 export default function Header() {
   return (
     <div className="HomeContainer">
-      <section id="home" class="welcome-hero">
-        <div class="container">
-          <div class="welcome-hero-txt" style={{}}>
+      <section id="home" className="welcome-hero">
+        <div className="container">
+          <div className="welcome-hero-txt" style={{}}>
             <h2>
               OBJEK WISATA JAWA BARAT <br></br>DARI SETIAP DAERAH{" "}
             </h2>
