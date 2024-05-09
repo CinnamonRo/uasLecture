@@ -14,7 +14,7 @@ export default function Explore(){
 						<div className="p-5">
 							<div className="single-explore-item">
 								<div className="single-explore-img">
-									<img src="assets/images/explore/e1.jpg" alt="explore image"/>
+									<img src="assets/images/explore/e1.jpg" alt="explore"/>
 									<div className="single-explore-img-info">
 										<button onclick="window.location.href='/'">best rated</button>
 										<div className="single-explore-image-icon-box">
@@ -80,7 +80,7 @@ export default function Explore(){
 						<div className="p-5">
 							<div className="single-explore-item">
 								<div className="single-explore-img">
-									<img src="assets/images/explore/e2.jpg" alt="explore image"/>
+									<img src="assets/images/explore/e2.jpg" alt="explore"/>
 									<div className="single-explore-img-info">
 										<button onclick="window.location.href='/'">featured</button>
 										<div className="single-explore-image-icon-box">
@@ -146,7 +146,7 @@ export default function Explore(){
 						<div className="p-5">
 							<div className="single-explore-item">
 								<div className="single-explore-img">
-									<img src="assets/images/explore/e3.jpg" alt="explore image"/>
+									<img src="assets/images/explore/e3.jpg" alt="explore"/>
 									<div className="single-explore-img-info">
 										<button onclick="window.location.href='/'">best rated</button>
 										<div className="single-explore-image-icon-box">
@@ -214,7 +214,7 @@ export default function Explore(){
                         <div className="p-5">
 							<div className="single-explore-item">
 								<div className="single-explore-img">
-									<img src="assets/images/explore/e4.jpg" alt="explore image"/>
+									<img src="assets/images/explore/e4.jpg" alt="explore"/>
 									<div className="single-explore-img-info">
 										<button onclick="window.location.href='/'">most view</button>
 										<div className="single-explore-image-icon-box">
@@ -280,7 +280,7 @@ export default function Explore(){
 						<div className="p-5">
 							<div className="single-explore-item">
 								<div className="single-explore-img">
-									<img src="assets/images/explore/e5.jpg" alt="explore image"/>
+									<img src="assets/images/explore/e5.jpg" alt="explore"/>
 									<div className="single-explore-img-info">
 										<button onclick="window.location.href='/'">featured</button>
 										<div className="single-explore-image-icon-box">
@@ -346,7 +346,7 @@ export default function Explore(){
 						<div className="p-5">
                             <div className="single-explore-item">
                                     <div className="single-explore-img">
-                                        <img src="assets/images/explore/e6.jpg" alt="explore image"/>
+                                        <img src="assets/images/explore/e6.jpg" alt="explore"/>
                                         <div className="single-explore-img-info">
                                             <button onclick="window.location.href='/'">best rated</button>
                                             <div className="single-explore-image-icon-box">
