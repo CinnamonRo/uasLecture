@@ -28,12 +28,12 @@ export default function Navbar(props) {
             <div className=" items-center gap-6">
               <div className="hidden mr-4 lg:block">
                 <button
-                  class="relative flex flex-col items-center sm:hidden px-4 py-2  font-sans text-base font-bold text-center text-gray-900 uppercase transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
+                  className="relative flex flex-col items-center sm:hidden px-4 py-2  font-sans text-base font-bold text-center text-gray-900 uppercase transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
                   onClick={() => setKabOpen((prev) => !prev)}
                 >
                   Kabupaten
                   {!kabOpen ? (
-                    <span class="ml-4">
+                    <span className="ml-4">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -41,7 +41,7 @@ export default function Navbar(props) {
                         stroke-width="2.5"
                         stroke="currentColor"
                         aria-hidden="true"
-                        class="hidden h-3 w-3 lg:inline-block"
+                        className="hidden h-3 w-3 lg:inline-block"
                       >
                         <path
                           stroke-linecap="round"
@@ -51,7 +51,7 @@ export default function Navbar(props) {
                       </svg>
                     </span>
                   ) : (
-                    <span class="ml-4">
+                    <span className="ml-4">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -59,7 +59,7 @@ export default function Navbar(props) {
                         stroke-width="2.5"
                         stroke="currentColor"
                         aria-hidden="true"
-                        class="w-3 h-3 mx-auto transition-transform rotate-180 inline-block"
+                        className="w-3 h-3 mx-auto transition-transform rotate-180 inline-block"
                       >
                         <path
                           stroke-linecap="round"
@@ -111,25 +111,25 @@ export default function Navbar(props) {
 
         {/* Dropdown */}
         {burgerOpen && (
-          <div class="absolute z-[800] lg:hidden top-24 flex h-auto w-full flex-col  bg-white  p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
-            <nav class="flex min-w-[240px] flex-col gap-1 p-2 font-sans text-base font-normal text-blue-gray-700">
-              <div class="relative block w-full">
-                <div class="flex items-center w-full p-0 leading-tight transition-all rounded-lg outline-none  text-start text-blue-gray-700 hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
+          <div className="absolute z-[800] lg:hidden top-24 flex h-auto w-full flex-col  bg-white  p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
+            <nav className="flex min-w-[240px] flex-col gap-1 p-2 font-sans text-base font-normal text-blue-gray-700">
+              <div className="relative block w-full">
+                <div className="flex items-center w-full p-0 leading-tight transition-all rounded-lg outline-none  text-start text-blue-gray-700 hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
                   <button
                     onClick={() => setKabBurgerOpen(!kabBurgerOpen)}
                     type="button"
-                    class="flex items-center justify-between w-full p-3 font-sans text-xl antialiased font-semibold leading-snug text-left transition-colors border-b-0 select-none border-b-blue-gray-100 text-blue-gray-900 hover:text-blue-gray-900"
+                    className="flex items-center justify-between w-full p-3 font-sans text-xl antialiased font-semibold leading-snug text-left transition-colors border-b-0 select-none border-b-blue-gray-100 text-blue-gray-900 hover:text-blue-gray-900"
                   >
                     <img
                       className="h-8 pr-2"
                       src="/images/svg/location.svg"
                       alt="location svg"
                     ></img>
-                    <p class="block mr-auto font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-900">
+                    <p className="block mr-auto font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-900">
                       Kabupaten
                     </p>
                     {!kabBurgerOpen ? (
-                      <span class="ml-4">
+                      <span className="ml-4">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -137,7 +137,7 @@ export default function Navbar(props) {
                           stroke-width="2.5"
                           stroke="currentColor"
                           aria-hidden="true"
-                          class="w-4 h-4 mx-auto transition-transform "
+                          className="w-4 h-4 mx-auto transition-transform "
                         >
                           <path
                             stroke-linecap="round"
@@ -147,7 +147,7 @@ export default function Navbar(props) {
                         </svg>
                       </span>
                     ) : (
-                      <span class="ml-4">
+                      <span className="ml-4">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -155,7 +155,7 @@ export default function Navbar(props) {
                           stroke-width="2.5"
                           stroke="currentColor"
                           aria-hidden="true"
-                          class="w-4 h-4 mx-auto transition-transform rotate-180"
+                          className="w-4 h-4 mx-auto transition-transform rotate-180"
                         >
                           <path
                             stroke-linecap="round"
@@ -168,17 +168,17 @@ export default function Navbar(props) {
                   </button>
                 </div>
                 {kabBurgerOpen && (
-                  <div class="overflow-hidden">
-                    <div class="block w-full py-1 font-sans text-sm antialiased font-light leading-normal text-gray-700">
-                      <nav class="flex min-w-[240px] flex-col gap-1 p-0 font-sans text-base font-normal text-blue-gray-700">
+                  <div className="overflow-hidden">
+                    <div className="block w-full py-1 font-sans text-sm antialiased font-light leading-normal text-gray-700">
+                      <nav className="flex min-w-[240px] flex-col gap-1 p-0 font-sans text-base font-normal text-blue-gray-700">
                         {/* mapping */}
                         {Datakabupaten.slice(0, 18).map((kabupaten, index) => (
                           <a
                             key={index}
                             href={kabupaten.link}
-                            class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
+                            className="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
                           >
-                            <div class="grid mr-4 place-items-center">
+                            <div className="grid mr-4 place-items-center">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
@@ -186,7 +186,7 @@ export default function Navbar(props) {
                                 stroke-width="3"
                                 stroke="currentColor"
                                 aria-hidden="true"
-                                class="w-5 h-3"
+                                className="w-5 h-3"
                               >
                                 <path
                                   stroke-linecap="round"
@@ -206,9 +206,9 @@ export default function Navbar(props) {
 
               <div
                 role="button"
-                class="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
+                className="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
               >
-                <div class="grid mr-4 place-items-center">
+                <div className="grid mr-4 place-items-center">
                   <img
                     className="h-8"
                     src="/images/svg/aboutUs.svg"
@@ -224,14 +224,14 @@ export default function Navbar(props) {
         {/* isi dari button kabupaten*/}
         {kabOpen && (
           <div
-            class="absolute top-24 max-w-full w-full z-[800] mx-2 hidden min-w-[180px] overflow-auto border border-blue-gray-50 bg-white p-2 font-sans text-sm font-normal text-blue-gray-500  shadow-lg shadow-blue-gray-500/10 focus:outline-none lg:block"
+            className="absolute top-24 max-w-full w-full z-[800] mx-2 hidden min-w-[180px] overflow-auto border border-blue-gray-50 bg-white p-2 font-sans text-sm font-normal text-blue-gray-500  shadow-lg shadow-blue-gray-500/10 focus:outline-none lg:block"
             id=":r8:"
             role="menu"
             data-popover="menu"
             data-popover-placement="bottom"
           >
             <ul
-              class="grid grid-cols-3 gap-y-2 outline-none outline-0"
+              className="grid grid-cols-3 gap-y-2 outline-none outline-0"
               role="menuitem"
             >
               {Datakabupaten.slice(0, 5).map((kabupaten, index) => (
@@ -239,9 +239,9 @@ export default function Navbar(props) {
                   <a href={kabupaten.link}>
                     <button
                       role="menuitem"
-                      class="flex w-full cursor-pointer select-none items-center gap-3 rounded-lg px-3 pb-2 pt-[9px] text-start leading-tight outline-none transition-all hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
+                      className="flex w-full cursor-pointer select-none items-center gap-3 rounded-lg px-3 pb-2 pt-[9px] text-start leading-tight outline-none transition-all hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
                     >
-                      <div class="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2 ">
+                      <div className="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2 ">
                         <img
                           className="h-10 w-10"
                           src={kabupaten.logo}
@@ -249,10 +249,10 @@ export default function Navbar(props) {
                         />
                       </div>
                       <div>
-                        <h6 class="flex items-center font-sans text-sm font-bold tracking-normal text-blue-gray-900 antialiased">
+                        <h6 className="flex items-center font-sans text-sm font-bold tracking-normal text-blue-gray-900 antialiased">
                           {kabupaten.title}
                         </h6>
-                        <p class="block font-sans text-xs  !font-medium text-blue-gray-500 antialiased">
+                        <p className="block font-sans text-xs  !font-medium text-blue-gray-500 antialiased">
                           {kabupaten.subtitle}
                         </p>
                       </div>
