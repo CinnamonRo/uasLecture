@@ -18,8 +18,10 @@ import Subang from "./pages/subangLink";
 import Sukabumi from "./pages/sukabumiLink";
 import Sumedang from "./pages/sumedangLink";
 import Tasikmalaya from "./pages/tasikmalayaLink";
-
+import Depok from "./pages/depokLink";
 import NoPage from "./pages/noPage";
+import Cimahi from "./pages/cimahi";
+import Banjar from "./pages/banjar";
 
 export default function App() {
   return (
@@ -45,6 +47,9 @@ export default function App() {
           <Route path="/sukabumiLink" element={<Sukabumi />} />
           <Route path="/sumedangLink" element={<Sumedang />} />
           <Route path="/tasikmalayaLink" element={<Tasikmalaya />} />
+          <Route path="/depokLink" element={<Depok />} />
+          <Route path="/cimahiLink" element={<Cimahi />} />
+          <Route path="/banjarLink" element={<Banjar />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>

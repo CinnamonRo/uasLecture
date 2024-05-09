@@ -151,6 +151,30 @@ const Data = [
     shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
     link: "/",
   },
+  {
+    id: 20,
+    title: "Banjar",
+    logo: "/images/Logokabupaten/banjarLogo.png",
+    alt: "Banjar",
+    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    link: "/",
+  },
+  {
+    id: 21,
+    title: "Cimahi",
+    logo: "/images/Logokabupaten/cimahiLogo.png",
+    alt: "Cimahi",
+    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    link: "/",
+  },
+  {
+    id: 22,
+    title: "Depok",
+    logo: "/images/Logokabupaten/depokLogo.png",
+    alt: "Depok",
+    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    link: "/",
+  },
 ];
 
 export default Data;
