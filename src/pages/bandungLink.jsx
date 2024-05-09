@@ -2,8 +2,9 @@ import Navbar from "../component/navbar";
 import Header from "../component/header";
 import Explore from "../component/explore";
 import Datakabupaten from "../component/dataKabupaten";
+import carouselContents from "../Js/CarouselContent";
 import Carousel from "../component/carousel";
-import Footer2 from "../component/footer2";
+import Footer from "../component/footer";
 
 export default function BandungBarat() {
   return (
@@ -17,7 +18,7 @@ export default function BandungBarat() {
         imgSrc2={carouselContents[0].imgSrc2}
       />
       <Explore />
-      <Footer2 />
+      <Footer />
     </div>
   );
 }

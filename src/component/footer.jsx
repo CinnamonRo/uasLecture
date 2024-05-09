@@ -3,7 +3,14 @@ import React from "react";
 export default function Footer() {
   return (
     <div>
-      <footer className="relative bg-blueGray-200 pt-8 pb-6 ">
+      <footer
+        style={{
+          backgroundImage:
+            " linear-gradient(to right bottom, #000000, #262025, #3e3c4b, #4a5d74, #4e8397)",
+          color: "darkgrey",
+        }}
+        className="relative bg-blueGray-200 pt-8 pb-6"
+      >
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-left lg:text-left">
             <div className="w-full lg:w-6/12 px-4">

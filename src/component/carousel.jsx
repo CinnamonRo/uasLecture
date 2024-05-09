@@ -4,6 +4,11 @@ import "../css/Carousel.css";
 export default function Carousel(props) {
   return (
     <div className="Carousel m-3">
+      <div className="max-w-3xl mx-auto">
+        <h2 className="mt-11 mb-11 text-4xl md:text-6xl xl:text-6xl text-black font-bold text-center tracking-px-n leading-none">
+          Tourist Attraction
+        </h2>
+      </div>
       <div className="carousel m-5 rounded-box">
         <div className="carousel carousel-center rounded-box">
           <div className="carousel-item rounded-box">
@@ -11,7 +16,7 @@ export default function Carousel(props) {
               <img
                 src={props.imgSrc1}
                 alt="Img by Meriç Dağlı https://unsplash.com/@meric"
-                className="w-full h-100 object-cover rounded-lg"
+                className="w-full h-auto object-cover rounded-lg"
               />
               <div className="absolute bottom-0 left-0 right-0 h-20 bg-black bg-opacity-50 backdrop-blur text-white p-4 rounded-b-lg">
                 <h1 className="text-center mt-2 text-2xl font-semibold">
