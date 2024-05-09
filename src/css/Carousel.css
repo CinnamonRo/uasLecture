@@ -1,3 +1,4 @@
+
 .carousel-item {
     flex: 0 0 auto;
     margin-right: 10px; 
@@ -26,6 +27,3 @@
 .Carousel .carousel {
     transition: box-shadow 0.3s ease; 
 }
-
-
-

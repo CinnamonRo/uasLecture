@@ -9,8 +9,9 @@ export default function BandungBarat() {
     <div>
       <Navbar logo={Datakabupaten[0].logo} title={Datakabupaten[0].title} />
       <Header />
-      <Carousel></Carousel>
+      <Carousel />
       <Explore />
+    
     </div>
   );
 }
