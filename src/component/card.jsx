@@ -3,46 +3,35 @@ import "../css/CardStyle.css";
 
 export default function Card(props) {
   return (
-    <div>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 visible ease-in-out duration-75">
-        <a href={props.link}>
-          <img
-            className="rounded-t-lg"
+    <div className="Card">
+      <div class="flex justify-center">
+    <a class="rounded-3xl inline-block overflow-hidden shadow-xl max-w-xs cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-102 duration-300">
+        <div class="relative group w-full overflow-hidden bg-black h-32 rounded-t-3xl">
+            <img
             src={props.imageSrc}
-            alt={props.imageAlt}
-          />
-        </a>
-        <div className="p-5">
-          <a href={props.link}>
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              {props.title}
-            </h5>
-          </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            {props.content}
-          </p>
-          <a
-            href={props.link}
-            className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          >
-            {props.buttonText}
-            <svg
-              className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 14 10"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M1 5h12m0 0L9 1m4 4L9 9"
-              />
-            </svg>
-          </a>
+            class="object-cover w-full h-full transform duration-700 backdrop-opacity-100"
+            />
+            <div class="absolute bg-gradient-to-t from-black w-full h-full flex items-end justify-center -inset-y-0"><h1 class="font-bold text-2xl text-white mb-2">{props.title}</h1></div>
         </div>
+        <div class="bg-white">
+            <div class="text-center px-3 pb-6 pt-2">
+                <p class="mt-2 font-sans font-light text-slate-700">
+                   {props.content}
+                </p>
+            </div>
+            <div class="flex justify-center pb-3 text-slate-700">
+                <div class="text-center mr-3 border-r pr-3 last:border-r-0">
+                    <h2>Population</h2>
+                    <span>286k</span>
+                </div>
+                <div class="text-center mr-3 border-r pr-3 last:border-r-0">
+                    <h2>Area</h2>
+                    <span>9.78 km²</span>
+                </div>
+            </div>
+        </div>
+    </a>
+
       </div>
     </div>
   );

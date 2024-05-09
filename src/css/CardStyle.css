@@ -41,19 +41,5 @@ body {
   visibility: visible;
 }
 
-.CardSK,
-.CardTasikmalaya,
-.CardGarut,
-.CardPangandaran,
-.CardKuningan {
-  visibility: hidden;
-  position: absolute;
-  text-align: justify;
-  height: 300px;
-  width: 280px;
-}
 
-.CardSK {
-  top: 15vh;
-  right: 55vh;
-}
+
