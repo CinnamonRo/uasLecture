@@ -5,7 +5,7 @@ export default function Card(props) {
   return (
     <div className="Card">
       <div class="flex justify-center">
-    <a class="rounded-3xl inline-block overflow-hidden shadow-xl max-w-xs cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-102 duration-300">
+        <a class="rounded-3xl inline-block overflow-hidden shadow-xl max-w-xs cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-102 duration-300">
         <div class="relative group w-full overflow-hidden bg-black h-32 rounded-t-3xl">
             <img
             src={props.imageSrc}

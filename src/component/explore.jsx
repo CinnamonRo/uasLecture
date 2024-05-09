@@ -9,7 +9,6 @@ export default function Explore(){
 				<div class="section-header">
 					<h2>Best Featured Place</h2>
 				</div>
-        
 				<div class="explore-content p-5">
 					<div class="flex justify-center">
 						<div class="p-5">
@@ -413,9 +412,7 @@ export default function Explore(){
                     </div>
 				</div>
 			</div>
-
 		</section>
-
-        </div>
+    </div>
     )
 }

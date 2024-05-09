@@ -3,7 +3,7 @@ import Card from "./card";
 import React, { useState } from "react";
 import contents from "../Js/CardContent";
 
-function Tooltip({position}) {
+function Tooltip({position, i}) {
   return (
     <div
       className="tooltip"
@@ -16,12 +16,11 @@ function Tooltip({position}) {
       }}
     >
       <Card
-       title={contents[0].title}
-       content={contents[0].content}
-       imageSrc={contents[0].imageSrc}
-       buttonText={contents[0].buttonText}
-       ></Card>
-        
+       title={contents[i].title}
+       content={contents[i].content}
+       imageSrc={contents[i].imageSrc}
+       buttonText={contents[i].buttonText}
+       ></Card>   
     </div>
   );
 }
@@ -105,7 +104,7 @@ export default function App() {
                 transition: "0.3s",
                 opacity: "0.6",
                 position: "relative",
-                zIndex: 1,
+                zi: 1,
               }}
             />
             <path
@@ -563,7 +562,7 @@ export default function App() {
         </svg>
 
         {hoveredRegion && (
-          <Tooltip position={tooltipPosition} />
+          <Tooltip position={tooltipPosition} i={0}/>
         )}
       </div>
 
