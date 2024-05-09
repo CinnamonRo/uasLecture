@@ -1,0 +1,31 @@
+.carousel-item {
+    flex: 0 0 auto;
+    margin-right: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+
+.bg-custom{
+    background-color: #EEE9DA;
+}
+
+.Carousel:hover .carousel {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); 
+}
+
+.Carousel .carousel {
+    transition: box-shadow 0.3s ease; 
+}
+
+
+
