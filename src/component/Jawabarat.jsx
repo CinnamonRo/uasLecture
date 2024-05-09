@@ -3,7 +3,7 @@ import Card from "./card";
 import React, { useState } from "react";
 import contents from "../Js/CardContent";
 
-function Tooltip({ text, position }) {
+function Tooltip({position}) {
   return (
     <div
       className="tooltip"
@@ -11,9 +11,6 @@ function Tooltip({ text, position }) {
         position: "absolute",
         top: position.y,
         left: position.x + 10,
-       
-        
-       
         borderRadius: "8px",
         boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
       }}
@@ -45,35 +42,6 @@ export default function App() {
 
   return (
     <div style={{ backgroundColor: "#93bfcf" }}>
-      <div class="relative bg-blueGray-200 pt-4">
-        <div class="text-mono container mx-auto px-4">
-          <p className="text-4xl text-center font-bold">Jawa Barat</p>
-          <hr class="my-2 border-blueGray-300" />
-          <div class="flex flex-wrap items-center md:justify-between justify-center">
-            <div class="w-full md:w-10/12 px-4 mx-auto text-center">
-              <div class="text-lg text-blueGray-500 font-normal">
-                Jawa Barat, provinsi yang berlokasi di bagian barat Pulau Jawa,
-                memiliki kekayaan budaya, alam yang memikat, dan pusat ekonomi
-                penting. Dikenal dengan keindahan pegunungan, sawah hijau, serta
-                kota-kota modern seperti Bandung dan Bogor. Warisan sejarahnya
-                meliputi situs-situs bersejarah dan seni tradisional yang kaya
-                akan nilai budaya.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <div className="px-40 justify-center text-center font-mono pt-5">
-        <p className="text-4xl font-bold pt-5 pb-2">Jawa Barat</p>
-        <p className="leading-none text-xl font-medium text-justify-center">
-          Jawa Barat, provinsi yang berlokasi di bagian barat Pulau Jawa,
-          memiliki kekayaan budaya, alam yang memikat, dan pusat ekonomi
-          penting. Dikenal dengan keindahan pegunungan, sawah hijau, serta
-          kota-kota modern seperti Bandung dan Bogor. Warisan sejarahnya
-          meliputi situs-situs bersejarah dan seni tradisional yang kaya akan
-          nilai budaya.
-        </p>
-      </div> */}
       <div className="svg-container">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -595,7 +563,7 @@ export default function App() {
         </svg>
 
         {hoveredRegion && (
-          <Tooltip text={`Tooltip for ${hoveredRegion}`} position={tooltipPosition} />
+          <Tooltip position={tooltipPosition} />
         )}
       </div>
 
