@@ -9,5 +9,6 @@ module.exports = withMT({
       },
     },
   },
-  plugins: [require("tailwind-hamburgers")],
+  plugins: [require("tailwind-hamburgers"), require('daisyui')]
+  
 });
