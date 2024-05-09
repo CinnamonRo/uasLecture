@@ -5,7 +5,7 @@ import Datakabupaten from "../component/dataKabupaten";
 export default function Cianjur() {
   return (
     <div>
-     <Navbar logo={Datakabupaten[5].logo} title={Datakabupaten[5].title} />
+     <Navbar logo={Datakabupaten[6].logo} title={Datakabupaten[6].title} />
       <Header />
     </div>
   );

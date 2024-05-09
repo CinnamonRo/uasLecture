@@ -1,4 +1,4 @@
-import "../css/CardStyle.css";
+// import "../css/CardStyle.css";
 import Card from "./card";
 import React, { useState } from "react";
 import contents from "../Js/CardContent";
@@ -56,7 +56,7 @@ export default function App() {
           viewBox="0 0 900 800"
           position="absolute"
         >
-          <rect width="900" height="720" style={{ fill: "none" }} />
+          <rect width="900" height="800" style={{ fill: "none" }} />
           {/* Suka Bumi */}
           <a
             href="/sukabumiLink"
@@ -595,25 +595,6 @@ export default function App() {
             content={contents[hoveredRegionIndex]}
           />
         )}
-
-        {/* {hoveredRegion === "SukaBumi" && (
-          <Tooltip position={tooltipPosition} i={0} />
-        )}
-
-        {hoveredRegion === "Garut" && (
-          <Tooltip position={tooltipPosition} i={14} />
-        )}
-        {hoveredRegion === "Tasikmalaya" && (
-          <Tooltip position={tooltipPosition} i={15} />
-        )}
-
-        {hoveredRegion === "Pangandaran" && (
-          <Tooltip position={tooltipPosition} i={16} />
-        )}
-
-        {hoveredRegion === "Kuningan" && (
-          <Tooltip position={tooltipPosition} i={19} />
-        )} */}
       </div>
     </div>
   );

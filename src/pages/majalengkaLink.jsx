@@ -4,7 +4,7 @@ import Datakabupaten from "../component/dataKabupaten";
 export default function Majalengka() {
   return (
     <div>
-      <Navbar logo={Datakabupaten[11].logo} title={Datakabupaten[11].title} />
+      <Navbar logo={Datakabupaten[14].logo} title={Datakabupaten[14].title} />
       <Header />
     </div>
   );

@@ -4,7 +4,7 @@ import Datakabupaten from "../component/dataKabupaten";
 export default function Bekasi() {
   return (
     <div>
-      <Navbar logo={Datakabupaten[2].logo} title={Datakabupaten[2].title} />
+      <Navbar logo={Datakabupaten[3].logo} title={Datakabupaten[3].title} />
       <Header />
     </div>
   );

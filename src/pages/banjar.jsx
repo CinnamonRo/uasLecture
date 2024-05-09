@@ -6,7 +6,7 @@ import Datakabupaten from "../component/dataKabupaten";
 function Banjar() {
   return (
     <div>
-      <Navbar logo={Datakabupaten[20].logo} title={Datakabupaten[20].title} />
+      <Navbar logo={Datakabupaten[2].logo} title={Datakabupaten[2].title} />
       <Header />
     </div>
   );

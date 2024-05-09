@@ -6,7 +6,7 @@ import Datakabupaten from "../component/dataKabupaten";
 function depokLink() {
   return (
     <div>
-      <Navbar logo={Datakabupaten[21].logo} title={Datakabupaten[21].title} />
+      <Navbar logo={Datakabupaten[9].logo} title={Datakabupaten[9].title} />
       <Header />
     </div>
   );

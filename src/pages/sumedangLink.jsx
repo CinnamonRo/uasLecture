@@ -4,7 +4,7 @@ import Datakabupaten from "../component/dataKabupaten";
 export default function Sumedang() {
   return (
     <div>
-       <Navbar logo={Datakabupaten[16].logo} title={Datakabupaten[16].title} />
+       <Navbar logo={Datakabupaten[19].logo} title={Datakabupaten[19].title} />
       <Header />
     </div>
   );

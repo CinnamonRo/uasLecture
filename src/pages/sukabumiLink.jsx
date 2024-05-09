@@ -4,7 +4,7 @@ import Datakabupaten from "../component/dataKabupaten";
 export default function Sukabumi() {
   return (
     <div>
-        <Navbar logo={Datakabupaten[15].logo} title={Datakabupaten[15].title} />
+        <Navbar logo={Datakabupaten[18].logo} title={Datakabupaten[18].title} />
       <Header />
     </div>
   );

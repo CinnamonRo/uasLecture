@@ -172,7 +172,7 @@ export default function Navbar(props) {
                     <div className="block w-full py-1 font-sans text-sm antialiased font-light leading-normal text-gray-700">
                       <nav className="flex min-w-[240px] flex-col gap-1 p-0 font-sans text-base font-normal text-blue-gray-700">
                         {/* mapping */}
-                        {Datakabupaten.slice(0, 18).map((kabupaten, index) => (
+                        {Datakabupaten.map((kabupaten, index) => (
                           <a
                             key={index}
                             href={kabupaten.link}
@@ -234,7 +234,7 @@ export default function Navbar(props) {
               className="grid grid-cols-3 gap-y-2 outline-none outline-0"
               role="menuitem"
             >
-              {Datakabupaten.slice(0, 18).map((kabupaten, index) => (
+              {Datakabupaten.map((kabupaten, index) => (
                 <div key={index}>
                   <a href={kabupaten.link}>
                     <button

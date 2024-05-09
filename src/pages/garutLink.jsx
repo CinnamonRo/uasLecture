@@ -5,7 +5,7 @@ import Datakabupaten from "../component/dataKabupaten";
 export default function Garut() {
   return (
     <div>
-     <Navbar logo={Datakabupaten[7].logo} title={Datakabupaten[7].title} />
+     <Navbar logo={Datakabupaten[10].logo} title={Datakabupaten[10].title} />
       <Header />
     </div>
   );

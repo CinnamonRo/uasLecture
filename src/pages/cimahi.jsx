@@ -6,7 +6,7 @@ import Datakabupaten from "../component/dataKabupaten";
 function Cimahi() {
   return (
     <div>
-      <Navbar logo={Datakabupaten[20].logo} title={Datakabupaten[20].title} />
+      <Navbar logo={Datakabupaten[7].logo} title={Datakabupaten[7].title} />
       <Header />
     </div>
   );

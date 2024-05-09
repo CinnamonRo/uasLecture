@@ -4,7 +4,7 @@ import Datakabupaten from "../component/dataKabupaten";
 export default function Karawang() {
   return (
     <div>
-     <Navbar logo={Datakabupaten[9].logo} title={Datakabupaten[9].title} />
+     <Navbar logo={Datakabupaten[12].logo} title={Datakabupaten[12].title} />
       <Header />
     </div>
   );

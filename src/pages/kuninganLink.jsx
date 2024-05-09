@@ -4,7 +4,7 @@ import Datakabupaten from "../component/dataKabupaten";
 export default function Kuningan() {
   return (
     <div>
-       <Navbar logo={Datakabupaten[10].logo} title={Datakabupaten[10].title} />
+       <Navbar logo={Datakabupaten[13].logo} title={Datakabupaten[13].title} />
       <Header />
     </div>
   );

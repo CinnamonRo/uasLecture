@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div>
       <Suhu />
-      <Navbar logo={Datakabupaten[18].logo} title={Datakabupaten[18].title} />
+      <Navbar logo={Datakabupaten[21].logo} title={Datakabupaten[21].title} />
 
       <JawaBarat />
       <FooterWithLogo />

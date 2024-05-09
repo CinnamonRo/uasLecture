@@ -4,7 +4,7 @@ import Datakabupaten from "../component/dataKabupaten";
 export default function Pangandaran() {
   return (
     <div>
-         <Navbar logo={Datakabupaten[12].logo} title={Datakabupaten[12].title} />
+         <Navbar logo={Datakabupaten[15].logo} title={Datakabupaten[15].title} />
       <Header />
     </div>
   );

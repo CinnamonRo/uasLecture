@@ -5,7 +5,7 @@ import Datakabupaten from "../component/dataKabupaten";
 export default function Cirebon() {
   return (
     <div>
-           <Navbar logo={Datakabupaten[6].logo} title={Datakabupaten[6].title} />
+           <Navbar logo={Datakabupaten[8].logo} title={Datakabupaten[8].title} />
       <Header />
     </div>
   );

@@ -4,7 +4,7 @@ import Datakabupaten from "../component/dataKabupaten";
 export default function Purwakarta() {
   return (
     <div>
-     <Navbar logo={Datakabupaten[13].logo} title={Datakabupaten[13].title} />
+     <Navbar logo={Datakabupaten[16].logo} title={Datakabupaten[16].title} />
       <Header />
     </div>
   );
