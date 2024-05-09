@@ -57,7 +57,7 @@ export default function App() {
           position="absolute"
         >
           <rect width="900" height="800" style={{ fill: "none" }} />
-          {/* Suka Bumi */}
+          {/* Sukabumi */}
           <a
             href="/sukabumiLink"
             onMouseEnter={(e) => handleMouseEnter("Sukabumi", e)}

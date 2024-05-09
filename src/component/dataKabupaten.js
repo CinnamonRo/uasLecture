@@ -4,7 +4,8 @@ const Data = [
     title: "Bandung",
     logo: "/images/Logokabupaten/bandungLogo.png",
     alt: "Bandung",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Bandung adalah kota yang menyegarkan, kreatif, dan penuh dengan kehidupan.",
     link: "/bandungLink",
   },
   {
@@ -12,7 +13,8 @@ const Data = [
     title: "Bandung Barat",
     logo: "/images/Logokabupaten/bandungbaratLogo.png",
     alt: "Bandung Barat",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Bandung Barat kini merupakan perpaduan indah antara alam, budaya, dan perkembangan modern.",
     link: "/bandungbaratLink",
   },
   {
@@ -20,7 +22,8 @@ const Data = [
     title: "Banjar",
     logo: "/images/Logokabupaten/banjarLogo.png",
     alt: "Banjar",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      " Banjar, kota dengan keindahan alam yang memesona dan keramahan penduduknya.",
     link: "/",
   },
   {
@@ -28,7 +31,8 @@ const Data = [
     title: "Bekasi",
     logo: "/images/Logokabupaten/bekasiLogo.png",
     alt: "Bekasi",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Bekasi, kota yang dinamis dan berkembang pesat dengan ragam budaya modern.",
     link: "/bekasiLink",
   },
   {
@@ -36,7 +40,8 @@ const Data = [
     title: "Bogor",
     logo: "/images/Logokabupaten/bogorLogo.png",
     alt: "Bogor",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Bogor, kota yang hijau dan sejuk dengan pesona sejarah dan keindahan alamnya.",
     link: "/bogorLink",
   },
   {
@@ -44,7 +49,8 @@ const Data = [
     title: "Ciamis",
     logo: "/images/Logokabupaten/ciamisLogo.png",
     alt: "Ciamis",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Ciamis, kota yang memukau dengan keindahan alamnya dan keberagaman budayanya.",
     link: "/ciamisLink",
   },
   {
@@ -52,7 +58,8 @@ const Data = [
     title: "Cianjur",
     logo: "/images/Logokabupaten/cianjurLogo.png",
     alt: "Cianjur",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Cianjur, kota keren di pinggiran Gunung Gede, asiknya minta ampun!",
     link: "/cianjurLink",
   },
   {
@@ -60,7 +67,8 @@ const Data = [
     title: "Cimahi",
     logo: "/images/Logokabupaten/cimahiLogo.png",
     alt: "Cimahi",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Cimahi, kota muda yang berkembang pesat dengan semangat dan kreativitasnya yang menginspirasi.",
     link: "/",
   },
   {
@@ -68,7 +76,8 @@ const Data = [
     title: "Cirebon",
     logo: "/images/Logokabupaten/cirebonLogo.png",
     alt: "Cirebon",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Cirebon, kota pelabuhan yang memikat dengan pesona budaya dan kuliner tradisionalnya.",
     link: "/cirebonLink",
   },
   {
@@ -76,7 +85,8 @@ const Data = [
     title: "Depok",
     logo: "/images/Logokabupaten/depokLogo.png",
     alt: "Depok",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Depok, kota modern dengan kehidupan perkotaan yang dinamis dan nyaman.",
     link: "/",
   },
   {
@@ -84,7 +94,8 @@ const Data = [
     title: "Garut",
     logo: "/images/Logokabupaten/garutLogo.png",
     alt: "Garut",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Garut, kota yang memesona dengan keindahan alamnya dan warisan budayanya yang kaya.",
     link: "/garutLink",
   },
   {
@@ -92,7 +103,8 @@ const Data = [
     title: "Indramayu",
     logo: "/images/Logokabupaten/indramayuLogo.png",
     alt: "Indramayu",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Indramayu: Pesona pantai, kuliner lezat, dan pengalaman budaya yang menggugah.",
     link: "/indramayuLink",
   },
   {
@@ -100,7 +112,8 @@ const Data = [
     title: "Karawang",
     logo: "/images/Logokabupaten/karawangLogo.png",
     alt: "Karawang",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Karawang: Industri maju, alam subur, dan kuliner tradisional yang menggoda selera.",
     link: "/karawangLink",
   },
   {
@@ -108,7 +121,8 @@ const Data = [
     title: "Kuningan",
     logo: "/images/Logokabupaten/kuninganLogo.png",
     alt: "Kuningan",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Kuningan adalah kota dengan alam yang memesona dan kearifan lokal yang kaya.",
     link: "/kuninganLink",
   },
   {
@@ -116,7 +130,8 @@ const Data = [
     title: "Majalengka",
     logo: "/images/Logokabupaten/majalengkaLogo.png",
     alt: "Majalengka",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Majalengka, kota yang mengagumkan dengan keindahan alamnya dan budaya yang kaya.",
     link: "/majalengkaLink",
   },
   {
@@ -124,7 +139,8 @@ const Data = [
     title: "Pangandaran",
     logo: "/images/Logokabupaten/pangandaranLogo.png",
     alt: "Pangandaran",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Pangandaran, surga pantai dengan ombak yang menarik bagi para peselancar.",
     link: "/pangandaranLink",
   },
   {
@@ -132,7 +148,8 @@ const Data = [
     title: "Purwakarta",
     logo: "/images/Logokabupaten/purwakartaLogo.png",
     alt: "Purwakarta",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Purwakarta, kota dengan panorama indah dan warisan budaya yang menawan.",
     link: "/purwakartaLink",
   },
   {
@@ -140,15 +157,17 @@ const Data = [
     title: "Subang",
     logo: "/images/Logokabupaten/subangLogo.png",
     alt: "Subang",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Subang, tempat yang menawan dengan sawah hijau dan kuliner tradisionalnya yang lezat.",
     link: "/subangLink",
   },
   {
     id: 19,
-    title: "Suka Bumi",
+    title: "Sukabumi",
     logo: "/images/Logokabupaten/sukabumiLogo.png",
-    alt: "Suka Bumi",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    alt: "Sukabumi",
+    shortDesc:
+      "Sukabumi, kota dengan alam yang memesona dan kehidupan pedesaan yang damai.",
     link: "/sukabumiLink",
   },
   {
@@ -156,7 +175,8 @@ const Data = [
     title: "Sumedang",
     logo: "/images/Logokabupaten/sumedangLogo.png",
     alt: "Sumedang",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Sumedang, kota yang indah dengan sawah yang hijau dan keramahan penduduknya.",
     link: "/sumedangLink",
   },
   {
@@ -164,7 +184,8 @@ const Data = [
     title: "Tasikmalaya",
     logo: "/images/Logokabupaten/tasikmalayaLogo.png",
     alt: "Tasikmalaya",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc:
+      "Tasikmalaya, kota yang memikat dengan keindahan alamnya dan seni kerajinan tradisionalnya.",
     link: "/taksimalayaLink",
   },
 
@@ -173,7 +194,7 @@ const Data = [
     title: "Jawa Barat",
     logo: "/images/Logokabupaten/jawabaratLogo.png",
     alt: "Jawa Barat",
-    shortDesc: "asdaf asdfsad asdasf asdasf asfdasf",
+    shortDesc: "",
     link: "/",
   },
 ];
