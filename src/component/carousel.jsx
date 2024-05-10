@@ -33,9 +33,9 @@ export default function Carousel() {
   };
 
   return (
-    <div className="Carousel p-5 ">
+    <div className="Carousel my-5">
       <div
-        className="carousel carousel-center rounded-lg p-1 mx-5"
+        className="carousel carousel-center rounded-lg mx-5"
         style={{
           backgroundColor: "white",
         }}

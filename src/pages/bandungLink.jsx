@@ -23,12 +23,16 @@ export default function BandungBarat() {
         <Explore />
       </div>
 
-      <div className="mt-5 bg-gradient-to-r bg-gradient-to-r from-indigo-400 to-cyan-400">
-        <div className="max-w-3xl m-5 pt-5">
-          <h2 className="pt-5 pb-2 text-3xl md:text-4xl xl:text-5xl text-white font-bold tracking-px-n leading-none">
-            Views Of Bandung
+      <br />
+
+      <div className="flex justify-center mt-5 pt-5">
+        <div className="flex text-center max-w-3xl">
+          <h2 className="mb-5 bg-gradient-to-r bg-gradient-to-r from-indigo-400 to-cyan-400 mb-3 rounded-full mt-5 p-5 mx-5 text-3xl md:text-4xl xl:text-5xl text-white font-bold tracking-px-n leading-none">
+            Scenery in Bandung
           </h2>
         </div>
+      </div>
+      <div className="p-2 m-5 rounded-box">
         <Carousel />
       </div>
     </div>
