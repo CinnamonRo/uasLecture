@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Header() {
+export default function Header(porps) {
   return (
     <div className="Home">
       <section
@@ -19,7 +19,7 @@ export default function Header() {
                 👋 BANDUNG
               </p>
               <h2 className="mb-11 text-6xl md:text-8xl xl:text-10xl text-white font-bold text-center tracking-px-n leading-none">
-                Berbagai Objek Wisata Bandung
+                Bandung Tourist Attractions
               </h2>
               <div className="md:inline-block">
                 <button

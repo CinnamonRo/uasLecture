@@ -1,13 +1,17 @@
 import React from "react";
 import "../css/style.css";
 
-export default function Explore() {
+export default function Explore(props) {
   return (
     <div className="exploreContainer">
       <section id="explore" className="explore">
         <div className="container">
-          <div className="section-header">
-            <h2>Best Featured Place</h2>
+          <div className="container px-4 mx-auto">
+            <div className="text-center max-w-3xl mx-auto">
+              <h2 className="mb-11 text-3xl md:text-4xl xl:text-5xl text-black font-bold text-center tracking-px-n leading-none">
+                Recommeded Place To Explore
+              </h2>
+            </div>
           </div>
           <div className="explore-content p-5">
             <div className="flex justify-center">
