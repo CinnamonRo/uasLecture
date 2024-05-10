@@ -29,11 +29,11 @@ export default function Card(props) {
             </div>
             <div className="flex justify-center pb-3 text-slate-700">
               <div className="text-center mr-3 border-r pr-3 last:border-r-0">
-                <h2>Population</h2> {/* asd*/}
+                <h2>Weather</h2> {/* asd*/}
                 <span>286k</span>
               </div>
               <div className="text-center mr-3 border-r pr-3 last:border-r-0">
-                <h2>Area</h2>
+                <h2>Temp</h2>
                 <span>9.78 km²</span>
               </div>
             </div>

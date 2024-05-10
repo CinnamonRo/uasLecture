@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import contents from "../Js/CardContent";
 import Client from "./client";
 
-function Tooltip({ position, content }) {
+function Tooltip({ position, content, hoveredRegion }) {
   return (
     <div
       className="tooltip"
@@ -47,6 +47,7 @@ export default function App() {
   console.log(hoveredRegionIndex, "ini reg index");
 
   console.log(hoveredRegion, "ini reg");
+
   return (
     <div
       style={{
