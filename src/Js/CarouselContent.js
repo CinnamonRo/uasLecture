@@ -1,13 +1,17 @@
 const imageContext = require.context("./FotoCarousel", false, /\.(png|jpe?g|svg)$/);
 
-const carouselContents=[
+const contents=[
+    //Bandung
     {
-        id: "Bandung",
-        text1: "kawang Putih",
-        imgSrc1:  imageContext("./KawahPutih.jpg"),
-        text2: "Cileunca",
-        imgSrc2: imageContext("./Cileunca.jpg"),
+        one: imageContext("./1.jpeg"),
+        two: imageContext("./2.jpg"),
+        three: imageContext("./3.jpg"),
+        four: imageContext("./4.jpg"),
+        five: imageContext("./5.jpeg"),
+        six: imageContext("./6.jpeg"),
+        seven: imageContext("./7.jpg"),
     }
+    
 ]
 
-export default carouselContents;
+export default contents;

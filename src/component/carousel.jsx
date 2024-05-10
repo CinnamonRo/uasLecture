@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import "../css/Carousel.css";
 
-export default function Carousel() {
+export default function Carousel(props) {
   const carouselRef = useRef(null);
   const [isHovered, setIsHovered] = useState(false);
 
@@ -44,46 +44,25 @@ export default function Carousel() {
         onMouseLeave={handleMouseLeave}
       >
         <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg"
-            alt="Pizza"
-          />
+          <img src={props.one} />
         </div>
         <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg"
-            alt="Pizza"
-          />
+          <img src={props.two} />
         </div>
         <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
-            alt="Pizza"
-          />
+          <img src={props.three} />
         </div>
         <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg"
-            alt="Pizza"
-          />
+          <img src={props.four} />
         </div>
         <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
-            alt="Pizza"
-          />
+          <img src={props.five} />
         </div>
         <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg"
-            alt="Pizza"
-          />
+          <img src={props.six} />
         </div>
         <div className="carousel-item">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg"
-            alt="Pizza"
-          />
+          <img src={props.seven} />
         </div>
       </div>
     </div>

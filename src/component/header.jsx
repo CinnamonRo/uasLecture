@@ -6,7 +6,7 @@ export default function Header(props) {
       <section
         className="bg-white bg-no-repeat bg-center bg-cover bg-fixed overflow-hidden bg-KawahPutih"
         style={{
-          backgroundImage: "",
+          backgroundImage: `url(${props.imgSrc})`,
         }}
       >
         <div
@@ -16,10 +16,10 @@ export default function Header(props) {
           <div className="container px-4 mx-auto">
             <div className="text-center max-w-3xl mx-auto">
               <p className="mb-9 font-sans text-sm text-white font-semibold uppercase tracking-px">
-                👋 BANDUNG
+                {props.text}
               </p>
               <h2 className="mb-11 text-6xl md:text-8xl xl:text-10xl text-white font-bold text-center tracking-px-n leading-none">
-                Bandung Tourist Attractions
+                {props.city} Tourist Attractions
               </h2>
 
               <div className="md:inline-block">
