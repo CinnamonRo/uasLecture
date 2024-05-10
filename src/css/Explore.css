@@ -3,7 +3,7 @@
   }
   
   .exploreContainer .relative {
-    transition:  0.4s ease-in-out;
+    transition:  0.5s ease-in-out;
   }
   
   .exploreContainer .relative:hover {
@@ -12,6 +12,6 @@
 
   body{
     background-color: white;
-    
+
   }
   
