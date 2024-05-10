@@ -3,11 +3,12 @@ import { useEffect } from "react";
 // import { useEffect } from "react";
 import { useState } from "react";
 
-const Client = (props) => {
+const Client = () => {
   const [weatherInfo, setWeatherInfo] = useState(null);
+
+
     const apiKey = "f21b4c899cccd9e952907f3ed4257ac0";
-    const name = props.name
-    const url =`https://api.openweathermap.org/data/2.5/weather?q=${name}&appid=${apiKey}`; // ini url api
+    const url =`https://api.openweathermap.org/data/2.5/weather?lat=-6.905977&lon=107.613144&appid=${apiKey}`;
     useEffect(()=>{ 
        const getWeatherInfo = async()=>{
          try {
@@ -31,7 +32,6 @@ const Client = (props) => {
 {weatherInfo && (
 <p>{weatherInfo.base}</p>
 )}
-{/* {weather ? (<p>{weather.name}</p>):(<p>loading</p>)} */}
   </div>;
 };
 

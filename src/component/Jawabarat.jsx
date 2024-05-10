@@ -2,7 +2,7 @@
 import Card from "./card";
 import React, { useState } from "react";
 import contents from "../Js/CardContent";
-
+import Client from "/client"
 function Tooltip({ position, content }) {
   return (
     <div
@@ -47,7 +47,7 @@ export default function App() {
 
   console.log(hoveredRegion, "ini reg");
   return (
-    <div style={{ backgroundColor: "#CDF0EA" }}>
+    <div style={{ backgroundImage: 'url("/images/backgorund/jawabaratBg.jpg")' }}>
       <div className="svg-container">
         <svg
           xmlns="http://www.w3.org/2000/svg"
