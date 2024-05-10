@@ -8,10 +8,7 @@
 .Sumedang:hover,
 .Majalengka:hover,
 .Cirebon:hover,
-.Kuningan:hover {
-  opacity: 1 !important;
-}
-
+.Kuningan:hover,
 .SukaBumi:hover,
 .Cianjur:hover,
 .BandungBarat:hover,
@@ -30,6 +27,9 @@ body {
   background-color: #93bfcf;
 }
 
+/* .backdrop{
+ background-image: url("/images/Logokabupaten/bandungbaratLogo.png");
+} */
 .svg-container {
   display: flex;
   justify-content: center;
