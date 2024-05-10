@@ -1,0 +1,17 @@
+.exploreContainer .relative:hover {
+    transform: translateY(-5px);
+  }
+  
+  .exploreContainer .relative {
+    transition:  0.4s ease-in-out;
+  }
+  
+  .exploreContainer .relative:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  body{
+    background-color: white;
+    
+  }
+  
