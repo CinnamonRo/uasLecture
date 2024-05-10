@@ -74,7 +74,7 @@ export default function Navbar(props) {
                   className="hidden px-4 py-2 font-sans text-base font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
                   href="/"
                 >
-                  About Us
+                  Tentang Kami
                 </a>
               </div>
             </div>

@@ -107,15 +107,16 @@ export default function Footer() {
                   <ul className="list-unstyled">
                     <li className="flex pb-2">
                       <img
-                        className="h-6 w-6"
-                        src="/images/othersLogo/bmkglogo.png"
-                        alt="BMKG"
+                        style={{ backgroundColor: "white" }}
+                        className="h-6 w-10"
+                        src="/images/othersLogo/openweatherLogo.png"
+                        alt="Open Weather"
                       />
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 pl-2 text-sm"
-                        href="https://data.bmkg.go.id/"
+                        href="https://openweathermap.org/api"
                       >
-                        BMKG
+                        Open Weather
                       </a>
                     </li>
                   </ul>

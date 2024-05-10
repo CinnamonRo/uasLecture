@@ -3,12 +3,11 @@ import { useEffect } from "react";
 // import { useEffect } from "react";
 import { useState } from "react";
 
-const Client = () => {
+const Client = (props) => {
   const [weatherInfo, setWeatherInfo] = useState(null);
-
-  const name = "";
+//   const cityName = '';
   const apiKey = "f21b4c899cccd9e952907f3ed4257ac0";
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${name}&appid=${apiKey}`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${props.cityName}&appid=${apiKey}`;
   useEffect(() => {
     const getWeatherInfo = async () => {
       try {

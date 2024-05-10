@@ -2,6 +2,7 @@
 import Card from "./card";
 import React, { useState } from "react";
 import contents from "../Js/CardContent";
+import Client from "./client";
 
 function Tooltip({ position, content }) {
   return (
@@ -600,6 +601,7 @@ export default function App() {
             content={contents[hoveredRegionIndex]}
           />
         )}
+        <Client cityName={hoveredRegion} />
       </div>
     </div>
   );
