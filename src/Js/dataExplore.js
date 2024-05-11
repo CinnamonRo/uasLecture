@@ -7,7 +7,7 @@ const dataExplore=[
         type:"Pantai",
         rating:"4.8",
         review:" (1.5k)",
-        lokasi:"📍Desa Alam Endah, Kecamatan Rancabali",
+        lokasi:"📍 Desa Alam Endah, Kecamatan Rancabali",
         place:"Kawah Putih",
         content:"Fasilitas: Toilet, Angkutan Ontang Anting, Mushola, Warung makan, Shelter, Dermaga Ponton, Sky walk, Sunan ibu",
         price:"Rp27.500",
