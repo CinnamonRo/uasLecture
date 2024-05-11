@@ -10,8 +10,8 @@ export default function Navbar(props) {
 
   return (
     <div>
-      <div className=" grid w-full place-items-center rounded-lg lg:overflow-visible">
-        <nav className=" fixed z-1000 top-0 left-0 right-0  z-10 block w-full max-w-full px-5 py-2 text-white border rounded-none shadow-md h-max border-white/80 bg-opacity-80 bg-white">
+      <div className=" fixed top-0 left-0 right-0 z-10 grid w-full place-items-center rounded-lg lg:overflow-visible">
+        <nav className="block w-full max-w-full px-5 py-2 text-white border rounded-none shadow-md h-max border-white/80 bg-opacity-80 bg-white">
           <div className="flex items-center justify-between text-blue-gray-900">
             {/*nav kanan*/}
             <div className="flex items-center">
@@ -111,7 +111,7 @@ export default function Navbar(props) {
 
         {/* Dropdown */}
         {burgerOpen && (
-          <div className="absolute z-[800] lg:hidden top-24 flex h-auto w-full flex-col  bg-white  p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
+          <div className=" absolute z-[800] lg:hidden top-24 flex h-auto w-full flex-col  bg-white  p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
             <nav className="flex min-w-[240px] flex-col gap-1 p-2 font-sans text-base font-normal text-blue-gray-700">
               <div className="relative block w-full">
                 <div className="flex items-center w-full p-0 leading-tight transition-all rounded-lg outline-none  text-start text-blue-gray-700 hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
