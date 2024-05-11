@@ -5,33 +5,55 @@ import { useState } from "react";
 import Card from "./card";
 
 const Client = (props) => {
-  const [weatherInfo, setWeatherInfo] = useState(null);
+  const [apiInfo, setApiInfo] = useState(null);
   //   const cityName = '';
   const apiKey = "f21b4c899cccd9e952907f3ed4257ac0";
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${props.cityName}&appid=${apiKey}`;
   useEffect(() => {
-    const getWeatherInfo = async () => {
+    const getApiInfo = async () => {
       try {
         const response = await fetch(url);
         if (!response.ok) {
           throw new Error("error");
         }
         const data = await response.json();
-        setWeatherInfo(data);
+        setApiInfo(data);
       } catch (Error) {
         console.log("error");
       }
     };
-    getWeatherInfo();
+    getApiInfo();
   }, [apiKey, url]);
 
-console.log(weatherInfo, "ini api");
+  console.log(apiInfo, "ini api");
 
-return (
+  return (
     <div>
-        {weatherInfo && <img src={`http://openweathermap.org/img/w/${weatherInfo.weather[0].icon}.png`} alt="asa" />}
+      {apiInfo ? (
+        <Card
+          title={props.title}
+          content={props.content}
+          imageSrc={props.imageSrc}
+          buttonText={props.buttonText}
+          apiwLogo={`http://openweathermap.org/img/w/${apiInfo.weather[0].icon}.png`}
+          apiwAlt={apiInfo.name}
+          apiwDesc={apiInfo.weather[0].description}
+          apiTemp={Math.floor(apiInfo.main.temp) / 10 + "°C"}
+        ></Card>
+      ) : (
+        <Card
+          title={props.title}
+          content={props.content}
+          imageSrc={props.imageSrc}
+          buttonText={props.buttonText}
+          apiwLogo="/images/othersLogo/sad.png"
+          apiwAlt="sad"
+          apiwDesc="Sorry, we couldn't get any information"
+          apiTemp="Sorry, we couldn't get any information"
+        />
+      )}
     </div>
-);
+  );
 };
 
 export default Client;

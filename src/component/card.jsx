@@ -2,6 +2,7 @@ import React from "react";
 import "../css/CardStyle.css";
 
 export default function Card(props) {
+  console.log(props.weatherLogo, "loso");
   return (
     <div className="Card">
       <div className="flex justify-center">
@@ -29,12 +30,19 @@ export default function Card(props) {
             </div>
             <div className="flex justify-center pb-3 text-slate-700">
               <div className="text-center mr-3 border-r pr-3 last:border-r-0">
-                <h2>Weather</h2> {/* asd*/}
-                <span>286k</span>
+                <h2 className="font-bold">Weather</h2>
+                <div className="flex items-center mx-2">
+                  <img
+                    className="w-10 h-10"
+                    src={props.apiwLogo}
+                    alt={props.apiwAlt}
+                  />
+                  <span>{props.apiwDesc}</span>
+                </div>
               </div>
               <div className="text-center mr-3 border-r pr-3 last:border-r-0">
-                <h2>Temp</h2>
-                <span>9.78 km²</span>
+                <h2 className="font-bold">Temp</h2>
+                <span>{props.apiTemp}</span>
               </div>
             </div>
           </div>

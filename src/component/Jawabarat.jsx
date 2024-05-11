@@ -1,10 +1,10 @@
 // import "../css/CardStyle.css";
-import Card from "./card";
 import React, { useState } from "react";
 import contents from "../Js/CardContent";
 import Client from "./client";
 
 function Tooltip({ position, content, hoveredRegion }) {
+  console.log(hoveredRegion, "tooltip");
   return (
     <div
       className="tooltip"
@@ -17,12 +17,13 @@ function Tooltip({ position, content, hoveredRegion }) {
         boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
       }}
     >
-      <Card
+      <Client
         title={content.title}
         content={content.content}
         imageSrc={content.imageSrc}
         buttonText={content.buttonText}
-      ></Card>
+        cityName={hoveredRegion}
+      />
     </div>
   );
 }
@@ -595,9 +596,9 @@ export default function App() {
           <Tooltip
             position={tooltipPosition}
             content={contents[hoveredRegionIndex]}
+            hoveredRegion={hoveredRegion}
           />
         )}
-        <Client cityName={hoveredRegion} />
       </div>
     </div>
   );
