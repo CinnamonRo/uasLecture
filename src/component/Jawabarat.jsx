@@ -55,7 +55,10 @@ export default function App() {
         backgroundSize: "cover",
       }}
     >
-      <div className="svg-container py-40 bg-black bg-opacity-60">
+      <div
+        className="svg-container py-40 bg-black bg-opacity-50"
+        style={{ backdropFilter: "blur(12px)" }}
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="900"

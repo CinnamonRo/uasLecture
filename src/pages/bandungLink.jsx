@@ -3,6 +3,7 @@ import Navbar from "../component/navbar";
 import Header from "../component/header";
 import Explore from "../component/explore";
 import Carousel from "../component/carousel";
+import Footer2 from "../component/footer2";
 
 // DATA
 import Datakabupaten from "../component/dataKabupaten";
@@ -69,8 +70,6 @@ export default function BandungBarat() {
         />
       </div>
 
-      <br />
-
       <div className="flex justify-center mt-5 pt-5">
         <div className="flex text-center max-w-3xl">
           <h2 className="mb-5 bg-gradient-to-r bg-gradient-to-r from-indigo-400 to-cyan-400 mb-3 rounded-full mt-5 p-5 mx-5 text-3xl md:text-4xl xl:text-5xl text-white font-bold tracking-px-n leading-none">
@@ -89,6 +88,8 @@ export default function BandungBarat() {
           seven={contents[0].seven}
         />
       </div>
+
+      <Footer2 />
     </div>
   );
 }
