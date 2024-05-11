@@ -32,12 +32,19 @@ export default function BandungBarat() {
       <div className="p-2 m-5 rounded-box">
         <Carousel
           one={contents[0].one}
+          contentOne={contents[0].contentOne}
           two={contents[0].two}
+          contentTwo={contents[0].contentTwo}
           three={contents[0].three}
+          contentThree={contents[0].contentThree}
           four={contents[0].four}
+          contentFour={contents[0].contentFour}
           five={contents[0].five}
+          contentFive={contents[0].contentFive}
           six={contents[0].six}
+          contentSix={contents[0].contentSix}
           seven={contents[0].seven}
+          contentSeven={contents[0].contentSeven}
         />
       </div>
 

@@ -44,25 +44,39 @@ export default function Carousel(props) {
         onMouseLeave={handleMouseLeave}
       >
         <div className="carousel-item">
-          <img src={props.one} />
+          <div class="card" data-content={props.contentOne}>
+            <img src={props.one} />
+          </div>
         </div>
         <div className="carousel-item">
-          <img src={props.two} />
+          <div class="card" data-content={props.contentTwo}>
+            <img src={props.two} />
+          </div>
         </div>
         <div className="carousel-item">
-          <img src={props.three} />
+          <div class="card" data-content={props.contentThree}>
+            <img src={props.three} />
+          </div>
         </div>
         <div className="carousel-item">
-          <img src={props.four} />
+          <div class="card" data-content={props.contentFour}>
+            <img src={props.four} />
+          </div>
         </div>
         <div className="carousel-item">
-          <img src={props.five} />
+          <div class="card" data-content={props.contentFive}>
+            <img src={props.five} />
+          </div>
         </div>
         <div className="carousel-item">
-          <img src={props.six} />
+          <div class="card" data-content={props.contentSix}>
+            <img src={props.six} />
+          </div>
         </div>
         <div className="carousel-item">
-          <img src={props.seven} />
+          <div class="card" data-content={props.contentSeven}>
+            <img src={props.seven} />
+          </div>
         </div>
       </div>
     </div>
