@@ -43,6 +43,48 @@ const dataExplore=[
         price:"Rp25.000",
     }],
 
+    //Bandung Barat
+    [{
+        imgSrc: imageContext("./Lembang.jpg"),
+        type:"Floating Market",
+        rating:"4.9",
+        review:" (2.5k)",
+        lokasi:"📍 Jalan Grand Hotel, Kec. Lembang",
+        place:"Lembang Floating Market",
+        content:"Fasilitas: Pasar terapung, Ruang makan & area santai, Berbagai macam wahana permainan, Panggung hiburan Pusat oleh-oleh,  Area parkir, Toilet, Tempat bermain anak",
+        price:"Rp30.500",
+    },
+    {
+        imgSrc: imageContext("./Tangkuban.jpg"),
+        type:"Pengunungan",
+        rating:"4.8",
+        review:" (2k)",
+        lokasi:"📍 Kabupaten Bandung Barat",
+        place:"Tangkuban Perahu",
+        content:"Fasilitas: Area parkir, Pusat oleh-oleh, Warung makan, Toilet,  Permandian air panas, Pusat informasi, Area pendakian, Area piknik, Spot foto ",
+        price:"Rp20.000-30.000",
+    },
+    {
+        imgSrc: imageContext("./Farm.jpg"),
+        type:"Taman",
+        rating:"4.6",
+        review:" (1.6k)",
+        lokasi:"📍 Gudangkahuripan, Kec. Lembang",
+        place:"Farmhouse Susu Lembang",
+        content:"Fasilitas: Area parkir, Bangunan gaya eropa, Peternakan mini/petting zoo, Kios makanan & minuman, Restoran, Toko souvenir, Area main anak, Kelas susu, Toilet",
+        price:"Rp25.000-35.000",
+    },
+    {
+        imgSrc: imageContext("./Dago.jpg"),
+        type:"Attraction",
+        rating:"4.7",
+        review:" (1.1k)",
+        lokasi:"📍  Mekarwangi, Jl. Dago Giri, Kec. Lembang",
+        place:"Dago Dreampark",
+        content:"Fasilitas: 35 wahana & spot foto, Area taman,  Kolam renang, Area parkir, Toilet",
+        price:"Rp40.000",
+    }],
+
 ]
 
 export default dataExplore;

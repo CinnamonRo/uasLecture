@@ -24,7 +24,7 @@ const Data = [
     alt: "Banjar",
     shortDesc:
       " Banjar, kota dengan keindahan alam yang memesona dan keramahan penduduknya.",
-    link: "/",
+    link: "/banjarLink",
   },
   {
     id: 4,
@@ -69,7 +69,7 @@ const Data = [
     alt: "Cimahi",
     shortDesc:
       "Cimahi, kota muda yang berkembang pesat dengan semangat dan kreativitasnya yang menginspirasi.",
-    link: "/",
+    link: "/cimahiLink",
   },
   {
     id: 9,
@@ -87,7 +87,7 @@ const Data = [
     alt: "Depok",
     shortDesc:
       "Depok, kota modern dengan kehidupan perkotaan yang dinamis dan nyaman.",
-    link: "/",
+    link: "/depokLink",
   },
   {
     id: 11,
@@ -186,7 +186,7 @@ const Data = [
     alt: "Tasikmalaya",
     shortDesc:
       "Tasikmalaya, kota yang memikat dengan keindahan alamnya dan seni kerajinan tradisionalnya.",
-    link: "/taksimalayaLink",
+    link: "/tasikmalayaLink",
   },
 
   {

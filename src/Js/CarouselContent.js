@@ -23,7 +23,31 @@ const contents=[
 
         seven: imageContext("./7.jpg"),
         contentSeven: "Kawah Putih",
-    }
+    },
+
+    //Bandung Barat
+    {
+        one: imageContext("./2.jpg"),
+        contentOne: "Gunung Tangkuban",
+
+        two: imageContext("./8.jpg"),
+        contentTwo: "Floating Market Lembang",
+
+        three: imageContext("./9.jpg"),
+        contentThree: "Orchid Forest Cikole",
+
+        four: imageContext("./10.jpg"),
+        contentFour: "Farm House Susu Lembang",
+
+        five: imageContext("./11.jpg"),
+        contentFive: "Grafika Cikole",
+
+        six: imageContext("./12.jpg"),
+        contentSix: "Dago Dreampark",
+
+        seven: imageContext("./13.jpg"),
+        contentSeven: "Curug Maribaya",
+    },
     
 ]
 
