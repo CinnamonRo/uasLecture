@@ -9,7 +9,6 @@ export default function App() {
     <div>
       <Suhu />
       <Navbar logo={Datakabupaten[21].logo} title={Datakabupaten[21].title} />
-
       <JawaBarat />
       <FooterWithLogo />
     </div>

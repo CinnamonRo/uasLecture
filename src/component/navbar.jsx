@@ -11,7 +11,7 @@ export default function Navbar(props) {
   return (
     <div>
       <div className=" grid w-full place-items-center rounded-lg lg:overflow-visible">
-        <nav className=" sticky top-0 z-10 block w-full max-w-full px-5 py-2 text-white border rounded-none shadow-md h-max border-white/80 bg-opacity-80 bg-white">
+        <nav className=" fixed z-1000 top-0 left-0 right-0  z-10 block w-full max-w-full px-5 py-2 text-white border rounded-none shadow-md h-max border-white/80 bg-opacity-80 bg-white">
           <div className="flex items-center justify-between text-blue-gray-900">
             {/*nav kanan*/}
             <div className="flex items-center">
