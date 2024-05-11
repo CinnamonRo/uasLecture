@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer2() {
   return (
     <div>
-      <div class="relative mt-16" style={{ backgroundColor: "#009EFA" }}>
+      <div class="relative mt-20  " style={{ backgroundColor: "#009EFA" }}>
         <svg
           class="absolute top-0 w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-deep-purple-accent-400"
           preserveAspectRatio="none"
@@ -27,7 +27,7 @@ export default function Footer2() {
             <div class="grid grid-cols-2 row-gap-8 lg:col-span-4 md:grid-cols-3">
               <div>
                 <p class="font-semibold tracking-wide text-sm text-deep-purple-50">
-                  Created By
+                  Created with
                 </p>
                 <ul class="mt-2 space-y-1 text-sm text-deep-purple-50">
                   <li className="flex">
@@ -81,7 +81,7 @@ export default function Footer2() {
               </div>
               <div>
                 <p class="font-semibold tracking-wide text-sm text-deep-purple-50">
-                  Supported By
+                  Supported by
                 </p>
                 <ul class="mt-2 space-y-2 text-sm text-deep-purple-50">
                   <li className="flex pb-2">
