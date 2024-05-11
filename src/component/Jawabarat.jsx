@@ -52,7 +52,7 @@ export default function App() {
   return (
     <div>
       <div className="svg-container py-30 pt-40">
-        <svg
+         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="900"
           height="800"
