@@ -21,6 +21,35 @@ export default function Subang() {
         city={dataHeader[17].city}
         imgSrc={dataHeader[17].imgSrc}
       />
+
+      <div className="flex justify-center mt-5 pt-5">
+        <div className="flex text-center max-w-3xl">
+          <h2
+            className="mb-5 mb-3 border-l-4 border-r-4 border-b-4 rounded-full mt-5 p-5 mx-5 text-3xl md:text-4xl xl:text-5xl text-Black font-bold tracking-px-n leading-none"
+            style={{ boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.3)" }}
+          >
+            Subang's Scenery
+          </h2>
+        </div>
+      </div>
+      <div className="p-2 m-5 rounded-box">
+        <Carousel
+          one={contents[17].one}
+          contentOne={contents[17].contentOne}
+          two={contents[17].two}
+          contentTwo={contents[17].contentTwo}
+          three={contents[17].three}
+          contentThree={contents[17].contentThree}
+          four={contents[17].four}
+          contentFour={contents[17].contentFour}
+          five={contents[17].five}
+          contentFive={contents[17].contentFive}
+          six={contents[17].six}
+          contentSix={contents[17].contentSix}
+          seven={contents[17].seven}
+          contentSeven={contents[17].contentSeven}
+        />
+      </div>
     </div>
   );
 }
