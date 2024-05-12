@@ -22,6 +22,7 @@ import Depok from "./pages/depokLink";
 import NoPage from "./pages/noPage";
 import Cimahi from "./pages/cimahi";
 import Banjar from "./pages/banjar";
+import AboutUS from "./pages/AboutUS";
 
 export default function App() {
   return (
@@ -50,6 +51,7 @@ export default function App() {
           <Route path="/depokLink" element={<Depok />} />
           <Route path="/cimahiLink" element={<Cimahi />} />
           <Route path="/banjarLink" element={<Banjar />} />
+          <Route path="/AboutUS" element={<AboutUS />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>

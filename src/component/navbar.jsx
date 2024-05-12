@@ -1,16 +1,36 @@
 // import Logo from "/images/logo.png";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Datakabupaten from "./dataKabupaten";
+
 export default function Navbar(props) {
   const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300`;
+  const [numDisplayed, setNumDisplayed] = useState(11);
+  const [showLess, setShowLess] = useState(false);
 
   const [kabOpen, setKabOpen] = useState(false);
   const [burgerOpen, setBurgerOpen] = useState(false);
   const [kabBurgerOpen, setKabBurgerOpen] = useState(false);
 
+  useEffect(() => {
+    if (kabOpen) {
+      setNumDisplayed(11);
+      setShowLess(false);
+    }
+  }, [kabOpen]);
+
+  const handleShowMore = () => {
+    setNumDisplayed((prevNum) => prevNum + 10);
+    setShowLess(false);
+  };
+
+  const handleShowLess = () => {
+    setNumDisplayed((prevNum) => Math.max(0, prevNum - 10)); // Decrease the number of displayed items by 10, ensuring it doesn't go below 0
+    setShowLess(true); // Set "Show Less" state
+  };
+
   return (
-    <div>
-      <div className=" fixed top-0 left-0 right-0 z-10 grid w-full place-items-center rounded-lg lg:overflow-visible">
+    <div style={{ position: "sticky", top: 0, zIndex: 1000 }}>
+      <div className="grid w-full place-items-center rounded-lg lg:overflow-visible">
         <nav className="block w-full max-w-full px-5 py-2 text-white border rounded-none shadow-md h-max border-white/80 bg-opacity-80 bg-white">
           <div className="flex items-center justify-between text-blue-gray-900">
             {/*nav kanan*/}
@@ -72,9 +92,9 @@ export default function Navbar(props) {
                 </button>
                 <a
                   className="hidden px-4 py-2 font-sans text-base font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
-                  href="/"
+                  href="/AboutUS"
                 >
-                  Tentang Kami
+                  About Us
                 </a>
               </div>
             </div>
@@ -168,7 +188,7 @@ export default function Navbar(props) {
                   </button>
                 </div>
                 {kabBurgerOpen && (
-                  <div className="overflow-hidden">
+                  <div className="overflow-y-auto max-h-[200px]">
                     <div className="block w-full py-1 font-sans text-sm antialiased font-light leading-normal text-gray-700">
                       <nav className="flex min-w-[240px] flex-col gap-1 p-0 font-sans text-base font-normal text-blue-gray-700">
                         {/* mapping */}
@@ -204,19 +224,21 @@ export default function Navbar(props) {
                 )}
               </div>
 
-              <div
-                role="button"
-                className="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
-              >
-                <div className="grid mr-4 place-items-center">
-                  <img
-                    className="h-8"
-                    src="/images/svg/aboutUs.svg"
-                    alt="about us"
-                  ></img>
+              <a href="/AboutUS">
+                <div
+                  role="button"
+                  className="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
+                >
+                  <div className="grid mr-4 place-items-center">
+                    <img
+                      className="h-8"
+                      src="/images/svg/aboutUs.svg"
+                      alt="about us"
+                    ></img>
+                  </div>
+                  About Us
                 </div>
-                About Us
-              </div>
+              </a>
             </nav>
           </div>
         )}
@@ -224,7 +246,7 @@ export default function Navbar(props) {
         {/* isi dari button kabupaten*/}
         {kabOpen && (
           <div
-            className="absolute top-24 max-w-full w-full z-[800] mx-2 hidden min-w-[180px] overflow-auto border border-blue-gray-50 bg-white p-2 font-sans text-sm font-normal text-blue-gray-500  shadow-lg shadow-blue-gray-500/10 focus:outline-none lg:block"
+            className="absolute top-24 w-full overflow-y-auto max-h-[500px] z-[800] mx-2 hidden min-w-[180px] overflow-y-auto border border-blue-gray-50 bg-white p-2 font-sans text-sm font-normal text-blue-gray-500  shadow-lg shadow-blue-gray-500/10 focus:outline-none lg:block"
             id=":r8:"
             role="menu"
             data-popover="menu"
@@ -234,13 +256,13 @@ export default function Navbar(props) {
               className="grid grid-cols-3 gap-y-2 outline-none outline-0"
               role="menuitem"
             >
-              {Datakabupaten.slice(0, 21).map((kabupaten, index) => (
+              {Datakabupaten.slice(0, numDisplayed).map((kabupaten, index) => (
                 <div key={index}>
                   <a
                     className="flex w-full cursor-pointer select-none items-center gap-3 rounded-lg px-3 pb-2 pt-[9px] text-start leading-tight outline-none transition-all hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
                     href={kabupaten.link}
                   >
-                    <div className="items-center justify-center rounded-lg !bg-blue-gray-50 p-1 ">
+                    <div className="items-center justify-center rounded-lg !bg-blue-gray-50 p-1">
                       <img
                         className="h-10 w-10"
                         src={kabupaten.logo}
@@ -259,6 +281,27 @@ export default function Navbar(props) {
                 </div>
               ))}
             </ul>
+            {/* More Button */}
+            <div className="flex justify-between mt-2 p-5">
+              {/* Show More Button */}
+              {numDisplayed < Datakabupaten.length && !showLess && (
+                <button
+                  onClick={handleShowMore}
+                  className="block py-2 text-center text-sm text-blue-gray-500 hover:text-blue-gray-700 focus:outline-none focus:text-blue-gray-700"
+                >
+                  Show More
+                </button>
+              )}
+              {/* Show Less Button */}
+              {showLess && (
+                <button
+                  onClick={handleShowLess}
+                  className="block py-2 text-center text-sm text-blue-gray-500 hover:text-blue-gray-700 focus:outline-none focus:text-blue-gray-700"
+                >
+                  Show Less
+                </button>
+              )}
+            </div>
           </div>
         )}
       </div>
