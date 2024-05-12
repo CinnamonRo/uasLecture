@@ -28,7 +28,7 @@ export default function Cirebon() {
             className="mb-5 mb-3 border-l-4 border-r-4 border-b-4 rounded-full mt-5 p-5 mx-5 text-3xl md:text-4xl xl:text-5xl text-Black font-bold tracking-px-n leading-none"
             style={{ boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.3)" }}
           >
-            Cianjur's Scenery
+            Cirebon's Scenery
           </h2>
         </div>
       </div>
@@ -50,6 +50,59 @@ export default function Cirebon() {
           contentSeven={contents[8].contentSeven}
         />
       </div>
+
+      <div
+        className="rounded-lg px-4 m-5 p-5 bg-gradient-to-r bg-gradient-to-r from-indigo-400 to-cyan-400"
+        style={{ boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.5)" }}
+      >
+        <div className="max-w-3xl mx-auto mt-5">
+          <h2 className="mt-5 text-4xl md:text-5xl xl:text-6xl text-white font-bold tracking-px-n leading-none">
+            Recommended Place To Explore
+          </h2>
+        </div>
+        <Explore
+          imgSrc={dataExplore[8][0].imgSrc}
+          type={dataExplore[8][0].type}
+          rating={dataExplore[8][0].rating}
+          review={dataExplore[8][0].review}
+          lokasi={dataExplore[8][0].lokasi}
+          place={dataExplore[8][0].place}
+          content={dataExplore[8][0].content}
+          price={dataExplore[8][0].price}
+        />
+        <Explore
+          imgSrc={dataExplore[8][1].imgSrc}
+          type={dataExplore[8][1].type}
+          rating={dataExplore[8][1].rating}
+          review={dataExplore[8][1].review}
+          lokasi={dataExplore[8][1].lokasi}
+          place={dataExplore[8][1].place}
+          content={dataExplore[8][1].content}
+          price={dataExplore[8][1].price}
+        />
+        <Explore
+          imgSrc={dataExplore[8][2].imgSrc}
+          type={dataExplore[8][2].type}
+          rating={dataExplore[8][2].rating}
+          review={dataExplore[8][2].review}
+          lokasi={dataExplore[8][2].lokasi}
+          place={dataExplore[8][2].place}
+          content={dataExplore[8][2].content}
+          price={dataExplore[8][2].price}
+        />
+        <Explore
+          imgSrc={dataExplore[8][3].imgSrc}
+          type={dataExplore[8][3].type}
+          rating={dataExplore[8][3].rating}
+          review={dataExplore[8][3].review}
+          lokasi={dataExplore[8][3].lokasi}
+          place={dataExplore[8][3].place}
+          content={dataExplore[8][3].content}
+          price={dataExplore[8][3].price}
+        />
+      </div>
+
+      <Footer2 />
     </div>
   );
 }

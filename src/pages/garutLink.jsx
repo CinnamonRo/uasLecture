@@ -50,6 +50,59 @@ export default function Garut() {
           contentSeven={contents[10].contentSeven}
         />
       </div>
+
+      <div
+        className="rounded-lg px-4 m-5 p-5 bg-gradient-to-r bg-gradient-to-r from-indigo-400 to-cyan-400"
+        style={{ boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.5)" }}
+      >
+        <div className="max-w-3xl mx-auto mt-5">
+          <h2 className="mt-5 text-4xl md:text-5xl xl:text-6xl text-white font-bold tracking-px-n leading-none">
+            Recommended Place To Explore
+          </h2>
+        </div>
+        <Explore
+          imgSrc={dataExplore[10][0].imgSrc}
+          type={dataExplore[10][0].type}
+          rating={dataExplore[10][0].rating}
+          review={dataExplore[10][0].review}
+          lokasi={dataExplore[10][0].lokasi}
+          place={dataExplore[10][0].place}
+          content={dataExplore[10][0].content}
+          price={dataExplore[10][0].price}
+        />
+        <Explore
+          imgSrc={dataExplore[10][1].imgSrc}
+          type={dataExplore[10][1].type}
+          rating={dataExplore[10][1].rating}
+          review={dataExplore[10][1].review}
+          lokasi={dataExplore[10][1].lokasi}
+          place={dataExplore[10][1].place}
+          content={dataExplore[10][1].content}
+          price={dataExplore[10][1].price}
+        />
+        <Explore
+          imgSrc={dataExplore[10][2].imgSrc}
+          type={dataExplore[10][2].type}
+          rating={dataExplore[10][2].rating}
+          review={dataExplore[10][2].review}
+          lokasi={dataExplore[10][2].lokasi}
+          place={dataExplore[10][2].place}
+          content={dataExplore[10][2].content}
+          price={dataExplore[10][2].price}
+        />
+        <Explore
+          imgSrc={dataExplore[10][3].imgSrc}
+          type={dataExplore[10][3].type}
+          rating={dataExplore[10][3].rating}
+          review={dataExplore[10][3].review}
+          lokasi={dataExplore[10][3].lokasi}
+          place={dataExplore[10][3].place}
+          content={dataExplore[10][3].content}
+          price={dataExplore[10][3].price}
+        />
+      </div>
+
+      <Footer2 />
     </div>
   );
 }
