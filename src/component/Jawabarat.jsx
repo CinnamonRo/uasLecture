@@ -51,8 +51,17 @@ export default function App() {
 
   return (
     <div>
-      <div className="svg-container py-30 pt-40">
-         <svg
+      <div>
+        <h1 className="text-center text-4xl font-bold py-10 text-white">
+          Jawa Barat
+        </h1>
+        <p className="text-center text-white text-xl text-semibold">
+          Jawa Barat, disingkat Jabar adalah sebuah provinsi di Indonesia yang
+          terletak pada bagian barat Pulau Jawa dengan ibu kota di Kota Bandung.
+        </p>
+      </div>
+      <div className="svg-container py-5">
+        <svg
           xmlns="http://www.w3.org/2000/svg"
           width="900"
           height="800"

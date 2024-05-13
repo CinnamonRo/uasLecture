@@ -9,7 +9,7 @@ export default function Footer() {
             <div class="md:max-w-md lg:col-span-2">
               <div className="w-20 h-20 ">
                 <img
-                  className="w-32 h-16 "
+                  className="w-32 h-12 "
                   src="images/othersLogo/umn.png"
                   alt=""
                 />
