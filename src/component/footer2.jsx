@@ -17,11 +17,15 @@ export default function Footer2() {
         <div class="px-4 pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div class="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
             <div class="md:max-w-md lg:col-span-2">
-              <div className="w-20 h-20">
-                <img src="images/othersLogo/umn.png" alt="" />
+              <div className="w-20 h-20 ">
+                <img
+                  className="w-32 h-12 "
+                  src="images/othersLogo/umn.png"
+                  alt=""
+                />
               </div>
-              <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-                Informatika 2023<br></br>- Pre Intro To Tecnology
+              <span class="text-xl font-bold tracking-wide text-gray-100 uppercase text-left">
+                Informatika 2023<br></br> Pre Intro To Technology
               </span>
             </div>
             <div class="grid grid-cols-2 row-gap-8 lg:col-span-4 md:grid-cols-3">
@@ -70,11 +74,11 @@ export default function Footer2() {
                   <li className="flex pb-2">
                     <img
                       className="h-6 w-12"
-                      src="/images/othersLogo/openweatherLogo.png"
+                      src="/images/othersLogo/weatherApi.png"
                       alt="Open Weather"
                     />
-                    <a className="pb-2 pl-2" href="https://openweathermap.org/">
-                      Open Weather
+                    <a className="pb-2 pl-2" href="https://www.weatherapi.com/">
+                      Weather api
                     </a>
                   </li>
                 </ul>
@@ -87,8 +91,8 @@ export default function Footer2() {
                   <li className="flex pb-2">
                     <img
                       className="h-6 w-18"
-                      src="/images/othersLogo/DaisyUi.png"
-                      alt="Open Weather"
+                      src="/images/svg/daisyuilogo.svg"
+                      alt="Daisy Ui"
                     />
                     <a className="pb-2 pl-2" href="https://daisyui.com/">
                       Daisy UI
@@ -98,7 +102,7 @@ export default function Footer2() {
                     <img
                       className="h-6 w-6"
                       src="/images/othersLogo/Materialwind.png"
-                      alt="Open Weather"
+                      alt="Material Tailwind"
                     />
                     <a
                       className="pb-2 pl-2"
@@ -127,7 +131,7 @@ export default function Footer2() {
             </p>
             <div class="flex items-center mt-4 space-x-4 sm:mt-0">
               <a
-                href="/"
+                href="https://twitter.com"
                 class="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
@@ -135,7 +139,7 @@ export default function Footer2() {
                 </svg>
               </a>
               <a
-                href="/"
+                href="https://www.instagram.com/fredlixw/"
                 class="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400"
               >
                 <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
@@ -144,7 +148,7 @@ export default function Footer2() {
                 </svg>
               </a>
               <a
-                href="/"
+                href="https://facebook.com"
                 class="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">

@@ -131,7 +131,7 @@ export default function Navbar(props) {
 
         {/* Dropdown */}
         {burgerOpen && (
-          <div className=" absolute z-[800] lg:hidden top-24 flex h-auto w-full flex-col  bg-white  p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
+          <div className=" ease-in-out absolute z-[800] lg:hidden top-24 flex h-auto w-full flex-col  bg-white  p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
             <nav className="flex min-w-[240px] flex-col gap-1 p-2 font-sans text-base font-normal text-blue-gray-700">
               <div className="relative block w-full">
                 <div className="flex items-center w-full p-0 leading-tight transition-all rounded-lg outline-none  text-start text-blue-gray-700 hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900">
@@ -246,7 +246,7 @@ export default function Navbar(props) {
         {/* isi dari button kabupaten*/}
         {kabOpen && (
           <div
-            className="absolute top-24 w-full overflow-y-auto max-h-[500px] z-[800] mx-2 hidden min-w-[180px] overflow-y-auto border border-blue-gray-50 bg-white p-2 font-sans text-sm font-normal text-blue-gray-500  shadow-lg shadow-blue-gray-500/10 focus:outline-none lg:block"
+            className="absolute top-24 w-full ease-in-out max-h-[500px] z-[800] mx-2 hidden min-w-[180px] overflow-y-auto border border-blue-gray-50 bg-white p-2 font-sans text-sm font-normal text-blue-gray-500  shadow-lg shadow-blue-gray-500/10 focus:outline-none lg:block"
             id=":r8:"
             role="menu"
             data-popover="menu"
