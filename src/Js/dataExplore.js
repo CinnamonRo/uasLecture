@@ -676,54 +676,54 @@ const dataExplore = [
   ],
 
   //Majalengka
-  //   [
-  //     {
-  //       imgSrc: imageContext("./SituCipanten.jpg"),
-  //       type: "Wisata/Danau",
-  //       rating: "4.5",
-  //       review: "(3.8k)",
-  //       lokasi:
-  //         "📍Jl. Gn. Kuning - Sindang, Gn. Kuning, Kec. Sindang, Kabupaten Majalengka, Jawa Barat",
-  //       place: "Situ Cipanten",
-  //       content:
-  //         "Fasilitas: Perahu, Bebek goes, Spot foto, Wahana, Area parkir, Gazebo, Area bermain anak, Outbond",
-  //       price: "Rp5000",
-  //     },
-  //     {
-  //       imgSrc: imageContext("./TeraseringPanyaweuyan.jpg"),
-  //       type: "Wisata alam",
-  //       rating: "4.7",
-  //       review: "(4k)",
-  //       lokasi: "📍Sukasari Kidul, Argapura, Majalengka Regency, West Java",
-  //       place: "Terasering Panyaweuyan",
-  //       content:
-  //         "Fasilitas: Area parkir, Toilet, Warung, Spot foto, Gardu pandang",
-  //       price: "Rp12.000",
-  //     },
-  //     {
-  //       imgSrc: imageContext("./Alun-AlunMajalengka.jpg"),
-  //       type: "Taman kota",
-  //       rating: "4.5",
-  //       review: "(8.9k)",
-  //       lokasi: "📍Majalengka Kulon, Majalengka, Majalengka Regency, West Java",
-  //       place: "Alun-Alun Majalengka",
-  //       content:
-  //         "Fasilitas: Toilet, Area kuliner, Masjid, Bangunan bergaya kolonial",
-  //       price: "Gratis",
-  //     },
-  //     {
-  //       imgSrc: imageContext("./.jpg"),
-  //       type: "Wisata alam",
-  //       rating: "4.5",
-  //       review: "(1.5k)",
-  //       lokasi:
-  //         "📍Jl. Desa Payung, Teja, Kec. Rajagaluh, Kabupaten Majalengka, Jawa Barat",
-  //       place: "Cikadongdong River Tubing",
-  //       content:
-  //         "Fasilitas: Pelampung, Rompi air, Peralatan pengaman, Toilet, Mushola, Area parkir, Area kuliner",
-  //       price: "Rp30.000-100.000",
-  //     },
-  //   ],
+  [
+    {
+      imgSrc: imageContext("./SituCipanten.jpeg"),
+      type: "Wisata/Danau",
+      rating: "4.5",
+      review: "(3.8k)",
+      lokasi:
+        "📍Jl. Gn. Kuning - Sindang, Gn. Kuning, Kec. Sindang, Kabupaten Majalengka, Jawa Barat",
+      place: "Situ Cipanten",
+      content:
+        "Fasilitas: Perahu, Bebek goes, Spot foto, Wahana, Area parkir, Gazebo, Area bermain anak, Outbond",
+      price: "Rp5000",
+    },
+    {
+      imgSrc: imageContext("./TeraseringPanyaweuyan.jpg"),
+      type: "Wisata alam",
+      rating: "4.7",
+      review: "(4k)",
+      lokasi: "📍Sukasari Kidul, Argapura, Majalengka Regency, West Java",
+      place: "Terasering Panyaweuyan",
+      content:
+        "Fasilitas: Area parkir, Toilet, Warung, Spot foto, Gardu pandang",
+      price: "Rp12.000",
+    },
+    {
+      imgSrc: imageContext("./Alun-AlunMajalengka.jpg"),
+      type: "Taman kota",
+      rating: "4.5",
+      review: "(8.9k)",
+      lokasi: "📍Majalengka Kulon, Majalengka, Majalengka Regency, West Java",
+      place: "Alun-Alun Majalengka",
+      content:
+        "Fasilitas: Toilet, Area kuliner, Masjid, Bangunan bergaya kolonial",
+      price: "Gratis",
+    },
+    {
+      imgSrc: imageContext("./CikadongdongRiverTubing.jpg"),
+      type: "Wisata alam",
+      rating: "4.5",
+      review: "(1.5k)",
+      lokasi:
+        "📍Jl. Desa Payung, Teja, Kec. Rajagaluh, Kabupaten Majalengka, Jawa Barat",
+      place: "Cikadongdong River Tubing",
+      content:
+        "Fasilitas: Pelampung, Rompi air, Peralatan pengaman, Toilet, Mushola, Area parkir, Area kuliner",
+      price: "Rp30.000-100.000",
+    },
+  ],
 
   //Pangandaran
   [
