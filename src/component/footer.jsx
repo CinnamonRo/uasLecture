@@ -8,10 +8,14 @@ export default function Footer() {
           <div class="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
             <div class="md:max-w-md lg:col-span-2">
               <div className="w-20 h-20 ">
-                <img src="images/othersLogo/umn.png" alt="" />
+                <img
+                  className="w-32 h-16 "
+                  src="images/othersLogo/umn.png"
+                  alt=""
+                />
               </div>
               <span class="text-xl font-bold tracking-wide text-gray-100 uppercase text-left">
-                Informatika 2023<br></br> Pre Intro To Tecnology
+                Informatika 2023<br></br> Pre Intro To Technology
               </span>
             </div>
             <div class="grid grid-cols-2 row-gap-8 lg:col-span-4 md:grid-cols-3">
