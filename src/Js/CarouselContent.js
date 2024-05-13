@@ -1,500 +1,504 @@
-const imageContext = require.context("./FotoCarousel", false, /\.(png|jpe?g|svg)$/);
+const imageContext = require.context(
+  "../../public/images/FotoCarousel",
+  false,
+  /\.(png|jpe?g|svg)$/
+);
 
-const contents=[
-    //Bandung
-    {
-        one: imageContext("./1.jpeg"),
-        contentOne: "Gedung State",
+const contents = [
+  //Bandung
+  {
+    one: imageContext("./1.jpeg"),
+    contentOne: "Gedung State",
 
-        two: imageContext("./2.jpg"),
-        contentTwo: "Gunung Tangkuban Parahu",
+    two: imageContext("./2.jpg"),
+    contentTwo: "Gunung Tangkuban Parahu",
 
-        three: imageContext("./3.jpg"),
-        contentThree: "Jalan Braga",
+    three: imageContext("./3.jpg"),
+    contentThree: "Jalan Braga",
 
-        four: imageContext("./4.jpg"),
-        contentFour: "Gedung State",
+    four: imageContext("./4.jpg"),
+    contentFour: "Gedung State",
 
-        five: imageContext("./5.jpeg"),
-        contentFive: "Views",
+    five: imageContext("./5.jpeg"),
+    contentFive: "Views",
 
-        six: imageContext("./6.jpeg"),
-        contentSix: "PadangBai",
+    six: imageContext("./6.jpeg"),
+    contentSix: "PadangBai",
 
-        seven: imageContext("./7.jpg"),
-        contentSeven: "Kawah Putih",
-    },
+    seven: imageContext("./7.jpg"),
+    contentSeven: "Kawah Putih",
+  },
 
-    //Bandung Barat
-    {
-        one: imageContext("./2.jpg"),
-        contentOne: "Gunung Tangkuban",
+  //Bandung Barat
+  {
+    one: imageContext("./2.jpg"),
+    contentOne: "Gunung Tangkuban",
 
-        two: imageContext("./8.jpg"),
-        contentTwo: "Floating Market Lembang",
+    two: imageContext("./8.jpg"),
+    contentTwo: "Floating Market Lembang",
 
-        three: imageContext("./9.jpg"),
-        contentThree: "Orchid Forest Cikole",
+    three: imageContext("./9.jpg"),
+    contentThree: "Orchid Forest Cikole",
 
-        four: imageContext("./10.jpg"),
-        contentFour: "Farm House Susu Lembang",
+    four: imageContext("./10.jpg"),
+    contentFour: "Farm House Susu Lembang",
 
-        five: imageContext("./11.jpg"),
-        contentFive: "Grafika Cikole",
+    five: imageContext("./11.jpg"),
+    contentFive: "Grafika Cikole",
 
-        six: imageContext("./12.jpg"),
-        contentSix: "Dago Dreampark",
+    six: imageContext("./12.jpg"),
+    contentSix: "Dago Dreampark",
 
-        seven: imageContext("./13.jpg"),
-        contentSeven: "Curug Maribaya",
-    },
-    
-    //Banjar
-    {
-        one: imageContext("./14.jpg"),
-        contentOne: "Alun-alun kota Banjar",
+    seven: imageContext("./13.jpg"),
+    contentSeven: "Curug Maribaya",
+  },
 
-        two: imageContext("./15.jpg"),
-        contentTwo: "Situ Mustika",
+  //Banjar
+  {
+    one: imageContext("./14.jpg"),
+    contentOne: "Alun-alun kota Banjar",
 
-        three: imageContext("./16.jpg"),
-        contentThree: "Lembah Pajamben",
+    two: imageContext("./15.jpg"),
+    contentTwo: "Situ Mustika",
 
-        four: imageContext("./17.jpg"),
-        contentFour: "Cagar Budaya Pulomajeti",
-    },
-    
-    //Bekasi
-    {
-        one: imageContext("./21.jpeg"),
-        contentOne: "Summarecon Bekasi",
+    three: imageContext("./16.jpg"),
+    contentThree: "Lembah Pajamben",
 
-        two: imageContext("./22.jpg"),
-        contentTwo: "Transtudio Cibubur",
+    four: imageContext("./17.jpg"),
+    contentFour: "Cagar Budaya Pulomajeti",
+  },
 
-        three: imageContext("./23.jpg"),
-        contentThree: "Trans Snow World Bekasi",
+  //Bekasi
+  {
+    one: imageContext("./21.jpeg"),
+    contentOne: "Summarecon Bekasi",
 
-        four: imageContext("./24.jpg"),
-        contentFour: "Pancasila sakti",
+    two: imageContext("./22.jpg"),
+    contentTwo: "Transtudio Cibubur",
 
-        five: imageContext("./25.jpeg"),
-        contentFive: "Curug Parigi",
+    three: imageContext("./23.jpg"),
+    contentThree: "Trans Snow World Bekasi",
 
-        six: imageContext("./26.jpg"),
-        contentSix: "Transera Waterpark",
+    four: imageContext("./24.jpg"),
+    contentFour: "Pancasila sakti",
 
-        seven: imageContext("./27.jpg"),
-        contentSeven: "Curug Parigi",
-    },
+    five: imageContext("./25.jpeg"),
+    contentFive: "Curug Parigi",
 
-    //Bogor
-    {
-        one: imageContext("./28.jpg"),
-        contentOne: "Alun-alun Kota Bogor",
+    six: imageContext("./26.jpg"),
+    contentSix: "Transera Waterpark",
 
-        two: imageContext("./29.jpeg"),
-        contentTwo: "Kebun Raya Bogor",
+    seven: imageContext("./27.jpg"),
+    contentSeven: "Curug Parigi",
+  },
 
-        three: imageContext("./30.jpg"),
-        contentThree: "Waterpark Bogor",
+  //Bogor
+  {
+    one: imageContext("./28.jpg"),
+    contentOne: "Alun-alun Kota Bogor",
 
-        four: imageContext("./31.jpg"),
-        contentFour: "Istana Bogor",
+    two: imageContext("./29.jpeg"),
+    contentTwo: "Kebun Raya Bogor",
 
-        five: imageContext("./32.jpg"),
-        contentFive: "Museum Zoologi",
+    three: imageContext("./30.jpg"),
+    contentThree: "Waterpark Bogor",
 
-        six: imageContext("./33.jpg"),
-        contentSix: "Museum Balai Kirti",
+    four: imageContext("./31.jpg"),
+    contentFour: "Istana Bogor",
 
-        seven: imageContext("./34.jpg"),
-        contentSeven: "Kuntum Farmfiel",
-    },
+    five: imageContext("./32.jpg"),
+    contentFive: "Museum Zoologi",
 
-    //Ciamis
-    {
-        one: imageContext("./35.jpg"),
-        contentOne: "Alun-alun Ciamis",
+    six: imageContext("./33.jpg"),
+    contentSix: "Museum Balai Kirti",
 
-        two: imageContext("./36.jpg"),
-        contentTwo: "Taman Raflesia",
+    seven: imageContext("./34.jpg"),
+    contentSeven: "Kuntum Farmfiel",
+  },
 
-        three: imageContext("./37.jpg"),
-        contentThree: "Masjid Agung Ciamis",
+  //Ciamis
+  {
+    one: imageContext("./35.jpg"),
+    contentOne: "Alun-alun Ciamis",
 
-        four: imageContext("./38.jpg"),
-        contentFour: "Museum Galuh Pakuan",
+    two: imageContext("./36.jpg"),
+    contentTwo: "Taman Raflesia",
 
-        five: imageContext("./39.jpg"),
-        contentFive: "Taman Lokasana",
+    three: imageContext("./37.jpg"),
+    contentThree: "Masjid Agung Ciamis",
 
-        six: imageContext("./40.jpg"),
-        contentSix: "Taman R.A.A Kusumadiningrat",
+    four: imageContext("./38.jpg"),
+    contentFour: "Museum Galuh Pakuan",
 
-        seven: imageContext("./41.jpg"),
-        contentSeven: "Keraton Selagangga",
-    },
+    five: imageContext("./39.jpg"),
+    contentFive: "Taman Lokasana",
 
-    //Cianjur
-    {
-        one: imageContext("./42.jpeg"),
-        contentOne: "Alun-Alun Cianjur",
+    six: imageContext("./40.jpg"),
+    contentSix: "Taman R.A.A Kusumadiningrat",
 
-        two: imageContext("./43.jpeg"),
-        contentTwo: "Little Venice Kota Bunga",
+    seven: imageContext("./41.jpg"),
+    contentSeven: "Keraton Selagangga",
+  },
 
-        three: imageContext("./44.jpg"),
-        contentThree: "Masjid Agung Cianjur",
+  //Cianjur
+  {
+    one: imageContext("./42.jpeg"),
+    contentOne: "Alun-Alun Cianjur",
 
-        four: imageContext("./45.jpeg"),
-        contentFour: "Sevilage",
+    two: imageContext("./43.jpeg"),
+    contentTwo: "Little Venice Kota Bunga",
 
-        five: imageContext("./46.jpg"),
-        contentFive: "Tugu Lampu Gentur",
+    three: imageContext("./44.jpg"),
+    contentThree: "Masjid Agung Cianjur",
 
-        six: imageContext("./47.jpeg"),
-        contentSix: "Taman Bunga Nusantara",
+    four: imageContext("./45.jpeg"),
+    contentFour: "Sevilage",
 
-        seven: imageContext("./48.jpg"),
-        contentSeven: "Alun-Alun Cianjur",
-    },
+    five: imageContext("./46.jpg"),
+    contentFive: "Tugu Lampu Gentur",
 
-    //Cimahi
-    {
-        one: imageContext("./49.jpg"),
-        contentOne: "Nu Art Studio",
+    six: imageContext("./47.jpeg"),
+    contentSix: "Taman Bunga Nusantara",
 
-        two: imageContext("./50.jpg"),
-        contentTwo: "Taman Alun-Alun",
+    seven: imageContext("./48.jpg"),
+    contentSeven: "Alun-Alun Cianjur",
+  },
 
-        three: imageContext("./51.jpg"),
-        contentThree: "Societeit voor Officieren Tjimahi",
+  //Cimahi
+  {
+    one: imageContext("./49.jpg"),
+    contentOne: "Nu Art Studio",
 
-        four: imageContext("./52.jpg"),
-        contentFour: "Taman Kartini",
+    two: imageContext("./50.jpg"),
+    contentTwo: "Taman Alun-Alun",
 
-        five: imageContext("./53.jpg"),
-        contentFive: "Venus Cimahi",
+    three: imageContext("./51.jpg"),
+    contentThree: "Societeit voor Officieren Tjimahi",
 
-        six: imageContext("./54.jpeg"),
-        contentSix: "Masjid Agung Demak",
+    four: imageContext("./52.jpg"),
+    contentFour: "Taman Kartini",
 
-        seven: imageContext("./55.jpg"),
-        contentSeven: "Taman Aruman",
-    },
+    five: imageContext("./53.jpg"),
+    contentFive: "Venus Cimahi",
 
-    //Cirebon
-    {
-        one: imageContext("./56.jpeg"),
-        contentOne: "Makam Sunan Gunung Jati",
+    six: imageContext("./54.jpeg"),
+    contentSix: "Masjid Agung Demak",
 
-        two: imageContext("./57.jpg"),
-        contentTwo: "Batu Lawang Cirebon",
+    seven: imageContext("./55.jpg"),
+    contentSeven: "Taman Aruman",
+  },
 
-        three: imageContext("./58.jpg"),
-        contentThree: "Bukit Gronggong",
+  //Cirebon
+  {
+    one: imageContext("./56.jpeg"),
+    contentOne: "Makam Sunan Gunung Jati",
 
-        four: imageContext("./59.jpeg"),
-        contentFour: "Talaga Langit",
+    two: imageContext("./57.jpg"),
+    contentTwo: "Batu Lawang Cirebon",
 
-        five: imageContext("./60.jpg"),
-        contentFive: "Banyu Panas Gempol-Palimanan",
+    three: imageContext("./58.jpg"),
+    contentThree: "Bukit Gronggong",
 
-        six: imageContext("./61.jpg"),
-        contentSix: "Kampung Sabin",
+    four: imageContext("./59.jpeg"),
+    contentFour: "Talaga Langit",
 
-        seven: imageContext("./62.jpg"),
-        contentSeven: "Setu Patok",
-    },
+    five: imageContext("./60.jpg"),
+    contentFive: "Banyu Panas Gempol-Palimanan",
 
-    //Depok
-    {
-        one: imageContext("./63.jpeg"),
-        contentOne: "Taman Margasatwa Ragunan",
+    six: imageContext("./61.jpg"),
+    contentSix: "Kampung Sabin",
 
-        two: imageContext("./64.jpg"),
-        contentTwo: "Situ Babakan",
+    seven: imageContext("./62.jpg"),
+    contentSeven: "Setu Patok",
+  },
 
-        three: imageContext("./65.jpg"),
-        contentThree: "Museum Layang-layang",
+  //Depok
+  {
+    one: imageContext("./63.jpeg"),
+    contentOne: "Taman Margasatwa Ragunan",
 
-        four: imageContext("./66.jpg"),
-        contentFour: "Masjid Kubah Emas Dian Al-Mahri",
+    two: imageContext("./64.jpg"),
+    contentTwo: "Situ Babakan",
 
-        five: imageContext("./67.jpg"),
-        contentFive: "Taman Rekreasi Wiladatika",
+    three: imageContext("./65.jpg"),
+    contentThree: "Museum Layang-layang",
 
-        six: imageContext("./68.jpg"),
-        contentSix: "Perkampungan Budaya Betawi",
+    four: imageContext("./66.jpg"),
+    contentFour: "Masjid Kubah Emas Dian Al-Mahri",
 
-        seven: imageContext("./69.jpg"),
-        contentSeven: "Taman Mekarsar",
-    },
+    five: imageContext("./67.jpg"),
+    contentFive: "Taman Rekreasi Wiladatika",
 
-    //Garut
-    {
-        one: imageContext("./70.jpeg"),
-        contentOne: "Gunugn Papandayan",
+    six: imageContext("./68.jpg"),
+    contentSix: "Perkampungan Budaya Betawi",
 
-        two: imageContext("./71.jpg"),
-        contentTwo: "Gunung Cikuray",
+    seven: imageContext("./69.jpg"),
+    contentSeven: "Taman Mekarsar",
+  },
 
-        three: imageContext("./72.jpg"),
-        contentThree: "Gunung Guntur",
+  //Garut
+  {
+    one: imageContext("./70.jpeg"),
+    contentOne: "Gunugn Papandayan",
 
-        four: imageContext("./73.jpg"),
-        contentFour: "Sayang Heulang",
+    two: imageContext("./71.jpg"),
+    contentTwo: "Gunung Cikuray",
 
-        five: imageContext("./74.jpg"),
-        contentFive: "Darajat Pass",
+    three: imageContext("./72.jpg"),
+    contentThree: "Gunung Guntur",
 
-        six: imageContext("./75.jpg"),
-        contentSix: "Puncak Guha",
+    four: imageContext("./73.jpg"),
+    contentFour: "Sayang Heulang",
 
-        seven: imageContext("./76.jpeg"),
-        contentSeven: "Gunung Papandayan",
-    },
+    five: imageContext("./74.jpg"),
+    contentFive: "Darajat Pass",
 
-    //Indramyu
-    {
-        one: imageContext("./77.jpeg"),
-        contentOne: "Pantai Balongan Indah",
+    six: imageContext("./75.jpg"),
+    contentSix: "Puncak Guha",
 
-        two: imageContext("./78.jpg"),
-        contentTwo: "Pantai Tirtamaya",
+    seven: imageContext("./76.jpeg"),
+    contentSeven: "Gunung Papandayan",
+  },
 
-        three: imageContext("./79.jpg"),
-        contentThree: "Hutan Mangrove Karangsong",
+  //Indramyu
+  {
+    one: imageContext("./77.jpeg"),
+    contentOne: "Pantai Balongan Indah",
 
-        four: imageContext("./80.jpg"),
-        contentFour: "Pantai Rembat",
+    two: imageContext("./78.jpg"),
+    contentTwo: "Pantai Tirtamaya",
 
-        five: imageContext("./81.jpg"),
-        contentFive: "Firdaus Waterpark",
+    three: imageContext("./79.jpg"),
+    contentThree: "Hutan Mangrove Karangsong",
 
-        six: imageContext("./82.jpg"),
-        contentSix: "Alun-alun Indramayu",
+    four: imageContext("./80.jpg"),
+    contentFour: "Pantai Rembat",
 
-        seven: imageContext("./83.jpg"),
-        contentSeven: "Taman Cimanuk",
-    },
+    five: imageContext("./81.jpg"),
+    contentFive: "Firdaus Waterpark",
 
-    //Karawng
-    {
-        one: imageContext("./84.jpeg"),
-        contentOne: "Larang Karangpawitan",
+    six: imageContext("./82.jpg"),
+    contentSix: "Alun-alun Indramayu",
 
-        two: imageContext("./85.jpg"),
-        contentTwo: "Pantai Tanjung Pakis",
+    seven: imageContext("./83.jpg"),
+    contentSeven: "Taman Cimanuk",
+  },
 
-        three: imageContext("./86.jpeg"),
-        contentThree: "San Diego Hills",
+  //Karawng
+  {
+    one: imageContext("./84.jpeg"),
+    contentOne: "Larang Karangpawitan",
 
-        four: imageContext("./87.jpg"),
-        contentFour: "Curug Bandung Lojit",
+    two: imageContext("./85.jpg"),
+    contentTwo: "Pantai Tanjung Pakis",
 
-        five: imageContext("./88.jpg"),
-        contentFive: "Taruma Leisure Waterpark",
+    three: imageContext("./86.jpeg"),
+    contentThree: "San Diego Hills",
 
-        six: imageContext("./89.jpg"),
-        contentSix: "Kampung Turis",
+    four: imageContext("./87.jpg"),
+    contentFour: "Curug Bandung Lojit",
 
-        seven: imageContext("./90.jpg"),
-        contentSeven: "Hutan Perum Perhutani",
-    },
+    five: imageContext("./88.jpg"),
+    contentFive: "Taruma Leisure Waterpark",
 
-    //Kuningan
-    {
-        one: imageContext("./91.jpg"),
-        contentOne: "Curug Putri Palutungan",
+    six: imageContext("./89.jpg"),
+    contentSix: "Kampung Turis",
 
-        two: imageContext("./92.jpg"),
-        contentTwo: "Obyek Wisata Cibulan",
+    seven: imageContext("./90.jpg"),
+    contentSeven: "Hutan Perum Perhutani",
+  },
 
-        three: imageContext("./93.jpg"),
-        contentThree: "Waduk Darma",
+  //Kuningan
+  {
+    one: imageContext("./91.jpg"),
+    contentOne: "Curug Putri Palutungan",
 
-        four: imageContext("./94.jpg"),
-        contentFour: "Telaga Remis Pesawahan",
+    two: imageContext("./92.jpg"),
+    contentTwo: "Obyek Wisata Cibulan",
 
-        five: imageContext("./95.png"),
-        contentFive: "Telaga Nilam",
+    three: imageContext("./93.jpg"),
+    contentThree: "Waduk Darma",
 
-        six: imageContext("./96.jpg"),
-        contentSix: "Sangkan Aqua Park",
+    four: imageContext("./94.jpg"),
+    contentFour: "Telaga Remis Pesawahan",
 
-        seven: imageContext("./97.jpg"),
-        contentSeven: "Sukageuri View",
-    },
+    five: imageContext("./95.png"),
+    contentFive: "Telaga Nilam",
 
-    //Majalengka
-    {
-        one: imageContext("./98.jpeg"),
-        contentOne: "Gunung Cereme",
+    six: imageContext("./96.jpg"),
+    contentSix: "Sangkan Aqua Park",
 
-        two: imageContext("./99.jpg"),
-        contentTwo: "Terasering Panyaweuyan",
+    seven: imageContext("./97.jpg"),
+    contentSeven: "Sukageuri View",
+  },
 
-        three: imageContext("./100.jpg"),
-        contentThree: "Lembah Panyaweuyan",
+  //Majalengka
+  {
+    one: imageContext("./98.jpeg"),
+    contentOne: "Gunung Cereme",
 
-        four: imageContext("./101.jpg"),
-        contentFour: "Gunung Ciremai Apuy Palutungan",
+    two: imageContext("./99.jpg"),
+    contentTwo: "Terasering Panyaweuyan",
 
-        five: imageContext("./102.jpg"),
-        contentFive: "Pos Gunung Ciremai",
+    three: imageContext("./100.jpg"),
+    contentThree: "Lembah Panyaweuyan",
 
-        six: imageContext("./103.jpg"),
-        contentSix: "Curug Cipeutay",
+    four: imageContext("./101.jpg"),
+    contentFour: "Gunung Ciremai Apuy Palutungan",
 
-        seven: imageContext("./104.jpg"),
-        contentSeven: "Jembar Waterpark",
-    },
+    five: imageContext("./102.jpg"),
+    contentFive: "Pos Gunung Ciremai",
 
-    //Pangandaran
-    {
-        one: imageContext("./105.jpeg"),
-        contentOne: "Cukang Taneuh",
+    six: imageContext("./103.jpg"),
+    contentSix: "Curug Cipeutay",
 
-        two: imageContext("./106.jpg"),
-        contentTwo: "Wisata Pangandaran",
+    seven: imageContext("./104.jpg"),
+    contentSeven: "Jembar Waterpark",
+  },
 
-        three: imageContext("./107.jpg"),
-        contentThree: "Pantai Madasari",
+  //Pangandaran
+  {
+    one: imageContext("./105.jpeg"),
+    contentOne: "Cukang Taneuh",
 
-        four: imageContext("./108.jpg"),
-        contentFour: "Cukang Taneuh",
+    two: imageContext("./106.jpg"),
+    contentTwo: "Wisata Pangandaran",
 
-        five: imageContext("./109.jpg"),
-        contentFive: "Pantai Karapyak",
+    three: imageContext("./107.jpg"),
+    contentThree: "Pantai Madasari",
 
-        six: imageContext("./110.jpg"),
-        contentSix: "Pantai Timur Pangandaran",
+    four: imageContext("./108.jpg"),
+    contentFour: "Cukang Taneuh",
 
-        seven: imageContext("./111.jpg"),
-        contentSeven: "Pantai Karang Nini",
-    },
+    five: imageContext("./109.jpg"),
+    contentFive: "Pantai Karapyak",
 
-    //Purwakarta
-    {
-        one: imageContext("./112.jpeg"),
-        contentOne: "Gapura Cilodong",
+    six: imageContext("./110.jpg"),
+    contentSix: "Pantai Timur Pangandaran",
 
-        two: imageContext("./113.jpg"),
-        contentTwo: "air Mancur Sri Baduga",
+    seven: imageContext("./111.jpg"),
+    contentSeven: "Pantai Karang Nini",
+  },
 
-        three: imageContext("./114.jpg"),
-        contentThree: "Situ Buleud",
+  //Purwakarta
+  {
+    one: imageContext("./112.jpeg"),
+    contentOne: "Gapura Cilodong",
 
-        four: imageContext("./115.jpg"),
-        contentFour: "Taman Maya Datar",
+    two: imageContext("./113.jpg"),
+    contentTwo: "air Mancur Sri Baduga",
 
-        five: imageContext("./116.jpg"),
-        contentFive: "Diorama Nusantara",
+    three: imageContext("./114.jpg"),
+    contentThree: "Situ Buleud",
 
-        six: imageContext("./117.png"),
-        contentSix: "Alun-alun Purwakarta",
+    four: imageContext("./115.jpg"),
+    contentFour: "Taman Maya Datar",
 
-        seven: imageContext("./118.jpeg"),
-        contentSeven: "Jembatan Salakan",
-    },
+    five: imageContext("./116.jpg"),
+    contentFive: "Diorama Nusantara",
 
-    //Subang
-    {
-        one: imageContext("./119.jpeg"),
-        contentOne: "D'Castello",
+    six: imageContext("./117.png"),
+    contentSix: "Alun-alun Purwakarta",
 
-        two: imageContext("./120.jpg"),
-        contentTwo: "Air Panas Ciater",
+    seven: imageContext("./118.jpeg"),
+    contentSeven: "Jembatan Salakan",
+  },
 
-        three: imageContext("./121.jpg"),
-        contentThree: "Wisata Alam Capolaga",
+  //Subang
+  {
+    one: imageContext("./119.jpeg"),
+    contentOne: "D'Castello",
 
-        four: imageContext("./122.jpg"),
-        contentFour: "Curug Cibareubeuy",
+    two: imageContext("./120.jpg"),
+    contentTwo: "Air Panas Ciater",
 
-        five: imageContext("./123.jpg"),
-        contentFive: "the Ranch Ciater Subang",
+    three: imageContext("./121.jpg"),
+    contentThree: "Wisata Alam Capolaga",
 
-        six: imageContext("./124.jpg"),
-        contentSix: "Mata Air Cimincul",
+    four: imageContext("./122.jpg"),
+    contentFour: "Curug Cibareubeuy",
 
-        seven: imageContext("./125.jpeg"),
-        contentSeven: "Kebun Teh Ciater",
-    },
+    five: imageContext("./123.jpg"),
+    contentFive: "the Ranch Ciater Subang",
 
-    //SukaBumi
-    {
-        one: imageContext("./126.jpeg"),
-        contentOne: "Curug Ngumpet",
+    six: imageContext("./124.jpg"),
+    contentSix: "Mata Air Cimincul",
 
-        two: imageContext("./127.jpg"),
-        contentTwo: "Santa Sea Waterpark",
+    seven: imageContext("./125.jpeg"),
+    contentSeven: "Kebun Teh Ciater",
+  },
 
-        three: imageContext("./128.jpg"),
-        contentThree: "Museum Prabu Siliwang",
+  //SukaBumi
+  {
+    one: imageContext("./126.jpeg"),
+    contentOne: "Curug Ngumpet",
 
-        four: imageContext("./129.jpg"),
-        contentFour: "Alun-Alun Sukabumi",
+    two: imageContext("./127.jpg"),
+    contentTwo: "Santa Sea Waterpark",
 
-        five: imageContext("./130.jpg"),
-        contentFive: "Masjid Agung",
+    three: imageContext("./128.jpg"),
+    contentThree: "Museum Prabu Siliwang",
 
-        six: imageContext("./131.jpeg"),
-        contentSix: "Curug Sawer",
+    four: imageContext("./129.jpg"),
+    contentFour: "Alun-Alun Sukabumi",
 
-        seven: imageContext("./132.jpeg"),
-        contentSeven: "Curug Cimarinjung",
-    },
+    five: imageContext("./130.jpg"),
+    contentFive: "Masjid Agung",
 
-    //Sumedang
-    {
-        one: imageContext("./133.jpg"),
-        contentOne: "Tahura Gunung Kunci",
+    six: imageContext("./131.jpeg"),
+    contentSix: "Curug Sawer",
 
-        two: imageContext("./134.jpg"),
-        contentTwo: "Alun-alun Sumedang",
+    seven: imageContext("./132.jpeg"),
+    contentSeven: "Curug Cimarinjung",
+  },
 
-        three: imageContext("./135.jpeg"),
-        contentThree: "View",
+  //Sumedang
+  {
+    one: imageContext("./133.jpg"),
+    contentOne: "Tahura Gunung Kunci",
 
-        four: imageContext("./136.jpg"),
-        contentFour: "Taman ENDOG Sumedan",
+    two: imageContext("./134.jpg"),
+    contentTwo: "Alun-alun Sumedang",
 
-        five: imageContext("./137.jpg"),
-        contentFive: "Gunung Manglayang",
+    three: imageContext("./135.jpeg"),
+    contentThree: "View",
 
-        six: imageContext("./138.jpeg"),
-        contentSix: "Alun-alun Indramayu",
+    four: imageContext("./136.jpg"),
+    contentFour: "Taman ENDOG Sumedan",
 
-        seven: imageContext("./139.jpg"),
-        contentSeven: "Museum Prabu Geusan Ulun",
-    },
+    five: imageContext("./137.jpg"),
+    contentFive: "Gunung Manglayang",
 
-    //Tasikmalaya
-    {
-        one: imageContext("./140.jpeg"),
-        contentOne: "Dragon Village",
+    six: imageContext("./138.jpeg"),
+    contentSix: "Alun-alun Indramayu",
 
-        two: imageContext("./141.jpg"),
-        contentTwo: "Taman Wisata Karang Resik",
+    seven: imageContext("./139.jpg"),
+    contentSeven: "Museum Prabu Geusan Ulun",
+  },
 
-        three: imageContext("./142.jpg"),
-        contentThree: "TeeJay Waterpark",
+  //Tasikmalaya
+  {
+    one: imageContext("./140.jpeg"),
+    contentOne: "Dragon Village",
 
-        four: imageContext("./143.jpeg"),
-        contentFour: "Masjid Agung Tasikmalaya",
+    two: imageContext("./141.jpg"),
+    contentTwo: "Taman Wisata Karang Resik",
 
-        five: imageContext("./144.jpg"),
-        contentFive: "Cireong Park",
+    three: imageContext("./142.jpg"),
+    contentThree: "TeeJay Waterpark",
 
-        six: imageContext("./145.jpeg"),
-        contentSix: "Village View",
+    four: imageContext("./143.jpeg"),
+    contentFour: "Masjid Agung Tasikmalaya",
 
-        seven: imageContext("./146.jpg"),
-        contentSeven: "Sukahaji Water Boom",
-    },
-]
+    five: imageContext("./144.jpg"),
+    contentFive: "Cireong Park",
+
+    six: imageContext("./145.jpeg"),
+    contentSix: "Village View",
+
+    seven: imageContext("./146.jpg"),
+    contentSeven: "Sukahaji Water Boom",
+  },
+];
 
 export default contents;
