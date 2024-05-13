@@ -8,7 +8,7 @@ const Client = (props) => {
   const [apiInfo, setApiInfo] = useState(null);
   //   const cityName = '';
   const apiKey = "f21b4c899cccd9e952907f3ed4257ac0";
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${props.cityName}&appid=${apiKey}`;
+  const url = `http://api.weatherapi.com/v1/current.json?key=3b52f5ead5cd41a99fc23500241305&q=${props.cityName}&aqi=no`;
   useEffect(() => {
     const getApiInfo = async () => {
       try {
@@ -35,10 +35,10 @@ const Client = (props) => {
           content={props.content}
           imageSrc={props.imageSrc}
           buttonText={props.buttonText}
-          apiwLogo={`http://openweathermap.org/img/w/${apiInfo.weather[0].icon}.png`}
-          apiwAlt={apiInfo.name}
-          apiwDesc={apiInfo.weather[0].description}
-          apiTemp={Math.floor(apiInfo.main.temp) / 10 + "°C"}
+          apiwLogo={apiInfo.current.condition.icon}
+          apiwAlt={apiInfo.current.condition.text}
+          apiwDesc={apiInfo.current.condition.text}
+          apiTemp={apiInfo.current.temp_c + "°C"}
         ></Card>
       ) : (
         <Card
