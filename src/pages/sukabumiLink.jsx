@@ -61,44 +61,44 @@ export default function Sukabumi() {
           </h2>
         </div>
         <Explore
-          imgSrc={dataExplore[14][0].imgSrc}
-          type={dataExplore[14][0].type}
-          rating={dataExplore[14][0].rating}
-          review={dataExplore[14][0].review}
-          lokasi={dataExplore[14][0].lokasi}
-          place={dataExplore[14][0].place}
-          content={dataExplore[14][0].content}
-          price={dataExplore[14][0].price}
+          imgSrc={dataExplore[18][0].imgSrc}
+          type={dataExplore[18][0].type}
+          rating={dataExplore[18][0].rating}
+          review={dataExplore[18][0].review}
+          lokasi={dataExplore[18][0].lokasi}
+          place={dataExplore[18][0].place}
+          content={dataExplore[18][0].content}
+          price={dataExplore[18][0].price}
         />
         <Explore
-          imgSrc={dataExplore[14][1].imgSrc}
-          type={dataExplore[14][1].type}
-          rating={dataExplore[14][1].rating}
-          review={dataExplore[14][1].review}
-          lokasi={dataExplore[14][1].lokasi}
-          place={dataExplore[14][1].place}
-          content={dataExplore[14][1].content}
-          price={dataExplore[14][1].price}
+          imgSrc={dataExplore[18][1].imgSrc}
+          type={dataExplore[18][1].type}
+          rating={dataExplore[18][1].rating}
+          review={dataExplore[18][1].review}
+          lokasi={dataExplore[18][1].lokasi}
+          place={dataExplore[18][1].place}
+          content={dataExplore[18][1].content}
+          price={dataExplore[18][1].price}
         />
         <Explore
-          imgSrc={dataExplore[14][2].imgSrc}
-          type={dataExplore[14][2].type}
-          rating={dataExplore[14][2].rating}
-          review={dataExplore[14][2].review}
-          lokasi={dataExplore[14][2].lokasi}
-          place={dataExplore[14][2].place}
-          content={dataExplore[14][2].content}
-          price={dataExplore[14][2].price}
+          imgSrc={dataExplore[18][2].imgSrc}
+          type={dataExplore[18][2].type}
+          rating={dataExplore[18][2].rating}
+          review={dataExplore[18][2].review}
+          lokasi={dataExplore[18][2].lokasi}
+          place={dataExplore[18][2].place}
+          content={dataExplore[18][2].content}
+          price={dataExplore[18][2].price}
         />
         <Explore
-          imgSrc={dataExplore[14][3].imgSrc}
-          type={dataExplore[14][3].type}
-          rating={dataExplore[14][3].rating}
-          review={dataExplore[14][3].review}
-          lokasi={dataExplore[14][3].lokasi}
-          place={dataExplore[14][3].place}
-          content={dataExplore[14][3].content}
-          price={dataExplore[14][3].price}
+          imgSrc={dataExplore[18][3].imgSrc}
+          type={dataExplore[18][3].type}
+          rating={dataExplore[18][3].rating}
+          review={dataExplore[18][3].review}
+          lokasi={dataExplore[18][3].lokasi}
+          place={dataExplore[18][3].place}
+          content={dataExplore[18][3].content}
+          price={dataExplore[18][3].price}
         />
       </div>
 

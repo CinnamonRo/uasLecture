@@ -769,7 +769,7 @@ const dataExplore=[
         review:" (2.9k)",
         lokasi:"📍 Gede Pangrango, Kec. Kadudampit",
         place:"Curug Sawer",
-        content:"Fasilitas: ",
+        content:"Air terjun ini dikenal karena keindahan alamnya yang luar biasa, dengan air terjun tinggi yang mengalir ke dalam kolam alami di bawahnya. Pengunjung tidak hanya dapat menikmati pemandangan yang menakjubkan, tetapi mereka juga dapat menikmati udara segar pegunungan dan suara air mengalir yang menenangkan.",
         price:"Rp16.000-18.500",
     },
     {
