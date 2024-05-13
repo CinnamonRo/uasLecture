@@ -593,7 +593,7 @@ const dataExplore=[
 
     //Majalengka
     [{
-        imgSrc: imageContext("./SituCipanten.jpg"),
+        imgSrc: imageContext("./SituCipanten.jpeg"),
         type:"Wisata/Danau",
         rating:"4.5",
         review:"(3.8k)",
@@ -623,7 +623,7 @@ const dataExplore=[
         price:"Gratis",
     },
     {
-        imgSrc: imageContext("./.jpg"),
+        imgSrc: imageContext("./CikadongdongRiverTubing.jpg"),
         type:"Wisata alam",
         rating:"4.5",
         review:"(1.5k)",
