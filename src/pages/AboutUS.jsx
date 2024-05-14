@@ -25,6 +25,7 @@ export default function AboutUS() {
             />
           </div>
           <Profile />
+          <Footer2 />
         </div>
       </div>
     </div>
