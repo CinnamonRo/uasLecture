@@ -2,12 +2,11 @@ import Navbar from "../component/navbar";
 import JawaBarat from "../component/Jawabarat";
 import Footer from "../component/footer";
 import Datakabupaten from "../component/dataKabupaten";
-
+import News from "../component/newsApi";
 export default function App() {
   return (
     <div>
       <Navbar logo={Datakabupaten[21].logo} title={Datakabupaten[21].title} />
-
       <div
         style={{
           backgroundImage: 'url("/images/background/jawabaratBg.jpg")',
@@ -19,6 +18,7 @@ export default function App() {
           style={{ backdropFilter: "blur(12px)" }}
         >
           <JawaBarat />
+          <News />
           <Footer />
         </div>
       </div>

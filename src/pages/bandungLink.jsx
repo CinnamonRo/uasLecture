@@ -4,7 +4,7 @@ import Header from "../component/header";
 import Explore from "../component/explore";
 import Carousel from "../component/carousel";
 import Footer2 from "../component/footer2";
-
+import WeatherApi from "../component/weatherApi";
 // DATA
 import Datakabupaten from "../component/dataKabupaten";
 import dataHeader from "../component/dataHeader";
@@ -21,7 +21,7 @@ export default function BandungBarat() {
         city={dataHeader[0].city}
         imgSrc={dataHeader[0].imgSrc}
       />
-
+      <WeatherApi city="Bandung" />
       <div className="flex justify-center mt-5 pt-5">
         <div className="flex text-center max-w-3xl">
           <h2

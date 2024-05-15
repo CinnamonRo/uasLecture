@@ -3,7 +3,6 @@ import Navbar from "../component/navbar";
 import Footer2 from "../component/footer2";
 import Profile from "../component/profileCard";
 import Datakabupaten from "../component/dataKabupaten";
-import WeatherApi from "../component/weatherApi.jsx";
 
 export default function AboutUS() {
   return (
@@ -23,7 +22,6 @@ export default function AboutUS() {
               logo={Datakabupaten[21].logo}
               title={Datakabupaten[21].title}
             />
-            <WeatherApi />
           </div>
           <Profile />
           <Footer2 />

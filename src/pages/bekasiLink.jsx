@@ -4,7 +4,7 @@ import Header from "../component/header";
 import Explore from "../component/explore";
 import Carousel from "../component/carousel";
 import Footer2 from "../component/footer2";
-
+import WeatherApi from "../component/weatherApi";
 // DATA
 import Datakabupaten from "../component/dataKabupaten";
 import dataHeader from "../component/dataHeader";
@@ -21,11 +21,11 @@ export default function Bekasi() {
         city={dataHeader[3].city}
         imgSrc={dataHeader[3].imgSrc}
       />
-
+      <WeatherApi city="Bekasi" />
       <div className="flex justify-center mt-5 pt-5">
         <div className="flex text-center max-w-3xl">
           <h2
-            className="mb-5 mb-3 border-l-4 border-r-4 border-b-4 rounded-full mt-5 p-5 mx-5 text-3xl md:text-4xl xl:text-5xl text-Black font-bold tracking-px-n leading-none"
+            className="mb-5 border-l-4 border-r-4 border-b-4 rounded-full mt-5 p-5 mx-5 text-3xl md:text-4xl xl:text-5xl text-Black font-bold tracking-px-n leading-none"
             style={{ boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.3)" }}
           >
             Bekasi's Scenery

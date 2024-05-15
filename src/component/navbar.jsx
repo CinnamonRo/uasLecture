@@ -1,7 +1,7 @@
 // import Logo from "/images/logo.png";
 import React, { useState, useEffect } from "react";
 import Datakabupaten from "./dataKabupaten";
-import Search from "./searchBox";
+// import Search from "./searchBox";
 
 export default function Navbar(props) {
   const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300`;
@@ -98,7 +98,7 @@ export default function Navbar(props) {
                   About Us
                 </a>
                 <a className="hidden px-4 py-2 font-sans text-base font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block">
-                  <Search></Search>
+                  {/* <Search></Search>a */}
                 </a>
               </div>
             </div>
