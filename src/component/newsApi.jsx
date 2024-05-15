@@ -4,8 +4,10 @@ function newsApi() {
   const { apiInfo, loading } = News();
   console.log(apiInfo);
   return (
-    <div className="container mx-auto mt-3">
-      <h1 className="font-bold text-center py-5 font-sans text-xl ">News</h1>
+    <div className="container mx-auto">
+      <h1 className="font-bold text-center pt-5 font-sans text-4xl text-white ">
+        News
+      </h1>
       {loading ? (
         <p> Loading...</p>
       ) : (
@@ -13,19 +15,19 @@ function newsApi() {
           return (
             <div className="flex flex-col justify-center items-center">
               <div
-                className="w-3/5 hover:-tranlate-y-2 duration-200 ease-in-out box-content bg-orange-300"
                 key={index}
+                className="w-3/5 my-5 hover:-tranlate-y-2 duration-200 ease-in-out box-content bg-teal-100 border-collapse border-2 rounded-lg"
               >
                 <a href={props.url}>
-                  <div className="flex py-2 justify-center items-center">
-                    <div className="mx-12 ">
+                  <div className="w-full flex justify-center items-cente px-5 gap-5 py-4 items-center">
+                    <div className="w-2/5">
                       <img
                         className=" rounded-lg"
                         src={props.urlToImage}
                         alt="img"
                       />
                     </div>
-                    <div className="py-4 px-4">
+                    <div className="w-3/5">
                       <p className="font-semibold uppercase font-sans">
                         {props.title}
                       </p>

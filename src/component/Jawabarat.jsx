@@ -57,21 +57,22 @@ export default function App() {
         </h1>
         <p className="text-center text-white text-xl text-semibold">
           Jawa Barat, disingkat Jabar adalah sebuah provinsi di Indonesia yang
-          terletak pada bagian barat Pulau Jawa dengan Bandung sebagai ibu kotanya.
+          terletak pada bagian barat Pulau Jawa dengan Bandung sebagai ibu
+          kotanya.
         </p>
         <p className="text-center text-white text-sm ">
           (Klik daerah di peta untuk melihat tempat wisata)
         </p>
       </div>
-      <div className="svg-container py-5">
+      <div className="svg-container">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="900"
-          height="800"
-          viewBox="0 0 900 800"
+          height="700"
+          viewBox="0 0 900 700"
           position="absolute"
         >
-          <rect width="900" height="800" style={{ fill: "none" }} />
+          <rect width="900" height="700" style={{ fill: "none" }} />
           {/* Sukabumi */}
           <a
             href="/sukabumiLink"

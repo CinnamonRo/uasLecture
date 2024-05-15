@@ -5,7 +5,7 @@ function News() {
   const [loading, setLoading] = useState(true); // Added loading state
   //   const cityName = '';
   const apiKey = "c6e6b946b6294590ab2e4f011068653c";
-  const url = `https://newsapi.org/v2/top-headlines?q=indonesia&apiKey=${apiKey}`;
+  const url = `https://newsapi.org/v2/top-headlines?q=health&apiKey=${apiKey}`;
   useEffect(() => {
     const getApiInfo = async () => {
       try {
