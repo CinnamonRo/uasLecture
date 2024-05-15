@@ -3,7 +3,7 @@ import "../css/profileCard.css";
 
 export default function profileCard() {
   return (
-    <div className="flex flex-wrap justify-evenly h-screen items-center p-4">
+    <div className="flex flex-wrap justify-evenly items-center p-12">
       <div className="max-w-xs mx-2 mb-4">
         <div className="bg-white shadow-xl rounded-lg py-3 px-5">
           <div className="photo-wrapper p-5">
