@@ -1,6 +1,5 @@
-import React from "react";
 import { useEffect, useState } from "react";
-import Newsapi from "../component/newsApi";
+
 function News() {
   const [apiInfo, setApiInfo] = useState(null);
   const [loading, setLoading] = useState(true); // Added loading state

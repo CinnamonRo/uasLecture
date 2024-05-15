@@ -52,7 +52,7 @@ export default function Purwakarta() {
       </div>
 
       <div
-        className="rounded-lg px-4 m-5 p-5 bg-gradient-to-r bg-gradient-to-r from-indigo-400 to-cyan-400"
+        className="rounded-lg px-4 m-5 p-5 bg-gradient-to-r from-indigo-400 to-cyan-400"
         style={{ boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.5)" }}
       >
         <div className="max-w-3xl mx-auto mt-5">
