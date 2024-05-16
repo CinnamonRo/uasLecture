@@ -16,7 +16,7 @@ function newsApi() {
             <div className="flex flex-col justify-center items-center">
               <div
                 key={index}
-                className="w-3/5 my-5 hover:-tranlate-y-2 duration-200 ease-in-out box-content bg-teal-100 border-collapse border-2 rounded-lg"
+                className="w-3/5 my-5  hover:-translate-y-2 duration-200 ease-in-out box-content bg-teal-100 border-collapse border-2 rounded-lg"
               >
                 <a href={props.url}>
                   <div className="w-full flex justify-center items-cente px-5 gap-5 py-4 items-center">
@@ -31,7 +31,7 @@ function newsApi() {
                       <p className="font-semibold uppercase font-sans">
                         {props.title}
                       </p>
-                      <p className="text-justify font-sans">
+                      <p className="text-justify font-sans leading-relaxed">
                         {props.description}
                       </p>
                       <p className="text-gray-500 text-sm">
