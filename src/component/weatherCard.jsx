@@ -14,7 +14,7 @@ function WeatherCard(props) {
             backgroundImage:
               "linear-gradient(to top, #5a3b87, #604895, #6654a2, #6c61b0, #726ebd, #747ac8, #7787d2, #7a93dc, #7ca1e4, #81afeb, #89bcf1, #93c9f6)",
           }}
-          className="border-2 flex flex-col rounded p-12 w-full md:max-w-sm  "
+          className="border-2 rounded-lg flex flex-col p-12 w-full md:max-w-sm  "
         >
           <div className="font-bold text-white text-xl ">{props.loct}</div>
           <div className="text-sm text-white">{props.date}</div>

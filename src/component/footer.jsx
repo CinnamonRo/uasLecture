@@ -71,6 +71,16 @@ export default function Footer() {
                       Weather api
                     </a>
                   </li>
+                  <li className="flex pb-2">
+                    <img
+                      className="h-6 w-12"
+                      src="/images/othersLogo/newApi.png"
+                      alt="News Api"
+                    />
+                    <a className="pb-2 pl-2" href="https://newsapi.org/">
+                      Weather api
+                    </a>
+                  </li>
                 </ul>
               </div>
               <div>
