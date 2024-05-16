@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import contents from "../Js/CardContent";
 import Client from "./client";
 
-
 function Tooltip({ position, content, hoveredRegion }) {
   console.log(hoveredRegion, "tooltip");
   return (
@@ -76,7 +75,7 @@ export default function App() {
           <rect width="900" height="700" style={{ fill: "none" }} />
           {/* Sukabumi */}
           <a
-            href="/sukabumiLink"
+            href="/sukabumi"
             onMouseEnter={(e) => handleMouseEnter("Sukabumi", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -115,7 +114,7 @@ export default function App() {
           <a
             onMouseEnter={(e) => handleMouseEnter("Bogor", e)}
             onMouseLeave={handleMouseLeave}
-            href="/bogorLink"
+            href="/bogor"
           >
             <path
               className="Bogor"
@@ -151,7 +150,7 @@ export default function App() {
           <a
             onMouseEnter={(e) => handleMouseEnter("Depok", e)}
             onMouseLeave={handleMouseLeave}
-            href="/depokLink"
+            href="/depok"
           >
             <path
               className="Depok"
@@ -170,7 +169,7 @@ export default function App() {
 
           {/* Bekasi */}
           <a
-            href="/bekasiLink"
+            href="/bekasi"
             onMouseEnter={(e) => handleMouseEnter("Bekasi", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -204,7 +203,7 @@ export default function App() {
 
           {/* Karawang */}
           <a
-            href="/karawangLink"
+            href="/karawang"
             onMouseEnter={(e) => handleMouseEnter("Karawang", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -225,7 +224,7 @@ export default function App() {
 
           {/* Purwakarta */}
           <a
-            href="/purwakartaLink"
+            href="/purwakarta"
             onMouseEnter={(e) => handleMouseEnter("Purwakarta", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -246,7 +245,7 @@ export default function App() {
 
           {/* Cianjur */}
           <a
-            href="/cianjurLink"
+            href="/cianjur"
             onMouseEnter={(e) => handleMouseEnter("Cianjur", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -263,10 +262,9 @@ export default function App() {
               }}
             />
           </a>
-
           {/* BandungBarat */}
           <a
-            href="/bandungbaratLink"
+            href="/bandung-barat"
             onMouseEnter={(e) => handleMouseEnter("Bandung Barat", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -287,7 +285,7 @@ export default function App() {
 
           {/* Cimahi */}
           <a
-            href="/cimahiLink"
+            href="/cimahi"
             onMouseEnter={(e) => handleMouseEnter("Cimahi", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -308,7 +306,7 @@ export default function App() {
 
           {/* Kota Bandung */}
           <a
-            href="/bandungLink"
+            href="/bandung"
             onMouseEnter={(e) => handleMouseEnter("Kota Bandung", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -329,7 +327,7 @@ export default function App() {
 
           {/* Bandung */}
           <a
-            href="/bandungLink"
+            href="/bandung"
             onMouseEnter={(e) => handleMouseEnter("Bandung", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -350,7 +348,7 @@ export default function App() {
 
           {/* Subang */}
           <a
-            href="/subangLink"
+            href="/subang"
             onMouseEnter={(e) => handleMouseEnter("Subang", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -371,7 +369,7 @@ export default function App() {
 
           {/* Indramayu */}
           <a
-            href="/indramayuLink"
+            href="/indramayu"
             onMouseEnter={(e) => handleMouseEnter("Indramayu", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -392,7 +390,7 @@ export default function App() {
 
           {/* Sumedang */}
           <a
-            href="/sumedangLink"
+            href="/sumedang"
             onMouseEnter={(e) => handleMouseEnter("Sumedang", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -413,7 +411,7 @@ export default function App() {
 
           {/* Garut */}
           <a
-            href="/garutLink"
+            href="/garut"
             onMouseEnter={(e) => handleMouseEnter("Garut", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -434,7 +432,7 @@ export default function App() {
 
           {/* Tasikmalaya */}
           <a
-            href="/tasikmalayaLink"
+            href="/tasikmalaya"
             onMouseEnter={(e) => handleMouseEnter("Tasikmalaya", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -468,7 +466,7 @@ export default function App() {
 
           {/* Pangandaran */}
           <a
-            href="/pangandaranLink"
+            href="/pangandaran"
             onMouseEnter={(e) => handleMouseEnter("Pangandaran", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -489,7 +487,7 @@ export default function App() {
 
           {/* Banjar */}
           <a
-            href="/banjarLink"
+            href="/banjar"
             onMouseEnter={(e) => handleMouseEnter("Banjar", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -510,7 +508,7 @@ export default function App() {
 
           {/* Ciamis */}
           <a
-            href="/ciamisLink"
+            href="/ciamis"
             onMouseEnter={(e) => handleMouseEnter("Ciamis", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -531,7 +529,7 @@ export default function App() {
 
           {/* Majalengka */}
           <a
-            href="/majalengkaLink"
+            href="/majalengka"
             onMouseEnter={(e) => handleMouseEnter("Majalengka", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -552,7 +550,7 @@ export default function App() {
 
           {/* Kuningan */}
           <a
-            href="/kuninganLink"
+            href="/kuningan"
             onMouseEnter={(e) => handleMouseEnter("Kuningan", e)}
             onMouseLeave={handleMouseLeave}
           >
@@ -573,7 +571,7 @@ export default function App() {
 
           {/*Cirebon*/}
           <a
-            href="/cirebonLink"
+            href="/cirebon"
             onMouseEnter={(e) => handleMouseEnter("Cirebon", e)}
             onMouseLeave={handleMouseLeave}
           >

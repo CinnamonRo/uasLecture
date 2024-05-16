@@ -1,11 +1,10 @@
 import Navbar from "../component/navbar";
-import JawaBarat from "../component/Jawabarat";
 import Footer from "../component/footer";
 import Datakabupaten from "../component/dataKabupaten";
-
+import News from "../component/newsApi";
 import Video from "../video/backgroundVid.mp4";
 
-export default function App() {
+export default function NewsPages() {
   return (
     <div className="relative min-h-screen overflow-hidden">
       <Navbar logo={Datakabupaten[21].logo} title={Datakabupaten[21].title} />
@@ -21,8 +20,7 @@ export default function App() {
           className="bg-black bg-opacity-50"
           style={{ backdropFilter: "blur(12px)" }}
         >
-          <JawaBarat />
-
+          <News />
           <Footer />
         </div>
       </div>

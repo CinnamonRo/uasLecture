@@ -6,7 +6,7 @@ const Data = [
     alt: "Bandung",
     shortDesc:
       "Bandung adalah kota yang menyegarkan, kreatif, dan penuh dengan kehidupan.",
-    link: "/bandungLink",
+    link: "/bandung",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const Data = [
     alt: "Bandung Barat",
     shortDesc:
       "Bandung Barat kini merupakan perpaduan indah antara alam, budaya, dan perkembangan modern.",
-    link: "/bandungbaratLink",
+    link: "/bandung-barat",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const Data = [
     alt: "Banjar",
     shortDesc:
       " Banjar, kota dengan keindahan alam yang memesona dan keramahan penduduknya.",
-    link: "/banjarLink",
+    link: "/banjar",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const Data = [
     alt: "Bekasi",
     shortDesc:
       "Bekasi, kota yang dinamis dan berkembang pesat dengan ragam budaya modern.",
-    link: "/bekasiLink",
+    link: "/bekasi",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const Data = [
     alt: "Bogor",
     shortDesc:
       "Bogor, kota yang hijau dan sejuk dengan pesona sejarah dan keindahan alamnya.",
-    link: "/bogorLink",
+    link: "/bogor",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const Data = [
     alt: "Ciamis",
     shortDesc:
       "Ciamis, kota yang memukau dengan keindahan alamnya dan keberagaman budayanya.",
-    link: "/ciamisLink",
+    link: "/ciamis",
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ const Data = [
     alt: "Cianjur",
     shortDesc:
       "Cianjur, kota keren di pinggiran Gunung Gede, asiknya minta ampun!",
-    link: "/cianjurLink",
+    link: "/cianjur",
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ const Data = [
     alt: "Cimahi",
     shortDesc:
       "Cimahi, kota muda yang berkembang pesat dengan semangat dan kreativitasnya yang menginspirasi.",
-    link: "/cimahiLink",
+    link: "/cimahi",
   },
   {
     id: 9,
@@ -78,7 +78,7 @@ const Data = [
     alt: "Cirebon",
     shortDesc:
       "Cirebon, kota pelabuhan yang memikat dengan pesona budaya dan kuliner tradisionalnya.",
-    link: "/cirebonLink",
+    link: "/cirebon",
   },
   {
     id: 10,
@@ -87,7 +87,7 @@ const Data = [
     alt: "Depok",
     shortDesc:
       "Depok, kota modern dengan kehidupan perkotaan yang dinamis dan nyaman.",
-    link: "/depokLink",
+    link: "/depok",
   },
   {
     id: 11,
@@ -96,7 +96,7 @@ const Data = [
     alt: "Garut",
     shortDesc:
       "Garut, kota yang memesona dengan keindahan alamnya dan warisan budayanya yang kaya.",
-    link: "/garutLink",
+    link: "/garut",
   },
   {
     id: 12,
@@ -105,7 +105,7 @@ const Data = [
     alt: "Indramayu",
     shortDesc:
       "Indramayu: Pesona pantai, kuliner lezat, dan pengalaman budaya yang menggugah.",
-    link: "/indramayuLink",
+    link: "/indramayu",
   },
   {
     id: 13,
@@ -114,7 +114,7 @@ const Data = [
     alt: "Karawang",
     shortDesc:
       "Karawang: Industri maju, alam subur, dan kuliner tradisional yang menggoda selera.",
-    link: "/karawangLink",
+    link: "/karawang",
   },
   {
     id: 14,
@@ -123,7 +123,7 @@ const Data = [
     alt: "Kuningan",
     shortDesc:
       "Kuningan adalah kota dengan alam yang memesona dan kearifan lokal yang kaya.",
-    link: "/kuninganLink",
+    link: "/kuningan",
   },
   {
     id: 15,
@@ -132,7 +132,7 @@ const Data = [
     alt: "Majalengka",
     shortDesc:
       "Majalengka, kota yang mengagumkan dengan keindahan alamnya dan budaya yang kaya.",
-    link: "/majalengkaLink",
+    link: "/majalengka",
   },
   {
     id: 16,
@@ -141,7 +141,7 @@ const Data = [
     alt: "Pangandaran",
     shortDesc:
       "Pangandaran, surga pantai dengan ombak yang menarik bagi para peselancar.",
-    link: "/pangandaranLink",
+    link: "/pangandaran",
   },
   {
     id: 17,
@@ -150,7 +150,7 @@ const Data = [
     alt: "Purwakarta",
     shortDesc:
       "Purwakarta, kota dengan panorama indah dan warisan budaya yang menawan.",
-    link: "/purwakartaLink",
+    link: "/purwakarta",
   },
   {
     id: 18,
@@ -159,7 +159,7 @@ const Data = [
     alt: "Subang",
     shortDesc:
       "Subang, tempat yang menawan dengan sawah hijau dan kuliner tradisionalnya yang lezat.",
-    link: "/subangLink",
+    link: "/subang",
   },
   {
     id: 19,
@@ -168,7 +168,7 @@ const Data = [
     alt: "Sukabumi",
     shortDesc:
       "Sukabumi, kota dengan alam yang memesona dan kehidupan pedesaan yang damai.",
-    link: "/sukabumiLink",
+    link: "/sukabumi",
   },
   {
     id: 20,
@@ -177,7 +177,7 @@ const Data = [
     alt: "Sumedang",
     shortDesc:
       "Sumedang, kota yang indah dengan sawah yang hijau dan keramahan penduduknya.",
-    link: "/sumedangLink",
+    link: "/sumedang",
   },
   {
     id: 21,
@@ -186,9 +186,8 @@ const Data = [
     alt: "Tasikmalaya",
     shortDesc:
       "Tasikmalaya, kota yang memikat dengan keindahan alamnya dan seni kerajinan tradisionalnya.",
-    link: "/tasikmalayaLink",
+    link: "/tasikmalaya",
   },
-
   {
     id: 22,
     title: "Jawa Barat",
