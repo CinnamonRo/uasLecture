@@ -11,7 +11,7 @@ function Tooltip({ position, content, hoveredRegion }) {
       style={{
         zIndex: 1000,
         position: "absolute",
-        top: position.y,
+        top: position.y - 200,
         left: position.x + 10,
         borderRadius: "8px",
         boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",

@@ -8,7 +8,7 @@ export default function profileCard() {
         <div className="bg-white shadow-xl rounded-lg py-3 px-5">
           <div className="photo-wrapper p-5">
             <img
-              className="w-32 h-32 rounded-full mx-auto"
+              className="w-32 h-32 rounded-full mx-auto object-cover"
               src="images/creator/morenos2.jpg"
               alt="Moreno Pradita"
             />
@@ -27,7 +27,7 @@ export default function profileCard() {
         <div className="bg-white shadow-xl rounded-lg py-3 px-5">
           <div className="photo-wrapper p-5">
             <img
-              className="w-32 h-32 rounded-full mx-auto"
+              className="w-32 h-32 rounded-full mx-auto object-cover"
               src="images/creator/bryan.jpg"
               alt="Benedict Bryan"
             />
@@ -46,7 +46,7 @@ export default function profileCard() {
         <div className="bg-white shadow-xl rounded-lg py-3 px-5">
           <div className="photo-wrapper p-5">
             <img
-              className="w-32 h-32 rounded-full mx-auto"
+              className="w-32 h-32 rounded-full mx-auto object-cover"
               src="images/creator/fredlies2.jpg"
               alt="John Doe"
             />
@@ -65,7 +65,7 @@ export default function profileCard() {
         <div className="bg-white shadow-xl rounded-lg py-3 px-5">
           <div className="photo-wrapper p-5">
             <img
-              className="w-32 h-32 rounded-full mx-auto"
+              className="w-32 h-32 rounded-full mx-auto object-cover"
               src="images/creator/gigih.jpg"
               alt="John Doe"
             />
