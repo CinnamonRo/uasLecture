@@ -21,7 +21,7 @@ export default function App() {
           className="bg-black bg-opacity-50"
           style={{ backdropFilter: "blur(12px)" }}
         >
-          <Money />
+          <Money  />
           <Footer />
         </div>
       </div>
