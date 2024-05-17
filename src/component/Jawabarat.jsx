@@ -11,7 +11,7 @@ function Tooltip({ position, content, hoveredRegion }) {
       style={{
         zIndex: 1000,
         position: "absolute",
-        top: position.y - 200,
+        top: position.y - 250,
         left: position.x + 10,
         borderRadius: "8px",
         boxShadow: "0 2px 5px rgba(0, 0, 0, 0.1)",
@@ -51,7 +51,7 @@ export default function App() {
 
   return (
     <div>
-      <div>
+      <div className="my-12">
         <h1 className="text-center text-4xl font-bold py-5 text-white">
           Jawa Barat
         </h1>

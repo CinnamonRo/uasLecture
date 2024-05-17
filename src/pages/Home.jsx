@@ -10,22 +10,19 @@ export default function App() {
     <div>
       <Navbar logo={Datakabupaten[21].logo} title={Datakabupaten[21].title} />
       <div className="relative min-h-screen overflow-hidden">
-        <div>
-          <video
-            src={Video}
-            className="absolute object-cover w-full h-full bg-black bg-opacity-50 overflow-hidden"
-            autoPlay
-            loop
-            muted
-          />
-          <div
-            className="bg-black bg-opacity-50"
-            style={{ backdropFilter: "blur(12px)" }}
-          >
-            <JawaBarat />
-
-            <Footer />
-          </div>
+        <video
+          src={Video}
+          className="absolute object-cover w-full h-full"
+          autoPlay
+          loop
+          muted
+        />
+        <div
+          className="relative z-10 bg-black bg-opacity-50"
+          style={{ backdropFilter: "blur(12px)" }}
+        >
+          <JawaBarat />
+          <Footer />
         </div>
       </div>
     </div>
