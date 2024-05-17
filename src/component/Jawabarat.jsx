@@ -51,7 +51,7 @@ export default function App() {
 
   return (
     <div>
-      <div className="my-12">
+      <div className="py-12">
         <h1 className="text-center text-4xl font-bold py-5 text-white">
           Jawa Barat
         </h1>
