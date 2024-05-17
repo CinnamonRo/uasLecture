@@ -93,9 +93,21 @@ export default function Navbar(props) {
                 </button>
                 <a
                   className="hidden px-4 py-2 font-sans text-base font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
+                  href="/money-convert"
+                >
+                  Money Exchange
+                </a>
+                <a
+                  className="hidden px-4 py-2 font-sans text-base font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
                   href="/newsPage"
                 >
                   News
+                </a>
+                <a
+                  className="hidden px-4 py-2 font-sans text-base font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
+                  href="/review"
+                >
+                  Review Us
                 </a>
                 <a
                   className="hidden px-4 py-2 font-sans text-base font-bold text-center text-gray-900 uppercase align-middle transition-all rounded-lg select-none hover:bg-gray-900/10 active:bg-gray-900/20 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:inline-block"
@@ -231,6 +243,51 @@ export default function Navbar(props) {
                 )}
               </div>
 
+              <a href="/money-convert">
+                <div
+                  role="button"
+                  className="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
+                >
+                  <div className="grid mr-4 place-items-center">
+                    <img
+                      className="h-8"
+                      src="/images/svg/exchange.svg"
+                      alt="money exchange"
+                    ></img>
+                  </div>
+                  Money Exchage
+                </div>
+              </a>
+              <a href="/newsPage">
+                <div
+                  role="button"
+                  className="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
+                >
+                  <div className="grid mr-4 place-items-center">
+                    <img
+                      className="h-8"
+                      src="/images/svg/news.svg"
+                      alt="news"
+                    ></img>
+                  </div>
+                  News
+                </div>
+              </a>
+              <a href="/review">
+                <div
+                  role="button"
+                  className="flex items-center w-full p-3 leading-tight transition-all rounded-lg outline-none text-start hover:bg-blue-gray-50 hover:bg-opacity-80 hover:text-blue-gray-900 focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-blue-gray-50 active:bg-opacity-80 active:text-blue-gray-900"
+                >
+                  <div className="grid mr-4 place-items-center">
+                    <img
+                      className="h-8"
+                      src="/images/svg/review.svg"
+                      alt="review"
+                    ></img>
+                  </div>
+                  Review
+                </div>
+              </a>
               <a href="/AboutUS">
                 <div
                   role="button"

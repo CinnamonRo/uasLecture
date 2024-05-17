@@ -24,6 +24,8 @@ import Cimahi from "./pages/kota-cimahi";
 import Banjar from "./pages/kota-banjar";
 import AboutUS from "./pages/AboutUS";
 import NewsPage from "./pages/newsPage";
+import MoneyConvert from "./pages/moneyConvert";
+import Form from "./pages/review";
 export default function App() {
   return (
     <div>
@@ -54,6 +56,8 @@ export default function App() {
           <Route path="/AboutUS" element={<AboutUS />} />
           <Route path="*" element={<NoPage />} />
           <Route path="/newsPage" element={<NewsPage />} />
+          <Route path="/money-convert" element={<MoneyConvert />} />
+          <Route path="/review" element={<Form />} />
         </Routes>
       </BrowserRouter>
     </div>
