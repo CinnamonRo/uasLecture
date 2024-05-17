@@ -98,13 +98,13 @@ const contents = [
   {
     title: "Tasikmalaya",
     content:
-      "Kota Tasikmalaya, juga dikenal sebagai Tasik, adalah sebuah tujuan wisata yang terkenal dengan julukan Kota Sang Mutiara dari Priangan Timur, kota ini menawarkan pesona alam yang memikat.",
+      "Kota Tasikmalaya, juga dikenal sebagai Tasik, adalah sebuah tujuan wisata yang terkenal dengan julukan Kota Sang Mutiara dari Priangan Timur.",
     imageSrc: imageContext("./KebunTehTaraju.jpeg"),
   },
   {
     title: "Pangandaran",
     content:
-      "Kabupaten Pangandara merupakan daerah wisata yang menarik. Kota utamanya terletak di Kecamatan Parigi, menjadi titik awal bagi para pengunjung yang ingin menikmati keindahan alam dan budaya sekitarnya.",
+      "Kabupaten Pangandara merupakan daerah wisata yang menarik. Kota utamanya terletak di Kecamatan Parigi.",
     imageSrc: imageContext("./PantaiPangandaran.jpg"),
   },
   {
