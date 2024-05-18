@@ -26,9 +26,7 @@ export default function Form() {
       }
     )
       .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-      })
+      .then((data) => {})
       .catch((error) => console.log(error))
       .finally(() => setLoading(false));
 

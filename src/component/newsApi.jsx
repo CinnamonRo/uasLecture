@@ -2,7 +2,6 @@ import React from "react";
 import News from "../component/news";
 function newsApi() {
   const { apiInfo, loading } = News();
-  console.log(apiInfo);
   return (
     <div className="container mx-auto">
       <h1 className="font-bold text-center pt-5 font-sans text-4xl text-white ">

@@ -25,8 +25,6 @@ const WeatherApi = (props) => {
     getApiInfo();
   }, [apiKey, url]);
 
-  console.log(apiInfo, "ini api");
-
   return (
     <div>
       {apiInfo ? (

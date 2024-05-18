@@ -2,7 +2,6 @@ import React from "react";
 import "../css/CardStyle.css";
 
 export default function Card(props) {
-  console.log(props.weatherLogo, "loso");
   return (
     <div className="Card">
       <div className="flex justify-center">

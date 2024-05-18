@@ -4,7 +4,7 @@ import contents from "../Js/CardContent";
 import Client from "./client";
 
 function Tooltip({ position, content, hoveredRegion }) {
-  console.log(hoveredRegion, "tooltip");
+
   return (
     <div
       className="tooltip"
@@ -45,9 +45,6 @@ export default function App() {
     (region) => region.title === hoveredRegion
   );
 
-  console.log(hoveredRegionIndex, "ini reg index");
-
-  console.log(hoveredRegion, "ini reg");
 
   return (
     <div>
