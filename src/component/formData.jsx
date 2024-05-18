@@ -22,7 +22,7 @@ export default function Form() {
       "https://script.google.com/macros/s/AKfycbyIHOoYDqS14aJAGl9G-5Ogk-1o9liG-GvIYutCo-j4xGdnNJkW2hXajh-jyCXNRtwH/exec",
       {
         method: "POST",
-        body: new FormData(formRef.current),
+        body: new formData(formRef.current),
       }
     )
       .then((res) => res.json())
