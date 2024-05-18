@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import CurrencyRow from "../component/moneyCard";
 
 // Define your API key here
+//new cur_live_88vxDKAklOFrAgpAsyEr0uP2X8ewjR5hp9MskmXf
 const apiKey = "cur_live_UpKOaTnGG2xbpTsjNOXCfK86nHJ5eJbwAm6WplXh";
 
 function MoneyExchange() {
@@ -22,7 +23,7 @@ function MoneyExchange() {
         setFromCurrency(firstCurrency);
         setExchangeRates(data.data);
       });
-  }, []);
+  }, [url]);
 
   function handleFromAmountChange(e) {
     setAmount(e.target.value);
