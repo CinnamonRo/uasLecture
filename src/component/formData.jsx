@@ -19,7 +19,7 @@ export default function Form() {
     setLoading(true);
 
     fetch(
-      "https://script.google.com/macros/s/AKfycby2Jh8whp374qgaRtHBMr_QiyjzGXokcS4h-wZlW-5TnI3UImgK_6EEzFcruMWPVC1Y/exec",
+      "https://script.google.com/macros/s/AKfycbyIHOoYDqS14aJAGl9G-5Ogk-1o9liG-GvIYutCo-j4xGdnNJkW2hXajh-jyCXNRtwH/exec",
       {
         method: "POST",
         body: new FormData(formRef.current),
@@ -59,6 +59,18 @@ export default function Form() {
               placeholder="Email"
               name="Email"
               type="email"
+              required
+              onChange={handleInputChange}
+            />
+          </div>
+          <div>
+            <input
+              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              placeholder="1-5"
+              name="Rating"
+              min="1"
+              max="5"
+              type="number"
               required
               onChange={handleInputChange}
             />
