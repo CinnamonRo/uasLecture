@@ -55,7 +55,7 @@ function MoneyExchange() {
 
   return (
     <>
-      <h1 className="text-center text-2xl font-white font-sans font-bold py-3">
+      <h1 className="text-center text-2xl text-white font-sans font-bold py-3">
         Convert To Local Money
       </h1>
       <CurrencyRow
@@ -66,7 +66,7 @@ function MoneyExchange() {
         onAmountChange={handleFromAmountChange}
         disabled={false}
       />
-      <div className="text-center text-2xl font-white font-sans font-bold">
+      <div className="text-center text-2xl text-white font-sans font-bold">
         =
       </div>
       <CurrencyRow
