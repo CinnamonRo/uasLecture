@@ -124,7 +124,7 @@ export default function Footer2() {
                   <li className="flex pb-2">
                     <img
                       className="h-6 w-6"
-                      src="/images/othersLogo/Materialwind.png"
+                      src="https://img.stackshare.io/service/25534/default_77b1431ef42b4a85cc7f1ee294acb08a954a5cd2.png"
                       alt="Material Tailwind"
                     />
                     <a

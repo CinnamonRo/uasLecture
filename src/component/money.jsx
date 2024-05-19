@@ -3,7 +3,7 @@ import CurrencyRow from "../component/moneyCard";
 
 // Define your API key here
 //new cur_live_88vxDKAklOFrAgpAsyEr0uP2X8ewjR5hp9MskmXf
-const apiKey = "cur_live_UpKOaTnGG2xbpTsjNOXCfK86nHJ5eJbwAm6WplXh";
+const apiKey = "cur_live_88vxDKAklOFrAgpAsyEr0uP2X8ewjR5hp9MskmXf";
 
 function MoneyExchange() {
   const url = `https://api.currencyapi.com/v3/latest?apikey=${apiKey}&currencies=EUR%2CUSD%2CCAD%2CIDR`;

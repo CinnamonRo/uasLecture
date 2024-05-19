@@ -9,7 +9,7 @@ import Datakabupaten from "../component/dataKabupaten";
 export default function AboutUS() {
   return (
     <div>
-      <Navbar logo={Datakabupaten[21].logo} title={Datakabupaten[21].title} />
+      <Navbar logo="" title={Datakabupaten[21].title} />
       <div className="relative min-h-screen overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
           <video

@@ -191,7 +191,7 @@ const Data = [
   {
     id: 22,
     title: "Jawa Barat",
-    logo: "/images/Logokabupaten/jawabaratLogo.png",
+    logo: "https://w7.pngwing.com/pngs/922/619/png-transparent-banjar-dinas-koperasi-usaha-mikro-kecil-dan-menengah-kota-bandung-west-java-provincial-government-lambang-jawa-barat-others-cdr-logo-logo-vector-thumbnail.png",
     alt: "Jawa Barat",
     shortDesc: "",
     link: "/",
